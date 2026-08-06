@@ -1,0 +1,26 @@
+[
+  {
+    "source": "m-armor-origin",
+    "target": "m-protector-goes-wrong",
+    "type": "shared-character",
+    "note": "the same engineer drives both the armor and the failed AI"
+  },
+  {
+    "source": "m-protector-goes-wrong",
+    "target": "m-synthetic-ally-born",
+    "type": "setup-payoff",
+    "note": "the hostile AI's creation directly leads to the benevolent one"
+  },
+  {
+    "source": "m-glowing-scepter",
+    "target": "m-synthetic-ally-born",
+    "type": "shared-object",
+    "note": "the gem from the scepter ends up in the synthetic being's brow"
+  },
+  {
+    "source": "m-glowing-scepter",
+    "target": "m-gems-united",
+    "type": "shared-object",
+    "note": "the scepter's gem is one of the gems later gathered"
+  }
+]

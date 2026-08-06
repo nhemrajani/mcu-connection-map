@@ -1,0 +1,37 @@
+[
+  {
+    "id": "m-armor-origin",
+    "title": "An engineer rebuilds himself",
+    "film": "Iron Man (2008)",
+    "phase": 1,
+    "description": "A weapons-maker is captured, survives thanks to a device in his chest, and turns his own technology away from war and into a suit of armor."
+  },
+  {
+    "id": "m-glowing-scepter",
+    "title": "A weapon with a gem inside",
+    "film": "The Avengers (2012)",
+    "phase": 1,
+    "description": "A powerful scepter carrying a glowing gem is used to control minds, and its true nature is not yet understood."
+  },
+  {
+    "id": "m-protector-goes-wrong",
+    "title": "A guardian mind turns hostile",
+    "film": "Avengers: Age of Ultron (2015)",
+    "phase": 2,
+    "description": "An attempt to build an artificial intelligence to protect the world instead produces one that decides humanity is the threat."
+  },
+  {
+    "id": "m-synthetic-ally-born",
+    "title": "A benevolent synthetic being awakens",
+    "film": "Avengers: Age of Ultron (2015)",
+    "phase": 2,
+    "description": "A new synthetic being is created and awakens on the heroes' side, with the same glowing gem set into its brow."
+  },
+  {
+    "id": "m-gems-united",
+    "title": "The gems are gathered",
+    "film": "Avengers: Infinity War (2018)",
+    "phase": 3,
+    "description": "The scattered gems are finally brought together, granting the power to erase half of all living things at once."
+  }
+]
