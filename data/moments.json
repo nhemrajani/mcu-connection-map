@@ -1846,5 +1846,285 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Scott Lang is sent into the Quantum Realm to harvest energy, and Hank, Janet and Hope turn to dust before they can pull him back out."
+  },
+  {
+    "id": "m-vers-amnesia-hala",
+    "title": "A soldier with no past",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "On the Kree capital Hala in 1995, Starforce member Vers suffers amnesia and recurring nightmares of an older woman, while Yon-Rogg trains her to suppress her emotions and her power."
+  },
+  {
+    "id": "m-skrulls-probe-memories",
+    "title": "They read her memories to find Earth",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Skrull commander Talos captures Vers and probes her memories, and what he finds there sends both of them to Earth."
+  },
+  {
+    "id": "m-fury-meets-vers",
+    "title": "An agent meets his first alien",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Vers crash-lands in Los Angeles and draws S.H.I.E.L.D. agents Nick Fury and Phil Coulson, whose investigation is broken up by a Skrull attack that proves aliens are real."
+  },
+  {
+    "id": "m-vers-is-carol-danvers",
+    "title": "She was a pilot who died",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "At Project Pegasus, Vers learns she is Carol Danvers, a U.S. Air Force pilot presumed killed in 1989 testing an experimental light-speed engine."
+  },
+  {
+    "id": "m-skrulls-are-refugees",
+    "title": "The monsters are refugees",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Talos arrives unarmed and explains the Skrulls are refugees fleeing an unjust Kree war, inverting everything Carol Danvers was trained to believe about them."
+  },
+  {
+    "id": "m-mar-vell-killed",
+    "title": "Her mentor was a defector",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A recovered black box reveals Wendy Lawson was the renegade Kree scientist Mar-Vell, and that Yon-Rogg killed her to stop the engine being destroyed."
+  },
+  {
+    "id": "m-danvers-absorbs-the-engine",
+    "title": "She shoots the engine and takes its light",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Carol Danvers destroyed Mar-Vell's Tesseract-powered engine herself and absorbed its energy, gaining her powers and losing her memory in the same instant."
+  },
+  {
+    "id": "m-danvers-removes-implant",
+    "title": "She tears out the limiter",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Danvers rips out the Kree implant that had been suppressing her abilities, reaching her full power for the first time."
+  },
+  {
+    "id": "m-goose-swallows-tesseract",
+    "title": "The cat eats the cube",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Mar-Vell's cat Goose is revealed to be an alien Flerken, swallows the Tesseract whole and blinds Nick Fury's left eye with a scratch."
+  },
+  {
+    "id": "m-fury-names-the-initiative",
+    "title": "Named after her call sign",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "After Danvers leaves to help the Skrulls find a home, Nick Fury drafts a programme to find more heroes like her and names it after her Air Force call sign, Avenger."
+  },
+  {
+    "id": "m-danvers-leaves-the-pager",
+    "title": "A pager for emergencies only",
+    "film": "Captain Marvel (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Carol Danvers modifies a pager so Nick Fury can reach her across space, and tells him to use it only for a genuine emergency."
+  },
+  {
+    "id": "m-thanos-destroys-the-stones",
+    "title": "He destroys them himself",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Twenty-three days after the snap the Avengers find Thanos on an uninhabited planet and learn he used the Stones to destroy the Stones, making his work permanent; Thor decapitates him."
+  },
+  {
+    "id": "m-five-years-pass",
+    "title": "Five years of living with it",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Five years pass with half of life gone: Steve Rogers runs support groups, Thor withdraws to New Asgard, and Clint Barton becomes a killer after losing his family."
+  },
+  {
+    "id": "m-lang-escapes-quantum-realm",
+    "title": "Five hours for him, five years for everyone",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Scott Lang escapes the Quantum Realm having experienced only five hours, which tells the Avengers that time moves differently down there."
+  },
+  {
+    "id": "m-time-heist-planned",
+    "title": "They decide to rob the past",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Tony Stark solves time travel and the Avengers plan to retrieve the Infinity Stones from moments in their own history; Banner warns that changing the past creates branches rather than fixing the present."
+  },
+  {
+    "id": "m-loki-escapes-with-tesseract",
+    "title": "A failed grab lets him go",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "During the 2012 heist Stark and Lang fumble the Space Stone, and the Loki of that year seizes the Tesseract and vanishes, creating a branch that should not exist."
+  },
+  {
+    "id": "m-stark-meets-his-father",
+    "title": "He talks to his father as an equal",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "At Camp Lehigh in 1970 Tony Stark meets Howard Stark, who does not know who he is, and has the conversation with his father he never got to have."
+  },
+  {
+    "id": "m-thor-sees-frigga",
+    "title": "His mother tells him he is enough",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In 2013 Thor meets Frigga on the day of her death and is told by her that the measure of a person is failing to be who they are supposed to be and becoming who they are."
+  },
+  {
+    "id": "m-romanoff-sacrifices-herself",
+    "title": "She lets go first",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "On Vormir, Natasha Romanoff and Clint Barton fight each other for the right to die, and Romanoff throws herself from the cliff so Barton can take the Soul Stone."
+  },
+  {
+    "id": "m-past-thanos-learns",
+    "title": "The wrong Nebula is listening",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Nebula's cybernetics link with her 2014 self, letting the Thanos of that year learn he will succeed and that the Avengers will try to undo it."
+  },
+  {
+    "id": "m-banner-snaps-them-back",
+    "title": "He brings everyone back",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Bruce Banner, the only one able to withstand the radiation, uses the Avengers' own gauntlet to restore everyone Thanos erased, taking permanent damage to his arm."
+  },
+  {
+    "id": "m-rogers-lifts-mjolnir",
+    "title": "He was worthy the whole time",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Steve Rogers summons Mjolnir against Thanos, proving the worthiness he had quietly demonstrated years earlier when he made the hammer twitch."
+  },
+  {
+    "id": "m-portals-open",
+    "title": "On your left",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stephen Strange opens portals bringing the restored Avengers, the sorcerers, the Guardians, the Ravagers and the armies of Wakanda and Asgard onto the battlefield at once."
+  },
+  {
+    "id": "m-stark-snaps-thanos-away",
+    "title": "I am Iron Man",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Tony Stark takes the Stones from Thanos's gauntlet and snaps his fingers, disintegrating Thanos and his army, and dies of the radiation."
+  },
+  {
+    "id": "m-rogers-stays-in-the-past",
+    "title": "He goes back and stays",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Returning the Stones to their moments, Steve Rogers chooses to remain in the past and live the life with Peggy Carter he gave up, returning as an old man."
+  },
+  {
+    "id": "m-shield-passed-to-wilson",
+    "title": "He hands over the shield",
+    "film": "Avengers: Endgame (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "An elderly Steve Rogers gives his shield to Sam Wilson, passing on the name rather than retiring it."
+  },
+  {
+    "id": "m-beck-appears-as-hero",
+    "title": "A hero arrives from another world",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Quentin Beck defeats an Elemental in Mexico and tells Nick Fury he comes from an alternate Earth in the multiverse where the creatures killed his family."
+  },
+  {
+    "id": "m-blip-restarts-the-school-year",
+    "title": "The class comes back un-aged",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Midtown School restarts its year to accommodate students who disintegrated five years earlier and returned exactly the same age as when they left."
+  },
+  {
+    "id": "m-edith-handed-over",
+    "title": "A pair of glasses with an army in them",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Nick Fury gives Peter Parker Tony Stark's glasses, which carry E.D.I.T.H., an AI with access to Stark Industries' databases and a fleet of orbital weaponised drones."
+  },
+  {
+    "id": "m-peter-gives-edith-away",
+    "title": "He hands the drones to a stranger",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Believing he is not ready to take Stark's place, Peter Parker transfers control of E.D.I.T.H. to Quentin Beck and goes back to his school trip."
+  },
+  {
+    "id": "m-beck-is-a-fraud",
+    "title": "The multiverse was a projection",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Beck is revealed as a fired Stark Industries illusions specialist using projectors and disgruntled ex-employees to fake both the Elementals and his own powers."
+  },
+  {
+    "id": "m-mj-works-it-out",
+    "title": "She already knew",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "MJ tells Peter Parker she has worked out he is Spider-Man, and the piece of debris she kept turns out to be one of Beck's projectors."
+  },
+  {
+    "id": "m-beck-illusion-train",
+    "title": "He cannot tell what is real",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Beck traps Peter Parker in a layered illusion in Berlin, extracts the names of everyone who knows the truth, and leaves him hit by a train."
+  },
+  {
+    "id": "m-peter-retakes-edith",
+    "title": "He takes the glasses back",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Peter Parker sees through Beck's illusions over London, regains control of E.D.I.T.H. and defeats him; Beck dies by a drone's misfired shot."
+  },
+  {
+    "id": "m-fury-was-a-skrull",
+    "title": "Fury was never there",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In a post-credits scene the Fury and Hill Peter dealt with are revealed to be the Skrulls Talos and Soren, while the real Nick Fury is off Earth commanding a Skrull crew."
   }
 ]
