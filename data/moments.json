@@ -4462,5 +4462,133 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "Mariah Dillard leaves Harlem's Paradise to Luke Cage in her will, and he takes it, establishing himself as the neighbourhood's law and worrying everyone who knows him."
+  },
+  {
+    "id": "m-rand-returns-barefoot",
+    "title": "A dead heir walks in barefoot",
+    "film": "Iron Fist (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Presumed dead for fifteen years after a Himalayan plane crash, Danny Rand walks into Rand Enterprises to reclaim his family's company and nobody believes he is who he says."
+  },
+  {
+    "id": "m-harold-faked-his-death",
+    "title": "The dead partner is alive upstairs",
+    "film": "Iron Fist (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Harold Meachum faked his own death and has been running Rand Enterprises from hiding, kept alive by the Hand in exchange for his obedience."
+  },
+  {
+    "id": "m-iron-fist-and-kun-lun",
+    "title": "He came back with a weapon in his hand",
+    "film": "Iron Fist (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Danny Rand survived the crash and was raised in the hidden city of K'un-Lun, where he became the Iron Fist, sworn enemy of the Hand and guardian of a gate he abandoned to come home."
+  },
+  {
+    "id": "m-colleen-becomes-iron-fist",
+    "title": "She takes the power instead",
+    "film": "Iron Fist (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Colleen Wing takes on the Iron Fist power and the duty of protecting Chinatown, while Danny Rand leaves New York to look for the man Davos took it from."
+  },
+  {
+    "id": "m-four-meet-over-the-hand",
+    "title": "Four strangers in the same building",
+    "film": "The Defenders (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Matt Murdock, Jessica Jones, Luke Cage and Danny Rand converge on the Hand's operation in New York, four people who have each been fighting the same organisation without knowing it."
+  },
+  {
+    "id": "m-hand-digs-under-new-york",
+    "title": "They are digging under the city",
+    "film": "The Defenders (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The Hand's excavation beneath New York triggers an earthquake felt across the city, uncovering the substance their leaders need to keep living."
+  },
+  {
+    "id": "m-elektra-resurrected",
+    "title": "They brought her back wrong",
+    "film": "The Defenders (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Elektra Natchios is resurrected by the Hand as their Black Sky, a weapon with no memory of Matt Murdock until he reaches her at the end."
+  },
+  {
+    "id": "m-murdock-buried",
+    "title": "He stays in the building",
+    "film": "The Defenders (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Matt Murdock stays behind to plead with Elektra as the Hand's cavern implodes; the others believe him dead, and he wakes months later in a room with a nun beside him."
+  },
+  {
+    "id": "m-castle-family-killed",
+    "title": "His family died in a park",
+    "film": "The Punisher (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Marine veteran Frank Castle hunts down and kills the last of the men responsible for his family's deaths, and then has nothing left to do with himself."
+  },
+  {
+    "id": "m-kandahar-conspiracy",
+    "title": "What happened in Kandahar",
+    "film": "The Punisher (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Castle's family was killed to bury what his unit did in Kandahar, a conspiracy reaching into Homeland Security and the CIA rather than the gang violence it was staged as."
+  },
+  {
+    "id": "m-micro-still-alive",
+    "title": "A dead analyst watching the cameras",
+    "film": "The Punisher (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "David Lieberman, an NSA analyst who faked his death to protect his family, tracks Frank Castle through the city's cameras and forces an alliance on him."
+  },
+  {
+    "id": "m-castle-accepts-the-name",
+    "title": "He stops pretending to want out",
+    "film": "The Punisher (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "After a stretch of quiet life on the road, Frank Castle accepts what he is, takes up the Punisher name permanently and turns down a legitimate job offer."
+  },
+  {
+    "id": "m-attilan-on-the-moon",
+    "title": "A hidden city on the moon",
+    "film": "Inhumans (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The Inhuman Royal Family rule Attilan, a hidden city on the far side of the Moon, where every citizen's place is decided by what Terrigenesis turns them into."
+  },
+  {
+    "id": "m-black-bolts-voice",
+    "title": "A king who cannot speak",
+    "film": "Inhumans (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Black Bolt's voice is destructive enough to level buildings, so he rules in silence, and killed his own parents with it as a boy."
+  },
+  {
+    "id": "m-maximus-coup",
+    "title": "His brother takes the throne",
+    "film": "Inhumans (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Maximus, who emerged from Terrigenesis with no powers and no standing, stages a military coup against Black Bolt and scatters the Royal Family to Hawaii."
+  },
+  {
+    "id": "m-attilan-abandoned",
+    "title": "They leave the city to die",
+    "film": "Inhumans (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "With Attilan failing, the Royal Family evacuate every Inhuman to Earth, lock Maximus inside the empty city, and leave it to collapse behind them."
   }
 ]
