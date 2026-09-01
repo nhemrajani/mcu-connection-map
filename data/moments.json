@@ -4166,5 +4166,173 @@
     "universe": "zombies",
     "phase": null,
     "description": "With nearly everyone dead, Kamala Khan is persuaded to help Wanda remake the world, and wakes in a restored life that flickers when the real Riri tells her none of it is true."
+  },
+  {
+    "id": "m-coulson-survived",
+    "title": "He did not stay dead",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Phil Coulson, killed by Loki before the Battle of New York, is revealed to have survived and assembles a small team to investigate superhumans now that they are public knowledge."
+  },
+  {
+    "id": "m-project-centipede",
+    "title": "Extremis in a cheaper package",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Coulson's team investigates Project Centipede, which supplies an Extremis-based serum to ordinary people, some of whom explode when their bodies reject it."
+  },
+  {
+    "id": "m-hydra-inside-shield-tv",
+    "title": "The agency turns inside out",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Hydra's presence inside S.H.I.E.L.D. is exposed and the organisation collapses; Grant Ward is revealed as a Hydra agent embedded in Coulson's own team."
+  },
+  {
+    "id": "m-coulson-rebuilds-shield",
+    "title": "He rebuilds it from nothing",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "With S.H.I.E.L.D. destroyed and outlawed, Coulson is made director and rebuilds the agency in secret while fighting Hydra and a faction of anti-superhuman former agents."
+  },
+  {
+    "id": "m-inhumans-revealed",
+    "title": "A hidden race in the bloodline",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Exposure to Terrigen reveals the Inhumans, people carrying dormant alien genetics that transform them, including Coulson's own agent Daisy Johnson."
+  },
+  {
+    "id": "m-secret-warriors",
+    "title": "A team of the transformed",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Coulson secretly assembles the Secret Warriors from Inhumans, while Hydra works to restore its ancient Inhuman founder Hive to power."
+  },
+  {
+    "id": "m-accords-legitimise-shield",
+    "title": "The Accords make them legal again",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "After Hive and Hydra are defeated, the signing of the Sokovia Accords restores S.H.I.E.L.D. as a legitimate organisation, and Coulson steps back to field work so it can have a public face."
+  },
+  {
+    "id": "m-ghost-rider-reyes",
+    "title": "A burning skull in a muscle car",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "S.H.I.E.L.D. encounters Robbie Reyes, the Ghost Rider, whose supernatural bargain later proves fatal to Coulson through their contact."
+  },
+  {
+    "id": "m-framework-and-lmds",
+    "title": "A world built for the guilty",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Leo Fitz and Holden Radcliffe complete Life Model Decoys and the Framework, a virtual world where each person's greatest regret has been undone, and the team is trapped inside their own rewritten lives."
+  },
+  {
+    "id": "m-lighthouse-2091",
+    "title": "Taken to the end of the world",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The team is abducted to the space station Lighthouse in 2091, where Earth has been shattered and the remnants of humanity live under alien rule, and they return determined to prevent it."
+  },
+  {
+    "id": "m-coulson-dies",
+    "title": "The bargain comes due",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Having prevented the future they were shown, Phil Coulson dies of the damage done by his contact with the Ghost Rider, refusing any further cure."
+  },
+  {
+    "id": "m-coulson-as-lmd",
+    "title": "A copy of a dead man",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The team continues with a Life Model Decoy of Coulson, a machine carrying his memories that must decide what it owes to a man it is not."
+  },
+  {
+    "id": "m-chronicoms-erase-shield",
+    "title": "They try to delete the agency from history",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The Chronicoms jump through time to erase S.H.I.E.L.D. from history and claim Earth as their new homeworld, forcing the team to defend their own past."
+  },
+  {
+    "id": "m-empathy-ends-the-war",
+    "title": "They give the machines empathy",
+    "film": "Agents of S.H.I.E.L.D. (2013)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Melinda May and Kora combine their abilities to give the Chronicoms empathy, ending the assault without destroying them."
+  },
+  {
+    "id": "m-peggy-after-rogers",
+    "title": "Filing paperwork after the war",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "In 1946 Peggy Carter, mourning Steve Rogers, is relegated to routine office work at the Strategic Scientific Reserve while the men she outranks in ability treat her as a secretary."
+  },
+  {
+    "id": "m-howard-stark-framed",
+    "title": "Howard Stark is framed",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Howard Stark is accused of selling weapons to America's enemies and secretly asks Peggy Carter to clear his name, lending her his butler Edwin Jarvis."
+  },
+  {
+    "id": "m-anton-vanko-cameo",
+    "title": "A scientist called Vanko",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Peggy Carter brings a stolen nitramene bomb to Stark Industries scientist Anton Vanko, who traces it to a Roxxon refinery."
+  },
+  {
+    "id": "m-leviathan",
+    "title": "An organisation called Leviathan",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Carter's investigation leads to Leviathan, a Soviet organisation running agents inside American industry, and to the Red Room programme that trained them as children."
+  },
+  {
+    "id": "m-council-of-nine",
+    "title": "Nine men who own the country",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "In Los Angeles Carter uncovers the Council of Nine, a cabal of industrialists and officials steering American policy from behind it."
+  },
+  {
+    "id": "m-zero-matter",
+    "title": "Something from another dimension",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Scientist Whitney Frost is exposed to Zero Matter, a substance from another dimension that consumes what it touches and gradually takes her mind."
+  },
+  {
+    "id": "m-peggy-stays-in-los-angeles",
+    "title": "She chooses to stay",
+    "film": "Agent Carter (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "With Frost contained, Peggy Carter is persuaded to stay in Los Angeles with Daniel Sousa rather than return to New York, and Jack Thompson is shot for a file bearing her name."
   }
 ]
