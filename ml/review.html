@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Judge connections</title>
+<style>
+  :root{
+    --bg:#0E1420; --card:#161F2E; --sunk:#0A0F18;
+    --ink:#E6EAF2; --soft:#B4BFD2; --muted:#8794AC;
+    --rule:#26324A; --brass:#D9A441; --yes:#6FBF95; --no:#E0766B;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;min-height:100vh;background:var(--bg);color:var(--ink);
+    font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",sans-serif;
+    display:flex;flex-direction:column;align-items:center;padding:28px 20px 60px;
+  }
+  .shell{width:100%;max-width:760px}
+  header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:18px}
+  h1{font-size:15px;margin:0;letter-spacing:.2px}
+  .count{font-family:ui-monospace,monospace;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .bar{height:3px;background:var(--sunk);border-radius:2px;overflow:hidden;margin-bottom:22px}
+  .bar i{display:block;height:100%;background:var(--brass);width:0;transition:width .25s}
+
+  .meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .chip{
+    font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.05em;
+    background:var(--sunk);border:1px solid var(--rule);color:var(--muted);
+    padding:3px 9px;border-radius:20px;
+  }
+  .chip.ev{color:var(--brass);border-color:#453720}
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:20px 22px;margin-bottom:12px}
+  .card .lbl{font-family:ui-monospace,monospace;font-size:11px;color:var(--brass);letter-spacing:.1em;margin-bottom:7px}
+  .card h2{font-size:17px;margin:0 0 3px;font-weight:600}
+  .card .film{font-size:12.5px;color:var(--muted);margin-bottom:9px}
+  .card p{margin:0;color:var(--soft);font-size:14.5px}
+
+  .ask{text-align:center;margin:22px 0 14px;color:var(--muted);font-size:13.5px}
+  .keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:8px}
+  button{
+    display:flex;align-items:center;gap:9px;text-align:left;
+    background:var(--card);color:var(--ink);border:1px solid var(--rule);
+    border-radius:9px;padding:11px 13px;font:inherit;font-size:13.5px;cursor:pointer;
+  }
+  button:hover{border-color:var(--brass)}
+  button:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  kbd{
+    font-family:ui-monospace,monospace;font-size:11px;min-width:19px;text-align:center;
+    background:var(--sunk);border:1px solid var(--rule);border-radius:4px;padding:2px 5px;color:var(--muted);
+  }
+  button.no{border-color:#4a2b28}
+  button.no kbd{color:var(--no)}
+  button.skip{opacity:.7}
+  .hint{margin-top:16px;text-align:center;color:var(--muted);font-size:12px}
+  .done{text-align:center;padding:60px 0}
+  .done h2{font-size:20px;margin:0 0 8px}
+  .done p{color:var(--muted);max-width:46ch;margin:0 auto}
+</style>
+</head>
+<body>
+<div class="shell" id="app">Loading…</div>
+
+<script>
+const TYPES = [
+  ['1','setup-payoff','one plants what the other pays off'],
+  ['2','shared-character','the same person links both'],
+  ['3','shared-object','the same object or artefact'],
+  ['4','timeline-adjacent','they sit next to each other in the story'],
+  ['5','theme-echo','they rhyme without a causal link'],
+];
+let queue = [], moments = {}, i = 0, startCount = 0;
+
+const app = document.getElementById('app');
+
+async function load(){
+  const r = await fetch('/queue').then(r=>r.json());
+  queue = r.queue; moments = r.moments; startCount = r.done;
+  render();
+}
+
+function render(){
+  if(i >= queue.length){
+    app.innerHTML = `<div class="done"><h2>Queue finished</h2>
+      <p>${startCount + i} judgements recorded in data/connections.json.
+      Run <code>ml/evaluate.py</code> to see precision per source.</p></div>`;
+    return;
+  }
+  const q = queue[i];
+  const a = moments[q.source], b = moments[q.target];
+  const pct = Math.round(i / queue.length * 100);
+  const ev = q.evidence?.length ? `<span class="chip ev">shared: ${q.evidence.slice(0,3).join(', ')}</span>` : '';
+  const sc = q.score != null ? `<span class="chip">${(+q.score).toFixed(3)}</span>` : '';
+
+  app.innerHTML = `
+    <header>
+      <h1>Is this a real connection?</h1>
+      <span class="count">${i+1} / ${queue.length}</span>
+    </header>
+    <div class="bar"><i style="width:${pct}%"></i></div>
+    <div class="meta">
+      <span class="chip">${q.proposed_by}</span>
+      ${q.suggested_type ? `<span class="chip">suggests: ${q.suggested_type}</span>`:''}
+      ${ev}${sc}
+    </div>
+    <div class="card">
+      <div class="lbl">A</div>
+      <h2>${esc(a.title)}</h2>
+      <div class="film">${esc(a.film)}</div>
+      <p>${esc(a.description)}</p>
+    </div>
+    <div class="card">
+      <div class="lbl">B</div>
+      <h2>${esc(b.title)}</h2>
+      <div class="film">${esc(b.film)}</div>
+      <p>${esc(b.description)}</p>
+    </div>
+    <div class="ask">If yes, pick the kind of connection. If they only share a word, reject.</div>
+    <div class="keys">
+      ${TYPES.map(([k,t,d])=>`<button data-type="${t}"><kbd>${k}</kbd><span>${t}<br><small style="color:var(--muted)">${d}</small></span></button>`).join('')}
+      <button class="no" data-verdict="rejected"><kbd>X</kbd><span>not a real connection</span></button>
+      <button class="skip" data-skip="1"><kbd>S</kbd><span>skip / unsure</span></button>
+    </div>
+    <div class="hint">Keys 1–5 confirm with a type · X rejects · S skips</div>`;
+
+  app.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    if(b.dataset.skip) return next();
+    if(b.dataset.verdict) return judge('rejected');
+    judge('confirmed', b.dataset.type);
+  });
+}
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function judge(verdict, type){
+  const q = queue[i];
+  await fetch('/judge',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({source:q.source,target:q.target,verdict,type,
+                         proposed_by:q.proposed_by,bucket:q.bucket})});
+  next();
+}
+function next(){ i++; render(); }
+
+addEventListener('keydown', e=>{
+  if(i >= queue.length) return;
+  const t = TYPES.find(([k])=>k===e.key);
+  if(t) return judge('confirmed', t[1]);
+  if(e.key.toLowerCase()==='x') return judge('rejected');
+  if(e.key.toLowerCase()==='s') return next();
+});
+
+load();
+</script>
+</body>
+</html>
