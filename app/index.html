@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The MCU Connection Map</title>
+<style>
+  :root {
+    --bg: #07080c;
+    --ink: #e9ecf5;
+    --muted: #8a91a8;
+    --line: rgba(150,170,255,.22);
+    --panel: rgba(14,16,24,.86);
+    --border: rgba(255,255,255,.10);
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 14px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Inter, sans-serif;
+    overflow: hidden;
+  }
+  canvas { display: block; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+
+  .hud {
+    position: fixed; top: 16px; left: 16px; z-index: 5;
+    background: var(--panel); backdrop-filter: blur(12px);
+    border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; max-width: 300px;
+  }
+  .hud h1 { margin: 0 0 2px; font-size: 15px; letter-spacing: .2px; }
+  .hud p  { margin: 0; color: var(--muted); font-size: 12px; }
+  .stats { margin-top: 10px; display: flex; gap: 14px; }
+  .stat b { display: block; font-size: 17px; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+
+  .legend { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+  .legend div { display: flex; align-items: center; gap: 7px; font-size: 11.5px; color: var(--muted); margin-bottom: 3px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+  .tip {
+    position: fixed; z-index: 6; pointer-events: none; opacity: 0;
+    transition: opacity .12s; max-width: 320px;
+    background: var(--panel); backdrop-filter: blur(12px);
+    border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px;
+  }
+  .tip.on { opacity: 1; }
+  .tip h3 { margin: 0 0 3px; font-size: 13.5px; }
+  .tip .film { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
+  .tip .desc { font-size: 12px; color: #c3c9dc; }
+
+  .help {
+    position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
+    color: var(--muted); font-size: 11.5px; z-index: 5;
+  }
+</style>
+</head>
+<body>
+<div class="hud">
+  <h1>The MCU Connection Map</h1>
+  <p>Position is computed from meaning, not drawn by hand.</p>
+  <div class="stats">
+    <div class="stat"><b id="n-moments">–</b><span>moments</span></div>
+    <div class="stat"><b id="n-edges">–</b><span>edges</span></div>
+    <div class="stat"><b id="n-threads">–</b><span>threads</span></div>
+  </div>
+  <div class="legend" id="legend"></div>
+</div>
+
+<div class="tip" id="tip"></div>
+<div class="help">drag to pan · scroll to zoom · hover a star</div>
+
+<canvas id="sky"></canvas>
+
+<script>
+const cv = document.getElementById('sky');
+const ctx = cv.getContext('2d');
+const tip = document.getElementById('tip');
+
+// Distinct hues for threads. Kept saturated but not neon, so dense regions
+// still read as separate regions rather than a single glow.
+const HUES = [200, 30, 330, 150, 265, 55, 0, 180, 300, 95, 20, 230];
+const colour = (c, a = 1) => `hsla(${HUES[((c % HUES.length) + HUES.length) % HUES.length]}, 72%, 63%, ${a})`;
+
+let nodes = [], edges = [], meta = {};
+let scale = 1, ox = 0, oy = 0;          // viewport transform
+let hover = null;
+
+const world = p => ({ x: p.x * 1.1, y: p.y * 1.1 });
+const toScreen = p => ({ x: world(p).x * scale + ox, y: world(p).y * scale + oy });
+
+function radius(n) {
+  // Centrality drives size, with a floor so unconnected moments stay visible.
+  return 2.6 + (n.centrality || 0) * 42;
+}
+
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  cv.width = innerWidth * dpr;
+  cv.height = innerHeight * dpr;
+  cv.style.width = innerWidth + 'px';
+  cv.style.height = innerHeight + 'px';
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  draw();
+}
+
+function fit() {
+  const xs = nodes.map(n => world(n).x), ys = nodes.map(n => world(n).y);
+  const minX = Math.min(...xs), maxX = Math.max(...xs);
+  const minY = Math.min(...ys), maxY = Math.max(...ys);
+  const pad = 80;
+  scale = Math.min((innerWidth - pad * 2) / (maxX - minX), (innerHeight - pad * 2) / (maxY - minY));
+  ox = (innerWidth - (maxX + minX) * scale) / 2;
+  oy = (innerHeight - (maxY + minY) * scale) / 2;
+}
+
+function draw() {
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+
+  // edges first, underneath the stars
+  ctx.lineWidth = Math.max(0.5, 1.1 * Math.min(scale, 2));
+  const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
+  for (const e of edges) {
+    const a = byId[e.source], b = byId[e.target];
+    if (!a || !b) continue;
+    const p = toScreen(a), q = toScreen(b);
+    ctx.strokeStyle = 'rgba(150,170,255,.28)';
+    ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+  }
+
+  for (const n of nodes) {
+    const p = toScreen(n);
+    const r = radius(n) * Math.max(0.55, Math.min(scale, 2.4));
+    if (p.x < -60 || p.y < -60 || p.x > innerWidth + 60 || p.y > innerHeight + 60) continue;
+
+    const glow = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, r * 4.5);
+    glow.addColorStop(0, colour(n.community, .40));
+    glow.addColorStop(1, colour(n.community, 0));
+    ctx.fillStyle = glow;
+    ctx.beginPath(); ctx.arc(p.x, p.y, r * 4.5, 0, 7); ctx.fill();
+
+    ctx.fillStyle = n === hover ? '#fff' : colour(n.community, .95);
+    ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 7); ctx.fill();
+  }
+
+  // labels only once zoomed in, or the sky becomes unreadable
+  if (scale > 1.5) {
+    ctx.font = '11px ui-sans-serif, system-ui, sans-serif';
+    ctx.textAlign = 'center';
+    for (const n of nodes) {
+      const p = toScreen(n);
+      if (p.x < 0 || p.y < 0 || p.x > innerWidth || p.y > innerHeight) continue;
+      ctx.fillStyle = `rgba(233,236,245,${Math.min(1, (scale - 1.5) / 1.2) * .78})`;
+      ctx.fillText(n.title, p.x, p.y - radius(n) * Math.min(scale, 2.4) - 7);
+    }
+  }
+}
+
+function nearest(mx, my) {
+  let best = null, bestD = 22 * 22;
+  for (const n of nodes) {
+    const p = toScreen(n);
+    const d = (p.x - mx) ** 2 + (p.y - my) ** 2;
+    if (d < bestD) { bestD = d; best = n; }
+  }
+  return best;
+}
+
+let dragging = false, lastX = 0, lastY = 0;
+cv.addEventListener('mousedown', e => { dragging = true; lastX = e.clientX; lastY = e.clientY; cv.classList.add('dragging'); });
+addEventListener('mouseup', () => { dragging = false; cv.classList.remove('dragging'); });
+cv.addEventListener('mousemove', e => {
+  if (dragging) {
+    ox += e.clientX - lastX; oy += e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    tip.classList.remove('on');
+    draw();
+    return;
+  }
+  const n = nearest(e.clientX, e.clientY);
+  if (n !== hover) { hover = n; draw(); }
+  if (n) {
+    tip.innerHTML = `<h3>${n.title}</h3><div class="film">${n.film}</div><div class="desc">${n.description}</div>`;
+    tip.style.left = Math.min(e.clientX + 16, innerWidth - 340) + 'px';
+    tip.style.top = Math.min(e.clientY + 16, innerHeight - 140) + 'px';
+    tip.classList.add('on');
+  } else tip.classList.remove('on');
+});
+cv.addEventListener('wheel', e => {
+  e.preventDefault();
+  const k = Math.exp(-e.deltaY * 0.0016);
+  const nx = e.clientX - (e.clientX - ox) * k;
+  const ny = e.clientY - (e.clientY - oy) * k;
+  scale *= k; ox = nx; oy = ny;
+  draw();
+}, { passive: false });
+addEventListener('resize', resize);
+
+fetch('../ml/out/graph.json')
+  .then(r => r.json())
+  .then(g => {
+    nodes = g.nodes; edges = g.edges; meta = g.meta || {};
+    document.getElementById('n-moments').textContent = meta.moments ?? nodes.length;
+    document.getElementById('n-edges').textContent = meta.confirmed_edges ?? edges.length;
+    document.getElementById('n-threads').textContent = meta.threads ?? '–';
+
+    const counts = {};
+    for (const n of nodes) counts[n.community] = (counts[n.community] || 0) + 1;
+    const legend = document.getElementById('legend');
+    legend.innerHTML = Object.entries(counts)
+      .sort((a, b) => b[1] - a[1]).slice(0, 6)
+      .map(([c, k]) => `<div><i class="dot" style="background:${colour(+c)}"></i> thread ${c} · ${k} moments</div>`)
+      .join('') + `<div style="margin-top:6px;opacity:.75">${meta.thread_basis || ''}</div>`;
+
+    fit(); resize();
+  })
+  .catch(err => {
+    document.querySelector('.help').textContent = 'could not load ml/out/graph.json — run ml/embed.py then ml/graph.py';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
