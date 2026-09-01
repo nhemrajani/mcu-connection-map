@@ -1430,5 +1430,421 @@
     "universe": "mcu",
     "phase": 3,
     "description": "In prison, Mac Gargan asks Adrian Toomes whether he knows Spider-Man's identity, and Toomes denies it, protecting the boy who saved his life."
+  },
+  {
+    "id": "m-surtur-prophecy",
+    "title": "The end needs a crown and a flame",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The fire demon Surtur tells a captive Thor that Ragnarok will destroy Asgard once his crown is united with the Eternal Flame burning in Odin's vault."
+  },
+  {
+    "id": "m-loki-exposed-as-odin",
+    "title": "The impostor on the throne is found out",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thor returns to Asgard, finds Heimdall gone and Loki posing as Odin, and forces his brother to help him find where their father was hidden."
+  },
+  {
+    "id": "m-odin-dies-in-norway",
+    "title": "A father dies on a cliff",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Odin, found in Norway, tells his sons he is dying, that Ragnarok is coming regardless, and that his death will release his firstborn from her prison."
+  },
+  {
+    "id": "m-hela-revealed",
+    "title": "A sister written out of the histories",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hela, Odin's firstborn and once the leader of Asgard's armies, is freed by his death; Odin had sealed her away and erased her from Asgard's official history when she grew too bloodthirsty."
+  },
+  {
+    "id": "m-mjolnir-destroyed",
+    "title": "She catches the hammer and crushes it",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hela catches Mjolnir mid-flight and shatters it in her hand, destroying the weapon Thor's identity had been built around."
+  },
+  {
+    "id": "m-asgards-empire-uncovered",
+    "title": "A mural under a mural",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hela breaks open the painted ceiling of the throne room to reveal the older mural beneath: Asgard's peaceful golden age was built on the conquests she led for Odin."
+  },
+  {
+    "id": "m-thor-enslaved-on-sakaar",
+    "title": "A god sold as a gladiator",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thor crash-lands on the garbage planet Sakaar, is subdued with an obedience disk by a scrapper, and sold to the Grandmaster for his Contest of Champions."
+  },
+  {
+    "id": "m-valkyrie-survivor",
+    "title": "The last of a dead order",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thor recognises the scrapper who sold him as a Valkyrie, the sole survivor of the legendary force annihilated by Hela, now drinking on Sakaar to forget it."
+  },
+  {
+    "id": "m-thor-fights-hulk",
+    "title": "He knows this one from work",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thor is forced into the arena against the Grandmaster's champion and finds it is the Hulk, missing since Sokovia; the Grandmaster sabotages the fight to ensure Thor loses."
+  },
+  {
+    "id": "m-banner-returns-from-hulk",
+    "title": "A recording brings him back",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A recording of Natasha Romanoff causes the Hulk to revert to Bruce Banner for the first time in two years, leaving Banner terrified he will not come back again."
+  },
+  {
+    "id": "m-thor-loses-his-eye",
+    "title": "He loses the eye his father lost",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hela takes Thor's right eye in battle, and a vision of Odin helps him understand that his power was never in the hammer."
+  },
+  {
+    "id": "m-asgard-is-not-a-place",
+    "title": "Asgard is not a place",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Realising Hela cannot be beaten while Asgard stands, Thor concludes that Asgard is its people rather than its ground and chooses to let the realm burn."
+  },
+  {
+    "id": "m-ragnarok-triggered",
+    "title": "He sets the end loose on purpose",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Loki places Surtur's crown in the Eternal Flame at Thor's order; Surtur is reborn, destroys Asgard and kills Hela with it."
+  },
+  {
+    "id": "m-statesman-intercepted",
+    "title": "A larger ship in the way",
+    "film": "Thor: Ragnarok (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Carrying the surviving Asgardians toward Earth, Thor's ship the Statesman is intercepted by an enormous vessel blocking its path."
+  },
+  {
+    "id": "m-vibranium-meteorite",
+    "title": "A metal that fell from the sky",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Five African tribes war over a meteorite of vibranium; a warrior who eats the heart-shaped herb it altered gains superhuman power, becomes the first Black Panther and unites them as Wakanda."
+  },
+  {
+    "id": "m-wakanda-hides-itself",
+    "title": "A rich nation pretending to be poor",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Wakanda uses vibranium to build technology centuries ahead of the world while deliberately posing as an underdeveloped country to stay hidden."
+  },
+  {
+    "id": "m-tchaka-kills-njobu",
+    "title": "A king kills his brother",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In 1992 Oakland, T'Chaka confronts his brother N'Jobu for helping Ulysses Klaue steal vibranium and kills him when N'Jobu attacks the undercover Zuri."
+  },
+  {
+    "id": "m-boy-left-in-oakland",
+    "title": "They leave the child behind",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "To keep N'Jobu's death secret, T'Chaka orders Zuri to say he vanished and abandons N'Jobu's American son in Oakland, a decision that produces Wakanda's future enemy."
+  },
+  {
+    "id": "m-mbaku-challenge",
+    "title": "A challenger is spared",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "At his coronation T'Challa defeats M'Baku of the Jabari in ritual combat and persuades him to yield rather than die, a mercy that later saves his own life."
+  },
+  {
+    "id": "m-klaue-museum-theft",
+    "title": "An axe taken from a museum",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Ulysses Klaue and Erik Stevens steal a vibranium artefact from a London museum, drawing T'Challa out of Wakanda to hunt him."
+  },
+  {
+    "id": "m-ross-shot-in-busan",
+    "title": "An outsider takes the bullet",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "CIA agent Everett Ross is gravely wounded shielding Nakia during Erik Stevens's attack in Busan, and T'Challa takes him into Wakanda to be healed rather than pursue Klaue."
+  },
+  {
+    "id": "m-killmonger-claims-throne",
+    "title": "He brings a body as his credentials",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Erik Stevens kills Klaue, carries his corpse into Wakanda, reveals himself as N'Jadaka son of N'Jobu, and claims the throne by right of blood."
+  },
+  {
+    "id": "m-killmonger-defeats-tchalla",
+    "title": "The king goes over the falls",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Killmonger beats T'Challa in ritual combat, kills Zuri, and throws the king over a waterfall, taking the heart-shaped herb and the throne."
+  },
+  {
+    "id": "m-herb-garden-burned",
+    "title": "He burns the garden",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Killmonger orders the heart-shaped herb incinerated so no one can challenge him, and Nakia saves a single plant from the fire."
+  },
+  {
+    "id": "m-jabari-return-the-mercy",
+    "title": "The mercy is repaid",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The Jabari reveal they pulled the comatose T'Challa from the river and kept him alive, repaying the life M'Baku was granted at the coronation."
+  },
+  {
+    "id": "m-killmonger-dies-free",
+    "title": "Bury me in the ocean",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Mortally wounded, Killmonger refuses Wakandan healing and chooses death over imprisonment, watching a Wakandan sunset his father described to him as a child."
+  },
+  {
+    "id": "m-wakanda-revealed-to-world",
+    "title": "He tells the UN what they are",
+    "film": "Black Panther (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "T'Challa appears before the United Nations and ends centuries of concealment by revealing Wakanda's true nature to the world."
+  },
+  {
+    "id": "m-thanos-takes-power-stone",
+    "title": "Xandar falls offscreen",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thanos acquires the Power Stone from Xandar before the film begins, destroying the planet the Guardians once saved."
+  },
+  {
+    "id": "m-statesman-attacked",
+    "title": "The refugee ship is boarded",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thanos and his Black Order intercept the ship carrying Asgard's survivors, subdue Thor, overpower the Hulk and take the Space Stone from the Tesseract."
+  },
+  {
+    "id": "m-loki-killed-by-thanos",
+    "title": "No resurrections this time",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Loki attempts to stab Thanos while feigning allegiance and is strangled to death in front of Thor, who is told there will be no resurrections."
+  },
+  {
+    "id": "m-heimdall-sends-hulk-away",
+    "title": "His last act is a rescue",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Fatally wounded, Heimdall uses the last of his strength to send the Hulk to Earth through the Bifrost as a warning, and is killed for it."
+  },
+  {
+    "id": "m-banner-warns-the-sanctum",
+    "title": "He lands through a roof",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The Hulk crashes into the New York Sanctum and reverts to Bruce Banner, who warns Stephen Strange and Wong that Thanos intends to erase half of all life."
+  },
+  {
+    "id": "m-strange-taken-by-maw",
+    "title": "The sorcerer is abducted",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Ebony Maw cannot take the Time Stone while Strange lives, so he captures him instead, with Tony Stark and Peter Parker stowing away on the ship."
+  },
+  {
+    "id": "m-stormbreaker-forged",
+    "title": "He holds the star open",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "At Nidavellir, Thor reignites a dying star with his own body so Eitri can forge Stormbreaker, an axe capable of killing Thanos."
+  },
+  {
+    "id": "m-gamora-reveals-soul-stone",
+    "title": "She talks to stop the screaming",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thanos tortures Nebula in front of Gamora until Gamora reveals the location of the Soul Stone to make it stop."
+  },
+  {
+    "id": "m-thanos-sacrifices-gamora",
+    "title": "A soul for a soul",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "On Vormir the Stone's keeper Red Skull tells Thanos the Soul Stone costs someone he loves, and Thanos throws Gamora from the cliff to earn it."
+  },
+  {
+    "id": "m-vision-asks-to-die",
+    "title": "He asks her to destroy him",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Vision asks Wanda Maximoff to destroy the Mind Stone in his forehead, arguing his life is worth less than the universe; she refuses."
+  },
+  {
+    "id": "m-strange-sees-the-futures",
+    "title": "One out of fourteen million",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "On Titan, Stephen Strange uses the Time Stone to view millions of possible outcomes of the coming fight and finds exactly one in which they win."
+  },
+  {
+    "id": "m-quill-breaks-the-hold",
+    "title": "Grief loses them the gauntlet",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "With the Gauntlet almost off Thanos's hand, Peter Quill learns Gamora is dead and strikes him, breaking the group's hold and losing the one chance."
+  },
+  {
+    "id": "m-strange-trades-time-stone",
+    "title": "He hands it over",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stephen Strange gives Thanos the Time Stone to spare Tony Stark's life, telling him afterwards that there was no other way."
+  },
+  {
+    "id": "m-wanda-destroys-vision",
+    "title": "She does it, and it is undone",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Wanda Maximoff destroys the Mind Stone and Vision with it, and Thanos immediately uses the Time Stone to rewind her act and tear the Stone out anyway."
+  },
+  {
+    "id": "m-thor-aims-for-the-chest",
+    "title": "He should have gone for the head",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thor buries Stormbreaker in Thanos's chest instead of his head, and Thanos survives long enough to snap his fingers."
+  },
+  {
+    "id": "m-the-snap",
+    "title": "Half of everything goes",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Thanos completes the Gauntlet and snaps his fingers, disintegrating half of all life across the universe, then teleports away to watch a sunrise."
+  },
+  {
+    "id": "m-fury-sends-the-signal",
+    "title": "A pager left on the ground",
+    "film": "Avengers: Infinity War (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "As he disintegrates, Nick Fury transmits an emergency signal from a modified pager, which continues broadcasting after he is gone."
+  },
+  {
+    "id": "m-lang-under-house-arrest",
+    "title": "An ankle monitor for helping",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Scott Lang serves two years of house arrest for violating the Sokovia Accords by fighting in Germany, cutting him off from Hank Pym and Hope van Dyne."
+  },
+  {
+    "id": "m-quantum-entanglement-message",
+    "title": "A message from inside him",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Scott Lang becomes quantumly entangled with Janet van Dyne during his trip to the Quantum Realm and years later receives a message from her through it."
+  },
+  {
+    "id": "m-hope-becomes-the-wasp",
+    "title": "She finally gets the wings",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hope van Dyne takes the field as the Wasp, using the suit built for her mother and fighting far better than Scott Lang ever has."
+  },
+  {
+    "id": "m-ghost-revealed-ava",
+    "title": "A woman who cannot stay solid",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The masked figure stealing Pym's lab is Ava Starr, left quantumly unstable and in constant pain by the accident that killed her parents."
+  },
+  {
+    "id": "m-ava-origin",
+    "title": "Her father's experiment killed him",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Bill Foster reveals that Ava's father Elihas Starr, another of Pym's discarded partners, died with his wife in the experiment that phased Ava out of solidity."
+  },
+  {
+    "id": "m-janet-recovered",
+    "title": "Thirty years in the small places",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Hank Pym enters the Quantum Realm and finds Janet van Dyne alive after thirty years, changed by what she has absorbed down there."
+  },
+  {
+    "id": "m-janet-heals-ava",
+    "title": "She gives some of it away",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Rather than let Ava Starr be killed for the energy, Janet van Dyne voluntarily transfers part of her quantum energy to temporarily stabilise her."
+  },
+  {
+    "id": "m-lang-stranded-in-quantum",
+    "title": "Nobody is at the controls",
+    "film": "Ant-Man and the Wasp (2018)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Scott Lang is sent into the Quantum Realm to harvest energy, and Hank, Janet and Hope turn to dust before they can pull him back out."
   }
 ]
