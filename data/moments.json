@@ -3270,5 +3270,173 @@
     "universe": "webb",
     "phase": null,
     "description": "Wracked with guilt over Gwen Stacy's death, Peter Parker gives up being Spider-Man entirely, and returns only after watching a recording of her graduation speech."
+  },
+  {
+    "id": "m-westview-sitcom",
+    "title": "A life inside a sitcom",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Three weeks after Thanos is defeated, Wanda Maximoff and Vision live an idyllic suburban life in Westview, New Jersey that moves through the decades of television history, hiding what they both are."
+  },
+  {
+    "id": "m-wanda-resets-reality",
+    "title": "She rewinds when it slips",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "When a beekeeper climbs out of a manhole and the illusion cracks, Wanda Maximoff rewinds the whole street back to before it happened."
+  },
+  {
+    "id": "m-geraldine-mentions-ultron",
+    "title": "Someone says the wrong name",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Geraldine mentions that Ultron killed Wanda's twin brother Pietro, and Wanda throws her bodily out of Westview through the barrier."
+  },
+  {
+    "id": "m-rambeau-returns-from-blip",
+    "title": "She comes back to a dead mother",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Monica Rambeau returns to life in the Blip and learns that her mother Maria died of cancer during the five years she was gone."
+  },
+  {
+    "id": "m-the-hex-discovered",
+    "title": "A hexagon around a town",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "S.W.O.R.D. and FBI agent Jimmy Woo find a hexagonal energy field around Westview broadcasting a sitcom, with the real residents cast as characters inside it."
+  },
+  {
+    "id": "m-agnes-is-agatha",
+    "title": "It was Agatha all along",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The neighbour Agnes reveals herself as the witch Agatha Harkness, who has been interfering with Wanda's illusion from inside it, including planting a fake Pietro."
+  },
+  {
+    "id": "m-agatha-drains-her-coven",
+    "title": "Salem, 1693",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "A coven led by Agatha Harkness's own mother tries to execute her for dark magic in 1693 Salem, and Agatha drains the life from all of them instead."
+  },
+  {
+    "id": "m-wanda-built-westview",
+    "title": "Grief made the whole town",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Denied Vision's body by S.W.O.R.D., Wanda drove to the empty lot he had bought for them, and in a burst of grief manifested a house, a living Vision, and the Hex across the entire town."
+  },
+  {
+    "id": "m-named-scarlet-witch",
+    "title": "She is given a name",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Agatha Harkness identifies Wanda's power as chaos magic and tells her she is the Scarlet Witch, a being of prophecy she never knew she was."
+  },
+  {
+    "id": "m-white-vision-rebuilt",
+    "title": "They rebuilt the original body",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Director Hayward reactivates the reassembled original Vision, now all white and stripped of memory, and sends it to kill Wanda's version."
+  },
+  {
+    "id": "m-wanda-collapses-the-hex",
+    "title": "She lets them go",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Wanda Maximoff collapses the Hex to free Westview's residents, knowing it erases the Vision and the twins she made, and says goodbye to them as they fade."
+  },
+  {
+    "id": "m-wanda-studies-the-darkhold",
+    "title": "She hears them calling",
+    "film": "WandaVision (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In hiding, Wanda studies the Darkhold in astral form and hears Billy and Tommy crying out to her from somewhere she cannot reach."
+  },
+  {
+    "id": "m-loki-arrested-by-tva",
+    "title": "An office arrests a god",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The Loki who escaped with the Tesseract in 2012 is seized by the Time Variance Authority, an organisation outside time that resets any deviation from the Sacred Timeline."
+  },
+  {
+    "id": "m-loki-watches-his-own-death",
+    "title": "He is shown how he dies",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In the Time Theater, Mobius shows Loki his intended future, including his part in Frigga's death and his own killing at the hands of Thanos."
+  },
+  {
+    "id": "m-tempad-stones-are-junk",
+    "title": "Infinity Stones as paperweights",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Loki gives up escaping after seeing a TVA drawer full of Infinity Stones used as desk clutter, realising the agency's power exceeds anything he has fought for."
+  },
+  {
+    "id": "m-sylvie-revealed",
+    "title": "The variant is another him",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The variant killing TVA agents and hiding inside apocalypses turns out to be a female Loki named Sylvie, who wants to destroy the TVA rather than join it."
+  },
+  {
+    "id": "m-tva-workers-are-variants",
+    "title": "The staff were people once",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sylvie reveals that the TVA's workers are themselves variants taken from Earth and stripped of their memories, none of them knowing what they used to be."
+  },
+  {
+    "id": "m-timeline-branches",
+    "title": "The reset charges go everywhere",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sylvie scatters stolen reset charges across the Sacred Timeline, creating branches faster than the TVA can prune them and throwing the agency into disarray."
+  },
+  {
+    "id": "m-he-who-remains",
+    "title": "The man at the end of time",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "At the End of Time, He Who Remains explains that he pruned every branch to prevent a multiversal war between his own variants, and offers to hand the job over."
+  },
+  {
+    "id": "m-temporal-loom-fails",
+    "title": "The machine cannot hold them",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "With the timeline branching, the Temporal Loom cannot weave the infinite new threads and overloads, spaghettifying Victor Timely and destroying the TVA."
+  },
+  {
+    "id": "m-loki-becomes-the-tree",
+    "title": "He holds the branches himself",
+    "film": "Loki (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Rather than kill Sylvie to save the Loom, Loki destroys it, gathers the dying timelines by hand into a tree, and takes the throne at the End of Time to hold them alone forever."
   }
 ]
