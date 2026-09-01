@@ -1038,5 +1038,397 @@
     "universe": "mcu",
     "phase": 2,
     "description": "In a post-credits scene Steve Rogers and Sam Wilson hold a captured Bucky Barnes and cannot contact Tony Stark because of something called the accords."
+  },
+  {
+    "id": "m-barnes-1991-highway",
+    "title": "A car stopped on a night road",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In 1991 the brainwashed James Barnes is sent from a Siberian Hydra base to intercept an automobile carrying a case of super-soldier serum."
+  },
+  {
+    "id": "m-lagos-explosion",
+    "title": "She moves the blast into a building",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stopping Brock Rumlow in Lagos, Wanda Maximoff telekinetically lifts his suicide blast away from Steve Rogers and into a nearby building, killing Wakandan humanitarian workers."
+  },
+  {
+    "id": "m-sokovia-accords-proposed",
+    "title": "A panel to hold their leash",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Secretary of State Thaddeus Ross presents the Sokovia Accords, a UN framework to oversee the Avengers; Tony Stark supports it out of guilt over Ultron while Steve Rogers refuses."
+  },
+  {
+    "id": "m-zemo-takes-trigger-words",
+    "title": "A book of ten words",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Helmut Zemo kills James Barnes's old Hydra handler and steals the book containing the trigger words that activate Barnes's conditioning."
+  },
+  {
+    "id": "m-vienna-bombing",
+    "title": "A bomb at the signing",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A bomb at the UN conference in Vienna kills King T'Chaka of Wakanda, and security footage appears to identify James Barnes as the bomber."
+  },
+  {
+    "id": "m-tchalla-vows-revenge",
+    "title": "A son puts on the suit",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "T'Challa vows to kill James Barnes for his father T'Chaka's death and pursues him as the Black Panther."
+  },
+  {
+    "id": "m-zemo-activates-barnes",
+    "title": "He reads the words aloud",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Posing as a psychiatrist, Helmut Zemo recites the trigger words to James Barnes, sends him on a rampage as cover, and walks out during the chaos."
+  },
+  {
+    "id": "m-airport-battle-leipzig",
+    "title": "The team fights itself",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stark's team intercepts Rogers's group at Leipzig/Halle Airport and the Avengers fight each other, until Natasha Romanoff lets Rogers and Barnes escape."
+  },
+  {
+    "id": "m-rhodes-paralysed",
+    "title": "Friendly fire from the sky",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Vision's misaimed blast brings down James Rhodes during the airport battle, leaving him partially paralysed."
+  },
+  {
+    "id": "m-parents-killed-footage",
+    "title": "He watches his mother die",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In Siberia, Zemo shows Tony Stark footage revealing that the car Barnes intercepted in 1991 carried Howard and Maria Stark, and that Barnes killed them."
+  },
+  {
+    "id": "m-rogers-leaves-the-shield",
+    "title": "He puts the shield down",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "After disabling Tony Stark's armour, Steve Rogers leaves his vibranium shield on the Siberian floor and walks away with James Barnes."
+  },
+  {
+    "id": "m-zemo-succeeds",
+    "title": "The empire falls from inside",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Helmut Zemo, who lost his family in Sokovia, is satisfied that he destroyed the Avengers from within rather than defeating them, and attempts suicide before T'Challa stops him."
+  },
+  {
+    "id": "m-barnes-returns-to-cryo",
+    "title": "He asks to be put back under",
+    "film": "Captain America: Civil War (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Granted asylum in Wakanda, James Barnes chooses to return to cryogenic sleep until someone can remove the trigger words from his head."
+  },
+  {
+    "id": "m-kaecilius-steals-pages",
+    "title": "Pages torn from a forbidden book",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Kaecilius and his zealots raid Kamar-Taj, behead its librarian and steal pages from the Ancient One's book describing a ritual for eternal life."
+  },
+  {
+    "id": "m-strange-hands-ruined",
+    "title": "A surgeon loses his hands",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Neurosurgeon Stephen Strange wrecks his car while distracted and destroys the nerves in his hands, ending the career his entire identity rested on."
+  },
+  {
+    "id": "m-pangborn-points-the-way",
+    "title": "A paralysed man who walks",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Jonathan Pangborn, who regained the use of his legs by channelling mystical energy, directs a desperate Stephen Strange to Kamar-Taj."
+  },
+  {
+    "id": "m-ancient-one-shows-dimensions",
+    "title": "She pushes him out of his body",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The Ancient One forces Stephen Strange's spirit out of his body to show him the astral plane and the other dimensions layered beyond his own."
+  },
+  {
+    "id": "m-three-sanctums",
+    "title": "Three buildings holding a shield",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Strange learns Earth is shielded from other dimensions by three Sanctums in New York, London and Hong Kong, and that the sorcerers exist to defend them."
+  },
+  {
+    "id": "m-eye-of-agamotto-used",
+    "title": "He bends time to read faster",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stephen Strange secretly uses the Eye of Agamotto to manipulate time, breaking the laws of nature that Mordo and Wong warn him about."
+  },
+  {
+    "id": "m-ancient-one-drew-dark-power",
+    "title": "Her long life had a source",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Strange discovers the Ancient One has sustained her centuries of life by drawing power from the Dark Dimension, the exact sin Kaecilius is condemned for."
+  },
+  {
+    "id": "m-ancient-one-dies",
+    "title": "She stops the clock to look at rain",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Mortally wounded by Kaecilius, the Ancient One tells Strange that he and Mordo must balance each other, and dies."
+  },
+  {
+    "id": "m-dormammu-time-loop",
+    "title": "I've come to bargain",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Stephen Strange enters the timeless Dark Dimension and traps himself and Dormammu in an endless loop, dying over and over until Dormammu agrees to leave Earth forever."
+  },
+  {
+    "id": "m-eye-holds-time-stone",
+    "title": "The Eye holds a stone",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "The Eye of Agamotto is revealed to contain an Infinity Stone, and Strange returns it to Kamar-Taj before taking up residence in the New York Sanctum."
+  },
+  {
+    "id": "m-mordo-renounces",
+    "title": "Too many sorcerers",
+    "film": "Doctor Strange (2016)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Disgusted that both Strange and the Ancient One broke natural law, Mordo abandons the order and begins stripping other practitioners of their power, declaring there are too many sorcerers."
+  },
+  {
+    "id": "m-rocket-steals-batteries",
+    "title": "He steals from the client",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "After the Guardians are paid in Nebula for defending the Sovereign's Anulax batteries, Rocket steals the batteries anyway, turning the Sovereign into permanent enemies."
+  },
+  {
+    "id": "m-ego-reveals-himself",
+    "title": "A father arrives out of nowhere",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A mysterious figure destroys the Sovereign drones and reveals himself as Ego, Peter Quill's father, arriving with his empath servant Mantis."
+  },
+  {
+    "id": "m-yondu-exiled-by-ravagers",
+    "title": "Exiled for what he carried",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Yondu Udonta and his crew were exiled from the wider Ravager community by Stakar Ogord for trafficking children, a shame Yondu has carried since."
+  },
+  {
+    "id": "m-taserface-mutiny",
+    "title": "The crew turns on the captain",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Taserface leads a mutiny against Yondu with Nebula's help, executing the loyal crew and imprisoning Yondu and Rocket aboard his own ship."
+  },
+  {
+    "id": "m-ego-is-a-celestial",
+    "title": "The planet is his body",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Ego explains he is a Celestial who built a planet around his own consciousness and projected a human form to travel and search for purpose."
+  },
+  {
+    "id": "m-ego-killed-meredith",
+    "title": "He gave her the tumour",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Ego admits he planted the brain tumour that killed Peter Quill's mother Meredith, because his love for her was pulling him away from his purpose."
+  },
+  {
+    "id": "m-ego-killed-his-children",
+    "title": "A cavern full of small bones",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Gamora and Nebula find a cavern of skeletons: Ego fathered countless children across the universe and killed each one that failed to inherit his Celestial power."
+  },
+  {
+    "id": "m-yondu-kept-quill",
+    "title": "He never made the delivery",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Yondu reveals he was hired to bring the boy Peter Quill to Ego but kept him instead, knowing what Ego did to the children who were delivered."
+  },
+  {
+    "id": "m-yondu-sacrifice",
+    "title": "He's your daddy",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Yondu gives Peter Quill his only spacesuit and dies in the vacuum saving him, telling him that Ego may have been his father but Yondu was his daddy."
+  },
+  {
+    "id": "m-nebula-gamora-reconcile",
+    "title": "Sisters made to fight",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Nebula tells Gamora that Thanos replaced a piece of her with machinery every time she lost to her sister, and the two reconcile before Nebula leaves to kill him."
+  },
+  {
+    "id": "m-ravager-funeral",
+    "title": "They come back for him",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Dozens of Ravager ships arrive for Yondu's funeral, restoring the standing Stakar Ogord had stripped from him decades earlier."
+  },
+  {
+    "id": "m-ayesha-creates-adam",
+    "title": "She builds something to finish them",
+    "film": "Guardians of the Galaxy Vol. 2 (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Humiliated, High Priestess Ayesha creates a new artificial being she names Adam, intended to destroy the Guardians."
+  },
+  {
+    "id": "m-toomes-loses-contract",
+    "title": "The cleanup crew is fired",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Adrian Toomes's salvage company is contracted to clear Chitauri wreckage after the Battle of New York, then abruptly removed when Tony Stark's Department of Damage Control takes over."
+  },
+  {
+    "id": "m-toomes-keeps-the-tech",
+    "title": "They keep what they already took",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Ruined and angry, Adrian Toomes persuades his crew to keep the alien technology they already scavenged and build weapons from it, including a flying Vulture suit."
+  },
+  {
+    "id": "m-peter-told-not-ready",
+    "title": "Not ready to be an Avenger",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "After being flown to Germany to fight for Tony Stark, teenager Peter Parker is sent back to school and told he is not ready to be a full-time Avenger."
+  },
+  {
+    "id": "m-ned-discovers-identity",
+    "title": "His friend finds out",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Peter Parker's best friend Ned discovers he is Spider-Man, becoming the first person in his life to share the secret."
+  },
+  {
+    "id": "m-peter-nearly-drowns",
+    "title": "Dropped in a lake",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Toomes catches Peter Parker interfering with a weapons sale and drops him into a lake, where he nearly drowns until Tony Stark's remote-piloted armour pulls him out."
+  },
+  {
+    "id": "m-washington-monument-core",
+    "title": "An unstable core in a backpack",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A salvaged Chitauri power core detonates inside the Washington Monument, trapping Peter Parker's decathlon team in a lift he has to climb the tower to reach."
+  },
+  {
+    "id": "m-ferry-torn-in-half",
+    "title": "The boat splits",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "A malfunctioning alien weapon tears the Staten Island Ferry in half during Peter Parker's attempt to catch Toomes's buyer, and Tony Stark has to arrive and fix it."
+  },
+  {
+    "id": "m-stark-takes-the-suit",
+    "title": "If you're nothing without the suit",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Tony Stark confiscates the Spider-Man suit he built as punishment for Peter Parker's recklessness on the ferry, telling him he should not need it."
+  },
+  {
+    "id": "m-toomes-is-lizs-father",
+    "title": "The car ride to the dance",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Peter Parker arrives to take Liz to homecoming and discovers her father is Adrian Toomes, who works out in the same moment that Peter is Spider-Man."
+  },
+  {
+    "id": "m-plane-crash-coney-island",
+    "title": "He brings the plane down himself",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Wearing his homemade suit, Peter Parker intercepts Toomes's hijacking of a DODC cargo plane and steers it into the beach at Coney Island."
+  },
+  {
+    "id": "m-peter-saves-toomes",
+    "title": "He pulls his enemy from the fire",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "When the damaged Vulture suit explodes, Peter Parker drags Adrian Toomes out of the burning wreckage rather than let the man who tried to kill him die."
+  },
+  {
+    "id": "m-peter-declines-avengers",
+    "title": "He says no to the tower",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "Offered full Avengers membership and a new suit by Tony Stark, Peter Parker declines and chooses to stay a neighbourhood hero."
+  },
+  {
+    "id": "m-toomes-protects-the-secret",
+    "title": "He says he doesn't know",
+    "film": "Spider-Man: Homecoming (2017)",
+    "universe": "mcu",
+    "phase": 3,
+    "description": "In prison, Mac Gargan asks Adrian Toomes whether he knows Spider-Man's identity, and Toomes denies it, protecting the boy who saved his life."
   }
 ]
