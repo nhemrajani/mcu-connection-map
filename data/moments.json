@@ -3070,5 +3070,205 @@
     "universe": "mcu",
     "phase": 6,
     "description": "Peter Parker vows to stop doing everything alone, and reintroduces himself to Ned using the handshake only the two of them ever knew."
+  },
+  {
+    "id": "m-raimi-spider-bite",
+    "title": "A bite on a school trip",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "On a school visit to a Columbia University genetics lab, Peter Parker is bitten by a genetically engineered spider and wakes the next day with strength, agility, wall-clinging and organic webbing."
+  },
+  {
+    "id": "m-norman-tests-on-himself",
+    "title": "He tries it on himself",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Desperate to save a military contract, Norman Osborn tests his performance-enhancing chemical on himself; it gives him superhuman strength and drives him insane."
+  },
+  {
+    "id": "m-raimi-ben-killed",
+    "title": "The thief he let go",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Peter Parker deliberately lets a thief escape after being cheated out of his wrestling prize, and the same man kills his uncle Ben hours later."
+  },
+  {
+    "id": "m-great-power-responsibility",
+    "title": "With great power",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Peter Parker takes up the mask remembering his uncle Ben's words, that with great power comes great responsibility, and begins working as Spider-Man."
+  },
+  {
+    "id": "m-norman-deduces-peter",
+    "title": "A cut at Thanksgiving dinner",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "At the Parkers' Thanksgiving dinner Norman Osborn notices a wound matching one he gave Spider-Man, and works out that Peter Parker is the man under the mask."
+  },
+  {
+    "id": "m-bridge-choice",
+    "title": "He is made to choose",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "The Green Goblin drops Mary Jane and a tram car full of children from the Queensboro Bridge at the same time and tells Spider-Man to pick one; he saves both."
+  },
+  {
+    "id": "m-norman-dies-on-his-glider",
+    "title": "His own glider kills him",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Norman Osborn feigns remorse while triggering his glider to impale Peter Parker; Peter's spider-sense saves him and the glider kills Norman, who begs Peter not to tell Harry."
+  },
+  {
+    "id": "m-harry-vows-revenge",
+    "title": "A son swears revenge on the wrong man",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "At his father's funeral Harry Osborn vows revenge on Spider-Man, believing him the killer, unaware that Norman was the Green Goblin."
+  },
+  {
+    "id": "m-peter-refuses-mary-jane",
+    "title": "He tells her they can only be friends",
+    "film": "Spider-Man (2002)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Mary Jane tells Peter Parker she loves him, and he hides his own feelings and refuses her to keep her out of reach of his enemies."
+  },
+  {
+    "id": "m-symbiote-arrives",
+    "title": "Something falls with the meteor",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "An extraterrestrial symbiote oozes from a fallen meteorite in Central Park and attaches itself to Peter Parker's moped while he is on a date."
+  },
+  {
+    "id": "m-marko-becomes-sandman",
+    "title": "A fugitive falls into the machine",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Escaped convict Flint Marko, fleeing after visiting his sick daughter, falls into a particle accelerator that fuses him with sand and lets him reform his body at will."
+  },
+  {
+    "id": "m-marko-killed-ben",
+    "title": "The real killer, years later",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Captain Stacy tells Peter Parker and Aunt May that Flint Marko actually killed Ben Parker, and the man Peter chased to his death was only an accomplice."
+  },
+  {
+    "id": "m-black-suit",
+    "title": "The suit turns black",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "The symbiote bonds to Peter Parker's costume while he sleeps, turning it black, sharpening his powers and steadily amplifying his aggression."
+  },
+  {
+    "id": "m-bell-tower-separation",
+    "title": "He tears it off in a bell tower",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Realising how far the symbiote has corrupted him, Peter Parker climbs a church bell tower and uses the sound of the bell to force it off his body."
+  },
+  {
+    "id": "m-brock-becomes-venom",
+    "title": "It finds someone angrier",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Disgraced photographer Eddie Brock, praying for Peter Parker's death in the same church, is taken by the discarded symbiote and becomes Venom."
+  },
+  {
+    "id": "m-harry-saves-peter",
+    "title": "He takes the glider instead",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Told by his butler that Spider-Man never killed Norman, Harry Osborn joins the fight and steps in front of the glider aimed at Peter, dying of the wound."
+  },
+  {
+    "id": "m-peter-forgives-marko",
+    "title": "He forgives the man who killed Ben",
+    "film": "Spider-Man 3 (2007)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Flint Marko explains that Ben's death was an accident and that everything since was for his daughter, and Peter Parker forgives him and lets him go."
+  },
+  {
+    "id": "m-richard-parker-flees",
+    "title": "His parents ran from Oscorp",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Richard Parker records a message explaining that he and Mary fled because he refused to help Norman Osborn turn his research into biogenetic weapons; their plane is hijacked and both are killed."
+  },
+  {
+    "id": "m-peter-avoids-gwen",
+    "title": "A promise to a dead man",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Peter Parker keeps seeing Captain Stacy's ghost and is torn by the promise he made to stay away from Gwen to keep her safe, until she ends the relationship herself."
+  },
+  {
+    "id": "m-max-becomes-electro",
+    "title": "He falls into the eels",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Oscorp engineer Max Dillon falls into a tank of genetically engineered electric eels and mutates into a being of pure electricity, calling himself Electro."
+  },
+  {
+    "id": "m-harry-inherits-the-illness",
+    "title": "The disease is hereditary",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Dying, Norman Osborn tells his son Harry that the illness killing him is genetic and that Harry will begin showing symptoms soon; Harry inherits Oscorp days later."
+  },
+  {
+    "id": "m-spider-man-refuses-blood",
+    "title": "He refuses to give him blood",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Harry Osborn asks Spider-Man for his blood to cure his illness; Peter refuses, fearing what it would do to him, and Harry takes the refusal as betrayal."
+  },
+  {
+    "id": "m-harry-becomes-goblin",
+    "title": "He injects the spider venom",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Harry Osborn forces Donald Menken to inject him with venom from Oscorp's altered spiders, which turns him goblin-like, and takes an armoured suit that heals his wounds."
+  },
+  {
+    "id": "m-gwen-falls",
+    "title": "She hits the ground",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Having discovered Peter Parker is Spider-Man, Harry Osborn takes Gwen Stacy to the top of a clock tower; Peter catches her too late and she dies of the fall."
+  },
+  {
+    "id": "m-peter-quits",
+    "title": "He stops for five months",
+    "film": "The Amazing Spider-Man 2 (2014)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Wracked with guilt over Gwen Stacy's death, Peter Parker gives up being Spider-Man entirely, and returns only after watching a recording of her graduation speech."
   }
 ]
