@@ -1,0 +1,2402 @@
+[
+  {
+    "source": "m-norman-dies-on-his-glider",
+    "target": "m-harry-saves-peter",
+    "score": 0.9003,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yelena-hunts-barton",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.8096,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shield-passed-to-wilson",
+    "target": "m-wilson-donates-shield",
+    "score": 0.806,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-arranged-williams-death",
+    "target": "m-maya-heals-fisk",
+    "score": 0.7914,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wilson-donates-shield",
+    "target": "m-government-names-walker",
+    "score": 0.7601,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-sends-the-signal",
+    "target": "m-danvers-leaves-the-pager",
+    "score": 0.7557,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-romanoff-sacrifices-herself",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.7527,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mbaku-challenge",
+    "target": "m-jabari-return-the-mercy",
+    "score": 0.7494,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-stark-removes-shrapnel",
+    "score": 0.7385,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-klaue-museum-theft",
+    "target": "m-axe-ends-in-a-museum",
+    "score": 0.7374,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-barton-was-ronin",
+    "score": 0.7367,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-flies-the-nuke",
+    "target": "m-stark-removes-shrapnel",
+    "score": 0.7341,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-slattery-in-the-cell",
+    "target": "m-slattery-informs-for-ddc",
+    "score": 0.7338,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-on-odins-throne",
+    "target": "m-loki-exposed-as-odin",
+    "score": 0.728,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-ambushed-street",
+    "target": "m-fury-shot-trust-no-one",
+    "score": 0.7248,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-shoots-fisk",
+    "target": "m-maya-heals-fisk",
+    "score": 0.7238,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-ned-discovers-identity",
+    "score": 0.7221,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-gwen-falls",
+    "score": 0.7202,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wenwu-meets-ying-li",
+    "target": "m-ying-li-murdered",
+    "score": 0.72,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-exiled",
+    "target": "m-murdock-spares-fisk",
+    "score": 0.7154,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-surtur-prophecy",
+    "target": "m-ragnarok-triggered",
+    "score": 0.7138,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-fisk-arranged-williams-death",
+    "score": 0.7122,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-arranged-williams-death",
+    "target": "m-maya-shoots-fisk",
+    "score": 0.702,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gorr-loses-his-daughter",
+    "target": "m-necrosword-claims-gorr",
+    "score": 0.7005,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hydra-inside-shield-tv",
+    "target": "m-coulson-rebuilds-shield",
+    "score": 0.6986,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hydra-inside-shield-tv",
+    "target": "m-secret-warriors",
+    "score": 0.6978,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-gwen-falls",
+    "score": 0.6955,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rogers-leaves-the-shield",
+    "target": "m-shield-passed-to-wilson",
+    "score": 0.6945,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-anchor-being",
+    "target": "m-time-ripper-destroyed",
+    "score": 0.6939,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ronan-takes-the-stone",
+    "target": "m-thanos-takes-power-stone",
+    "score": 0.6933,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vibranium-race-begins",
+    "target": "m-namors-ultimatum",
+    "score": 0.6914,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-watcher-observes",
+    "target": "m-watcher-breaks-his-oath",
+    "score": 0.6905,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-norman-deduces-peter",
+    "score": 0.6901,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-janet-lost-in-quantum-realm",
+    "target": "m-janet-recovered",
+    "score": 0.6899,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-destroys-vision",
+    "score": 0.6892,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-murdock-imprisoned",
+    "target": "m-murdock-spares-fisk",
+    "score": 0.6882,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-kamala-puts-on-the-bangle",
+    "target": "m-bangle-swaps-kamala",
+    "score": 0.685,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-reveals-identity",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.6837,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-thor-allies-with-loki",
+    "score": 0.6829,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ayesha-creates-adam",
+    "target": "m-adam-warlock-attacks",
+    "score": 0.6808,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-children-taken-to-shadow",
+    "target": "m-gorr-wishes-for-love",
+    "score": 0.6803,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agatha-drains-her-coven",
+    "target": "m-agatha-bargains-with-death",
+    "score": 0.6795,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shield-passed-to-wilson",
+    "target": "m-government-names-walker",
+    "score": 0.6792,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamma-experiment-fails",
+    "target": "m-banner-hides-brazil",
+    "score": 0.6773,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-raimi-spider-bite",
+    "target": "m-yfnsm-paradox-bite",
+    "score": 0.6766,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agnes-is-agatha",
+    "target": "m-named-scarlet-witch",
+    "score": 0.6753,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wakanda-hides-itself",
+    "target": "m-vibranium-race-begins",
+    "score": 0.6732,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-coulson-rebuilds-shield",
+    "target": "m-secret-warriors",
+    "score": 0.6715,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-schmidt-takes-tesseract",
+    "target": "m-schmidt-taken-by-tesseract",
+    "score": 0.6712,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-scepter-enslaves-barton",
+    "target": "m-strucker-scepter-twins",
+    "score": 0.6707,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.669,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wilson-donates-shield",
+    "target": "m-walker-kills-with-the-shield",
+    "score": 0.6685,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wasp-suit-offered",
+    "target": "m-hope-becomes-the-wasp",
+    "score": 0.6682,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-killmonger-defeats-tchalla",
+    "target": "m-tchalla-dies-of-illness",
+    "score": 0.6675,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-marko-killed-ben",
+    "target": "m-peter-forgives-marko",
+    "score": 0.6675,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-erased-from-everyone",
+    "score": 0.6668,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-loses-her-leg",
+    "target": "m-maya-heals-fisk",
+    "score": 0.6666,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-killian-rejected-on-roof",
+    "score": 0.6664,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agatha-freed-from-spell",
+    "target": "m-agatha-bargains-with-death",
+    "score": 0.6656,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-nebula-gamora-reconcile",
+    "target": "m-gamora-reveals-soul-stone",
+    "score": 0.6636,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.6631,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mandarin-bombings",
+    "target": "m-killian-behind-the-mandarin",
+    "score": 0.6619,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-norman-dies-on-his-glider",
+    "target": "m-gwen-falls",
+    "score": 0.66,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-exiled",
+    "target": "m-murdock-imprisoned",
+    "score": 0.6594,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ballad-was-a-lullaby",
+    "target": "m-road-was-never-real",
+    "score": 0.6588,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-stark-flies-the-nuke",
+    "score": 0.6586,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-witches-road-trials",
+    "target": "m-road-was-never-real",
+    "score": 0.6575,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-falls",
+    "target": "m-peter-quits",
+    "score": 0.6574,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-corrupted",
+    "target": "m-erased-from-everyone",
+    "score": 0.6573,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yondu-kept-quill",
+    "target": "m-yondu-sacrifice",
+    "score": 0.6567,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-peter-quits",
+    "score": 0.6565,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-jane-uses-the-hammer-anyway",
+    "target": "m-jane-dies",
+    "score": 0.656,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-romanoff-sacrifices-herself",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.6559,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-fakes-his-death",
+    "target": "m-loki-watches-his-own-death",
+    "score": 0.6557,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wilson-donates-shield",
+    "target": "m-wilson-accepts-the-mantle",
+    "score": 0.6546,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-warns-the-sanctum",
+    "target": "m-banner-snaps-them-back",
+    "score": 0.6539,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-loki-exposed-as-odin",
+    "score": 0.6537,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.6531,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-knowers-summoned",
+    "score": 0.653,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yinsen-electromagnet",
+    "target": "m-palladium-poisoning",
+    "score": 0.6529,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-collapses-the-hex",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.6526,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-government-names-walker",
+    "target": "m-walker-kills-with-the-shield",
+    "score": 0.6525,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shield-passed-to-wilson",
+    "target": "m-shield-taken-back",
+    "score": 0.6524,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-peter-avoids-gwen",
+    "score": 0.652,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-white-tiger-case",
+    "target": "m-castle-crosses-murdock",
+    "score": 0.6519,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-janet-lost-in-quantum-realm",
+    "target": "m-wasp-suit-offered",
+    "score": 0.6511,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-proves-worthy",
+    "target": "m-jane-uses-the-hammer-anyway",
+    "score": 0.6495,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mjolnir-destroyed",
+    "target": "m-thor-loses-his-eye",
+    "score": 0.6495,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-loses-her-leg",
+    "target": "m-fisk-arranged-williams-death",
+    "score": 0.6493,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-ned-discovers-identity",
+    "score": 0.6487,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-lets-go",
+    "target": "m-ragnarok-triggered",
+    "score": 0.6487,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mjolnir-destroyed",
+    "target": "m-mjolnir-reforges-for-jane",
+    "score": 0.6487,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-zemo-takes-trigger-words",
+    "target": "m-zemo-activates-barnes",
+    "score": 0.648,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bridge-choice",
+    "target": "m-harry-vows-revenge",
+    "score": 0.6479,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-vows-revenge",
+    "target": "m-harry-saves-peter",
+    "score": 0.6474,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-resets-reality",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.6474,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-winter-soldier-is-bucky",
+    "target": "m-bucky-pulls-rogers-out",
+    "score": 0.6473,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spider-man-refuses-blood",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.6468,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vibranium-shield-made",
+    "target": "m-rogers-leaves-the-shield",
+    "score": 0.6461,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-janet-lost-in-quantum-realm",
+    "target": "m-hope-becomes-the-wasp",
+    "score": 0.6443,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ronan-takes-the-stone",
+    "target": "m-quill-holds-the-stone",
+    "score": 0.6441,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hulk-spares-abomination",
+    "target": "m-ross-becomes-red-hulk",
+    "score": 0.643,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-flies-the-nuke",
+    "target": "m-stark-panic-attacks",
+    "score": 0.6424,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-removes-shrapnel",
+    "target": "m-rogers-leaves-the-shield",
+    "score": 0.6424,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-spider-man-refuses-blood",
+    "score": 0.642,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-renamed-new-avengers",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.6419,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamma-experiment-fails",
+    "target": "m-ross-revives-super-soldier",
+    "score": 0.6404,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-first-arc-reactor",
+    "target": "m-howard-founded-shield",
+    "score": 0.6402,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-antidote-frees-widows",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.6395,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tesseract-opens-portal",
+    "target": "m-battle-of-new-york",
+    "score": 0.638,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-dreamwalking",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.6379,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ned-discovers-identity",
+    "target": "m-nico-minoru-friend",
+    "score": 0.6377,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamora-reveals-soul-stone",
+    "target": "m-thanos-sacrifices-gamora",
+    "score": 0.6375,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-dreamwalking",
+    "target": "m-wanda-destroys-darkhold",
+    "score": 0.6369,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-unmask-to-reach-octavius",
+    "target": "m-great-power-responsibility",
+    "score": 0.6366,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-great-power-responsibility",
+    "score": 0.6363,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-schmidt-taken-by-tesseract",
+    "target": "m-tesseract-opens-portal",
+    "score": 0.6361,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-has-the-darkhold",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.6359,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-maya-loses-her-leg",
+    "score": 0.6359,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-norman-dies-on-his-glider",
+    "target": "m-harry-vows-revenge",
+    "score": 0.6352,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-names-the-initiative",
+    "target": "m-fury-was-a-skrull",
+    "score": 0.6348,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-killian-rejected-on-roof",
+    "target": "m-stark-removes-shrapnel",
+    "score": 0.633,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ghost-revealed-ava",
+    "target": "m-ava-origin",
+    "score": 0.6329,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-gives-edith-away",
+    "target": "m-peter-retakes-edith",
+    "score": 0.6318,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shang-chi-spares-father",
+    "target": "m-wenwu-gives-the-rings",
+    "score": 0.6307,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gorr-loses-his-daughter",
+    "target": "m-gorr-wishes-for-love",
+    "score": 0.6302,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.63,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-raimi-ben-killed",
+    "target": "m-peter-forgives-marko",
+    "score": 0.6299,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-kilgrave-controlled-her",
+    "target": "m-kilgrave-resurfaces",
+    "score": 0.6296,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-barton-was-ronin",
+    "target": "m-fisk-arranged-williams-death",
+    "score": 0.6288,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-dreamwalking",
+    "score": 0.6287,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-abducted-1988",
+    "target": "m-yondu-sacrifice",
+    "score": 0.6285,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-captain-stacy-discovers",
+    "target": "m-peter-avoids-gwen",
+    "score": 0.6282,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ronan-takes-the-stone",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.628,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-namors-ultimatum",
+    "target": "m-riri-williams-found",
+    "score": 0.6278,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamora-reveals-soul-stone",
+    "target": "m-wanda-destroys-vision",
+    "score": 0.6267,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yondu-exiled-by-ravagers",
+    "target": "m-ravager-funeral",
+    "score": 0.6259,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-coulson-death-unites",
+    "target": "m-coulson-survived",
+    "score": 0.6253,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-captain-stacy-discovers",
+    "target": "m-gwen-falls",
+    "score": 0.6248,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-vision",
+    "target": "m-wanda-resets-reality",
+    "score": 0.6246,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-gives-his-address",
+    "target": "m-stark-meets-his-father",
+    "score": 0.6244,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-was-a-skrull",
+    "target": "m-fury-promised-a-home",
+    "score": 0.6242,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mjolnir-enchantment",
+    "target": "m-thor-proves-worthy",
+    "score": 0.6238,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-erskine-assassinated",
+    "target": "m-winter-soldier-is-bucky",
+    "score": 0.6224,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shield-passed-to-wilson",
+    "target": "m-walker-kills-with-the-shield",
+    "score": 0.6219,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamma-experiment-fails",
+    "target": "m-banner-returns-from-hulk",
+    "score": 0.6209,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lang-returns-from-quantum",
+    "target": "m-lang-stranded-in-quantum",
+    "score": 0.6198,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-norman-tests-on-himself",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.6198,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-walters-refuses-the-cape",
+    "target": "m-superhuman-law-division",
+    "score": 0.6197,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-removes-shrapnel",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.6196,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lang-returns-from-quantum",
+    "target": "m-janet-recovered",
+    "score": 0.6182,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rogers-leaves-the-shield",
+    "target": "m-wilson-donates-shield",
+    "score": 0.6182,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-nearly-drowns",
+    "target": "m-peter-saves-toomes",
+    "score": 0.6181,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shuri-takes-the-herb",
+    "target": "m-shuri-spares-namor",
+    "score": 0.6177,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lylla-teefs-floor-killed",
+    "target": "m-rocket-flatlines",
+    "score": 0.6176,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-natalie-is-natasha",
+    "target": "m-avengers-initiative-activated",
+    "score": 0.6174,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-avoids-gwen",
+    "target": "m-gwen-falls",
+    "score": 0.6174,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-unmask-to-reach-octavius",
+    "target": "m-norman-deduces-peter",
+    "score": 0.6167,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-warns-the-sanctum",
+    "target": "m-the-snap",
+    "score": 0.6167,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vibranium-shield-made",
+    "target": "m-wilson-donates-shield",
+    "score": 0.616,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-klaue-loses-his-arm",
+    "target": "m-sokovia-lifted",
+    "score": 0.6158,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mjolnir-enchantment",
+    "target": "m-vision-lifts-mjolnir",
+    "score": 0.6153,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-killed-by-thanos",
+    "target": "m-loki-watches-his-own-death",
+    "score": 0.6153,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-fontaine-buries-sentry",
+    "score": 0.6151,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-raimi-ben-killed",
+    "target": "m-marko-killed-ben",
+    "score": 0.615,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-collapses-the-hex",
+    "target": "m-teen-is-billy",
+    "score": 0.6149,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-named-scarlet-witch",
+    "target": "m-agatha-freed-from-spell",
+    "score": 0.6141,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-surtur-prophecy",
+    "target": "m-odin-dies-in-norway",
+    "score": 0.6139,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-renamed-new-avengers",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.6137,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-vision",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.6136,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-abducted-1988",
+    "target": "m-quill-half-human",
+    "score": 0.6134,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-hela-revealed",
+    "score": 0.613,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-sent-to-kill-each-other",
+    "score": 0.6127,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-peter-refuses-mary-jane",
+    "score": 0.6125,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-loki-on-odins-throne",
+    "score": 0.6125,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-takes-the-gauntlet",
+    "target": "m-the-snap",
+    "score": 0.6121,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-told-not-ready",
+    "target": "m-peter-declines-avengers",
+    "score": 0.6113,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-thor-proves-worthy",
+    "score": 0.6109,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-great-power-responsibility",
+    "target": "m-norman-deduces-peter",
+    "score": 0.6106,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-lands-new-mexico",
+    "target": "m-malekith-crushed-greenwich",
+    "score": 0.6099,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ragnarok-triggered",
+    "target": "m-loki-killed-by-thanos",
+    "score": 0.6096,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-murdock-fisk-truce",
+    "target": "m-fisk-exiled",
+    "score": 0.6093,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-returns-from-hulk",
+    "target": "m-banner-snaps-them-back",
+    "score": 0.6092,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-statesman-intercepted",
+    "target": "m-statesman-attacked",
+    "score": 0.6092,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-antidote-frees-widows",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.6092,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-surtur-prophecy",
+    "target": "m-asgard-is-not-a-place",
+    "score": 0.609,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-government-names-walker",
+    "target": "m-wilson-accepts-the-mantle",
+    "score": 0.6085,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-darkhold",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.6083,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shield-passed-to-wilson",
+    "target": "m-wilson-accepts-the-mantle",
+    "score": 0.608,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-meets-his-father",
+    "target": "m-howard-stark-framed",
+    "score": 0.6073,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stormbreaker-forged",
+    "target": "m-thor-aims-for-the-chest",
+    "score": 0.6071,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-eyes-city-hall",
+    "target": "m-fisk-elected-mayor",
+    "score": 0.606,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-loki-on-odins-throne",
+    "score": 0.6056,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-vows-revenge",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.6053,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-killian-rejected-on-roof",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.6052,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strange-trades-time-stone",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.6052,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hulk-spares-abomination",
+    "target": "m-thor-fights-hulk",
+    "score": 0.6051,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-the-snap",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.6046,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-destroys-the-stones",
+    "target": "m-banner-snaps-them-back",
+    "score": 0.6042,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-harry-saves-peter",
+    "score": 0.6034,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-murdock-fisk-truce",
+    "target": "m-murdock-imprisoned",
+    "score": 0.6034,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-selvig-shown-tesseract",
+    "target": "m-tesseract-opens-portal",
+    "score": 0.603,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strucker-scepter-twins",
+    "target": "m-strucker-experiments-on-twins",
+    "score": 0.6027,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ying-li-murdered",
+    "target": "m-shang-chi-spares-father",
+    "score": 0.6027,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-enslaved-on-sakaar",
+    "target": "m-valkyrie-survivor",
+    "score": 0.6025,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-takes-power-stone",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.6022,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-eyes-city-hall",
+    "target": "m-fisk-exiled",
+    "score": 0.6015,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.6009,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-walters-gets-the-blood",
+    "target": "m-wrecking-crew-wants-blood",
+    "score": 0.6009,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-fakes-his-death",
+    "target": "m-ragnarok-triggered",
+    "score": 0.6003,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-toomes-is-lizs-father",
+    "score": 0.6002,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agnes-is-agatha",
+    "target": "m-agatha-freed-from-spell",
+    "score": 0.6,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-takes-the-bullet",
+    "target": "m-gwen-falls",
+    "score": 0.5997,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.5995,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-abducted-1988",
+    "target": "m-tchalla-star-lord",
+    "score": 0.5993,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-budapest-bombing",
+    "target": "m-barton-tells-yelena-truth",
+    "score": 0.5991,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-winter-soldier-is-bucky",
+    "target": "m-isaiah-bradley-revealed",
+    "score": 0.5989,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tchalla-vows-revenge",
+    "target": "m-tchaka-kills-njobu",
+    "score": 0.5988,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-maya-heals-fisk",
+    "score": 0.5987,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-named-scarlet-witch",
+    "target": "m-agatha-bargains-with-death",
+    "score": 0.5984,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-walters-gets-the-blood",
+    "target": "m-walters-refuses-the-cape",
+    "score": 0.5983,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-galactus-wants-the-child",
+    "target": "m-franklin-born-in-flight",
+    "score": 0.598,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-holds-the-stone",
+    "target": "m-quill-breaks-the-hold",
+    "score": 0.5979,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-learns-parentage",
+    "target": "m-loki-on-odins-throne",
+    "score": 0.5974,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-abomination-created",
+    "target": "m-sterns-blood-in-cut",
+    "score": 0.5972,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yinsen-electromagnet",
+    "target": "m-mark-i-escape",
+    "score": 0.597,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-herb-garden-burned",
+    "target": "m-shuri-takes-the-herb",
+    "score": 0.5968,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-blonsky-takes-serum",
+    "target": "m-abomination-created",
+    "score": 0.5965,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-hides-brazil",
+    "target": "m-banner-returns-from-hulk",
+    "score": 0.5961,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-stark-builds-many-suits",
+    "score": 0.596,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tchaka-kills-njobu",
+    "target": "m-killmonger-claims-throne",
+    "score": 0.5958,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-ned-discovers-identity",
+    "score": 0.5957,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bifrost-destroyed",
+    "target": "m-surtur-prophecy",
+    "score": 0.5956,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-frigga-killed",
+    "target": "m-jane-dies",
+    "score": 0.5955,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agnes-is-agatha",
+    "target": "m-agatha-drains-her-coven",
+    "score": 0.5954,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamma-experiment-fails",
+    "target": "m-abomination-created",
+    "score": 0.5953,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-captain-stacy-discovers",
+    "target": "m-peter-quits",
+    "score": 0.5949,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-snaps-them-back",
+    "target": "m-blip-triggers-emergence",
+    "score": 0.5949,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rocket-steals-batteries",
+    "target": "m-rocket-spares-evolutionary",
+    "score": 0.594,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-abducted-1988",
+    "target": "m-quill-leaves-the-guardians",
+    "score": 0.5936,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-natalie-is-natasha",
+    "target": "m-stark-consultant-only",
+    "score": 0.5935,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-sees-frigga",
+    "target": "m-gorr-wishes-for-love",
+    "score": 0.5934,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-shang-chi-sent-to-kill",
+    "target": "m-shang-chi-spares-father",
+    "score": 0.5933,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rambeau-meets-binary",
+    "target": "m-rambeau-returns-from-blip",
+    "score": 0.5932,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-boy-left-in-oakland",
+    "target": "m-toussaint-revealed",
+    "score": 0.5929,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ying-li-murdered",
+    "target": "m-shang-chi-sent-to-kill",
+    "score": 0.5929,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rogers-drops-his-shield",
+    "target": "m-rogers-leaves-the-shield",
+    "score": 0.5928,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-harry-vows-revenge",
+    "score": 0.5927,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-yfnsm-paradox-bite",
+    "score": 0.5925,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-unmask-to-reach-octavius",
+    "score": 0.5924,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-plane-crash-coney-island",
+    "target": "m-peter-saves-toomes",
+    "score": 0.5924,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-has-the-darkhold",
+    "target": "m-named-scarlet-witch",
+    "score": 0.5924,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-darkhold",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.5923,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-flies-the-nuke",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.5922,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-loki-watches-his-own-death",
+    "score": 0.592,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-zeus-refuses-help",
+    "target": "m-gorr-wishes-for-love",
+    "score": 0.592,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-attilan-on-the-moon",
+    "target": "m-attilan-abandoned",
+    "score": 0.592,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strange-trades-time-stone",
+    "target": "m-wanda-destroys-vision",
+    "score": 0.5919,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-vision",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.5919,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-lifts-mjolnir",
+    "target": "m-thor-loses-his-eye",
+    "score": 0.5918,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-captain-stacy-discovers",
+    "target": "m-marko-killed-ben",
+    "score": 0.5915,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-white-vision-rebuilt",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.5915,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-resets-reality",
+    "score": 0.5913,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-simons-powers-surface",
+    "target": "m-simon-frees-slattery",
+    "score": 0.591,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hulk-spares-abomination",
+    "target": "m-heimdall-sends-hulk-away",
+    "score": 0.5909,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tchalla-vows-revenge",
+    "target": "m-boy-left-in-oakland",
+    "score": 0.5905,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-peter-quits",
+    "score": 0.5904,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-proves-worthy",
+    "target": "m-thor-sees-frigga",
+    "score": 0.5903,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-norman-dies-on-his-glider",
+    "score": 0.5902,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-norman-keeps-the-symbiote",
+    "score": 0.5902,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-roxxon-rig-explodes",
+    "target": "m-roxxon-covered-it-up",
+    "score": 0.5902,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gamma-experiment-fails",
+    "target": "m-banner-warns-the-sanctum",
+    "score": 0.5899,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hulk-spares-abomination",
+    "target": "m-banner-warns-the-sanctum",
+    "score": 0.5899,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-boy-left-in-oakland",
+    "target": "m-killmonger-claims-throne",
+    "score": 0.5893,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fisk-elected-mayor",
+    "target": "m-fisk-exiled",
+    "score": 0.5892,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-mjolnir-enchantment",
+    "score": 0.5891,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-norman-dies-on-his-glider",
+    "target": "m-harry-becomes-goblin",
+    "score": 0.5891,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-convoy-ambush",
+    "target": "m-stark-flies-the-nuke",
+    "score": 0.589,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ying-li-murdered",
+    "target": "m-wenwu-gives-the-rings",
+    "score": 0.589,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-nebula-gamora-reconcile",
+    "target": "m-past-thanos-learns",
+    "score": 0.5889,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-nearly-drowns",
+    "target": "m-plane-crash-coney-island",
+    "score": 0.5886,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vibranium-shield-made",
+    "target": "m-shield-passed-to-wilson",
+    "score": 0.5885,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bifrost-destroyed",
+    "target": "m-loki-lets-go",
+    "score": 0.5884,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-consultant-only",
+    "target": "m-avengers-initiative-activated",
+    "score": 0.5882,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-destroys-vision",
+    "target": "m-dreamwalking",
+    "score": 0.5881,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ross-shot-in-busan",
+    "target": "m-killmonger-claims-throne",
+    "score": 0.588,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-four-years-anonymous",
+    "target": "m-richard-parker-alive",
+    "score": 0.5879,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-on-odins-throne",
+    "target": "m-ragnarok-triggered",
+    "score": 0.5878,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-janet-lost-in-quantum-realm",
+    "target": "m-janet-heals-ava",
+    "score": 0.5876,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ross-elected-president",
+    "target": "m-ross-becomes-red-hulk",
+    "score": 0.5876,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-valkyrie-survivor",
+    "target": "m-ragnarok-triggered",
+    "score": 0.5874,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vanko-builds-reactor",
+    "target": "m-stark-removes-shrapnel",
+    "score": 0.5873,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-mj-works-it-out",
+    "score": 0.5871,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quantum-entanglement-message",
+    "target": "m-cassie-signals-quantum",
+    "score": 0.5868,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-learns-parentage",
+    "target": "m-loki-exposed-as-odin",
+    "score": 0.5862,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mandarin-is-an-actor",
+    "target": "m-slattery-informs-for-ddc",
+    "score": 0.5856,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bor-hides-the-aether",
+    "target": "m-malekith-crushed-greenwich",
+    "score": 0.5856,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-has-the-darkhold",
+    "target": "m-dreamwalking",
+    "score": 0.5854,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-cross-perfects-yellowjacket",
+    "target": "m-modok-is-darren-cross",
+    "score": 0.5853,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-destroys-darkhold",
+    "score": 0.5852,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strange-trades-time-stone",
+    "target": "m-the-snap",
+    "score": 0.5847,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-witches-road-trials",
+    "target": "m-agatha-bargains-with-death",
+    "score": 0.5845,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.5843,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-thor-fights-hulk",
+    "score": 0.5843,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-has-the-darkhold",
+    "score": 0.5843,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-has-the-darkhold",
+    "target": "m-kamar-taj-attacked",
+    "score": 0.5842,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vanko-builds-reactor",
+    "target": "m-howard-founded-shield",
+    "score": 0.5837,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-lets-go",
+    "target": "m-loki-imprisoned-asgard",
+    "score": 0.5837,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-killian-rejected-on-roof",
+    "target": "m-osborn-as-mentor",
+    "score": 0.5831,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wenwu-meets-ying-li",
+    "target": "m-shang-chi-spares-father",
+    "score": 0.5827,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-maya-loses-her-leg",
+    "target": "m-maya-shoots-fisk",
+    "score": 0.5826,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yinsen-electromagnet",
+    "target": "m-stark-flies-the-nuke",
+    "score": 0.5817,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-destroys-the-stones",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.5815,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-antidote-frees-widows",
+    "target": "m-renamed-new-avengers",
+    "score": 0.5815,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-takes-the-suit",
+    "target": "m-peter-declines-avengers",
+    "score": 0.5814,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-four-years-anonymous",
+    "target": "m-peter-quits",
+    "score": 0.5814,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-imprisoned-asgard",
+    "target": "m-children-taken-to-shadow",
+    "score": 0.5811,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bridge-choice",
+    "target": "m-harry-saves-peter",
+    "score": 0.581,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-agatha-drains-her-coven",
+    "target": "m-agatha-freed-from-spell",
+    "score": 0.5806,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-coulson-survived",
+    "target": "m-coulson-rebuilds-shield",
+    "score": 0.5804,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ego-reveals-himself",
+    "target": "m-yondu-sacrifice",
+    "score": 0.5803,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-hela-revealed",
+    "target": "m-thor-loses-his-eye",
+    "score": 0.5803,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-budapest-bombing",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.5803,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-allies-with-loki",
+    "target": "m-thor-sees-frigga",
+    "score": 0.58,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-shows-them-visions",
+    "target": "m-hulk-rampages-johannesburg",
+    "score": 0.5799,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-warns-the-sanctum",
+    "target": "m-thanos-destroys-the-stones",
+    "score": 0.5799,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-antidote-frees-widows",
+    "target": "m-fontaine-targets-barton",
+    "score": 0.5799,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-ambushed-street",
+    "target": "m-fury-names-the-initiative",
+    "score": 0.5798,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-avengers-initiative-activated",
+    "target": "m-fury-names-the-initiative",
+    "score": 0.5796,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-eye-of-agamotto-used",
+    "target": "m-strange-trades-time-stone",
+    "score": 0.5796,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lang-fights-falcon",
+    "target": "m-peter-gives-edith-away",
+    "score": 0.5794,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ned-discovers-identity",
+    "target": "m-peter-reintroduces-himself",
+    "score": 0.5794,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-half-human",
+    "target": "m-quill-leaves-the-guardians",
+    "score": 0.5793,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fontaine-buries-sentry",
+    "target": "m-yelena-hunts-barton",
+    "score": 0.5791,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rogers-leaves-the-shield",
+    "target": "m-shield-taken-back",
+    "score": 0.5789,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-odin-frost-giant-war",
+    "target": "m-loki-learns-parentage",
+    "score": 0.5785,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-geraldine-mentions-ultron",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.5783,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-banner-returns-from-hulk",
+    "target": "m-banner-warns-the-sanctum",
+    "score": 0.5779,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-lets-go",
+    "target": "m-surtur-prophecy",
+    "score": 0.5778,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-gwen-falls",
+    "score": 0.5774,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tchaka-kills-njobu",
+    "target": "m-boy-left-in-oakland",
+    "score": 0.5774,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lagos-explosion",
+    "target": "m-vision-asks-to-die",
+    "score": 0.5773,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-avoids-gwen",
+    "target": "m-peter-quits",
+    "score": 0.5773,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-captain-stacy-discovers",
+    "score": 0.5772,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ronan-takes-the-stone",
+    "target": "m-thanos-takes-the-gauntlet",
+    "score": 0.5771,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-takes-the-gauntlet",
+    "target": "m-thanos-takes-power-stone",
+    "score": 0.5768,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-westview-sitcom",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.5768,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ego-reveals-himself",
+    "target": "m-quill-leaves-the-guardians",
+    "score": 0.5763,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-quits",
+    "target": "m-richard-parker-alive",
+    "score": 0.5761,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-yinsen-electromagnet",
+    "target": "m-stark-panic-attacks",
+    "score": 0.5759,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ajak-found-dead",
+    "target": "m-uni-mind-formed",
+    "score": 0.5758,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-norman-deduces-peter",
+    "target": "m-harry-saves-peter",
+    "score": 0.5755,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ross-becomes-red-hulk",
+    "target": "m-ross-goes-to-the-raft",
+    "score": 0.5754,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vanko-builds-reactor",
+    "target": "m-monaco-attack",
+    "score": 0.5753,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-sokovia-accords-proposed",
+    "target": "m-ross-elected-president",
+    "score": 0.5753,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-parents-killed-footage",
+    "target": "m-stark-meets-his-father",
+    "score": 0.5748,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-thor-sees-frigga",
+    "score": 0.5747,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-herb-garden-burned",
+    "target": "m-tchalla-dies-of-illness",
+    "score": 0.5747,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-knowers-summoned",
+    "target": "m-erased-from-everyone",
+    "score": 0.5742,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-palladium-poisoning",
+    "target": "m-stark-panic-attacks",
+    "score": 0.5741,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-geraldine-mentions-ultron",
+    "target": "m-named-scarlet-witch",
+    "score": 0.5739,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ai-found-in-scepter",
+    "target": "m-vision-created",
+    "score": 0.5734,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thanos-takes-the-gauntlet",
+    "target": "m-strange-trades-time-stone",
+    "score": 0.5732,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-tiamut-turned-to-stone",
+    "target": "m-adamantium-on-celestial-island",
+    "score": 0.5731,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-captain-stacy-discovers",
+    "target": "m-identity-exposed-to-world",
+    "score": 0.573,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-geraldine-mentions-ultron",
+    "target": "m-agnes-is-agatha",
+    "score": 0.5729,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vanko-builds-reactor",
+    "target": "m-palladium-poisoning",
+    "score": 0.5728,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-gwen-told-willingly",
+    "target": "m-spell-to-be-forgotten",
+    "score": 0.5726,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-ajak-found-dead",
+    "target": "m-ikaris-killed-ajak",
+    "score": 0.5726,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strange-trades-time-stone",
+    "target": "m-stark-snaps-thanos-away",
+    "score": 0.5725,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-abomination-created",
+    "target": "m-hulk-spares-abomination",
+    "score": 0.5724,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-abducted-1988",
+    "target": "m-yondu-kept-quill",
+    "score": 0.5724,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-learns-parentage",
+    "target": "m-loki-imprisoned-asgard",
+    "score": 0.5721,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-fakes-his-death",
+    "target": "m-loki-exposed-as-odin",
+    "score": 0.5719,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lagos-explosion",
+    "target": "m-wanda-collapses-the-hex",
+    "score": 0.5719,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-peter-declines-avengers",
+    "target": "m-osborn-as-mentor",
+    "score": 0.5715,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-fakes-his-death",
+    "target": "m-odin-dies-in-norway",
+    "score": 0.5713,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-the-snap",
+    "target": "m-banner-snaps-them-back",
+    "score": 0.5712,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-built-westview",
+    "target": "m-wanda-studies-the-darkhold",
+    "score": 0.5711,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-mark-i-escape",
+    "target": "m-stark-removes-shrapnel",
+    "score": 0.571,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-promised-a-home",
+    "target": "m-maria-hill-killed",
+    "score": 0.5709,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-exiled",
+    "target": "m-loki-imprisoned-asgard",
+    "score": 0.5708,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-gives-his-address",
+    "target": "m-parents-killed-footage",
+    "score": 0.5708,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-great-power-responsibility",
+    "target": "m-peter-quits",
+    "score": 0.5708,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spider-man-refuses-blood",
+    "target": "m-peter-quits",
+    "score": 0.5708,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-barton-was-ronin",
+    "target": "m-maya-heals-fisk",
+    "score": 0.5708,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-lang-fights-falcon",
+    "target": "m-wilson-donates-shield",
+    "score": 0.5706,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-witches-road-trials",
+    "target": "m-ballad-was-a-lullaby",
+    "score": 0.5706,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-strange-trades-time-stone",
+    "target": "m-time-heist-planned",
+    "score": 0.5704,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-wanda-built-westview",
+    "target": "m-white-vision-rebuilt",
+    "score": 0.5703,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-great-power-responsibility",
+    "score": 0.5702,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-kamala-accepts-remaking",
+    "score": 0.5702,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-harry-saves-peter",
+    "target": "m-yfnsm-paradox-bite",
+    "score": 0.5702,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-foggy-killed",
+    "target": "m-pop-killed",
+    "score": 0.57,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-rocket-was-made",
+    "target": "m-rocket-spares-evolutionary",
+    "score": 0.5699,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-fury-promised-a-home",
+    "target": "m-skrull-rebellion",
+    "score": 0.5698,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-loki-bargain-chitauri",
+    "target": "m-battle-of-new-york",
+    "score": 0.5695,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-thor-aims-for-the-chest",
+    "target": "m-the-snap",
+    "score": 0.5695,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-blonsky-takes-serum",
+    "target": "m-super-soldier-procedure",
+    "score": 0.5693,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-pym-resigns-shield",
+    "target": "m-janet-lost-in-quantum-realm",
+    "score": 0.5693,
+    "proposed_by": "all-MiniLM-L6-v2"
+  }
+]

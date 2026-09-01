@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-ml/out/
 
 # Node / frontend
 node_modules/
@@ -15,14 +14,22 @@ build/
 *.safetensors
 *.ckpt
 .cache/
-~/.cache/huggingface/
+
+# Wikipedia text cache - regenerate with ingest/plots.py
+plots/
+
+# Pipeline output.
+# ml/out/ is generated, but graph.json is what the canvas actually loads, so
+# it has to be committed for the site to deploy. The big binaries and the
+# review scratch files stay out.
+ml/out/*
+!ml/out/graph.json
+!ml/out/candidates.json
+!ml/out/proposed_edges.json
+!ml/out/reference_edges.json
 
 # OS / editor
 .DS_Store
 .vscode/
 .idea/
 *.log
-plots/
-.venv/
-ml/out/embeddings.npy
-ml/out/moment_ids.json

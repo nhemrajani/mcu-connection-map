@@ -1,0 +1,155 @@
+[
+  {
+    "source": "m-stark-snaps-thanos-away",
+    "target": "m-westview-sitcom",
+    "type": "setup-payoff",
+    "quote": "Three weeks after the events of Avengers: Endgame (2019), Wanda Maximoff and Vision are living an idyllic suburban life in the town of Westview, New Jersey, trying to conceal their true natures.",
+    "refers_to": "Avengers: Endgame",
+    "confidence": 0.4878,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-stark-snaps-thanos-away",
+    "target": "m-loki-arrested-by-tva",
+    "type": "setup-payoff",
+    "quote": "After stealing the Tesseract during the events of Avengers: Endgame (2019), an alternate version of Loki is brought to the mysterious Time Variance Authority (TVA), a bureaucratic organization that exists outside of time and space and monitors the timeline.",
+    "refers_to": "Avengers: Endgame",
+    "confidence": 0.4878,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-stark-snaps-thanos-away",
+    "target": "m-yelena-hunts-barton",
+    "type": "setup-payoff",
+    "quote": "A year after the events of Avengers: Endgame (2019), Clint Barton must partner with Kate Bishop to confront enemies from his past as the Ronin to get back to his family in time for Christmas.",
+    "refers_to": "Avengers: Endgame",
+    "confidence": 0.4878,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-ramonda-drowns",
+    "target": "m-riri-expelled",
+    "type": "setup-payoff",
+    "quote": "Following the events of the film Black Panther: Wakanda Forever (2022), MIT student Riri Williams returns home to Chicago where she becomes entangled with the enigmatic Parker Robbins / The Hood, discovering secrets that pit technology against magic and setting her on a path of danger and adventure.",
+    "refers_to": "Black Panther: Wakanda Forever",
+    "confidence": 0.4632,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-other-confers-master",
+    "target": "m-the-harvest",
+    "type": "setup-payoff",
+    "quote": "In Finland, Fury leads Falsworth to a grave marked with his name which contains the \"Harvest\", a collection of DNA from the superheroes who fought during the Battle of Earth.",
+    "refers_to": "Battle of Earth",
+    "confidence": 0.4492,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-flag-smashers-serum",
+    "target": "m-rambeau-returns-from-blip",
+    "type": "setup-payoff",
+    "quote": "We Interrupt This Program    Captain Monica Rambeau, an agent of S.W.O.R.D., returns to life following the Blip to find her mother Maria has died of cancer.",
+    "refers_to": "the Blip",
+    "confidence": 0.4389,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-flag-smashers-serum",
+    "target": "m-toussaint-revealed",
+    "type": "setup-payoff",
+    "quote": "Angered by Okoye's failure to protect Shuri, Ramonda strips her of her title as general of the Dora Milaje and seeks out Nakia, who has been living in Haiti since the Blip.",
+    "refers_to": "the Blip",
+    "confidence": 0.4389,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-flag-smashers-serum",
+    "target": "m-maria-hill-killed",
+    "type": "setup-payoff",
+    "quote": "She calls Fury, who has been working in space for years following the Blip.",
+    "refers_to": "the Blip",
+    "confidence": 0.438,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-hand-digs-under-new-york",
+    "target": "m-toomes-loses-contract",
+    "type": "setup-payoff",
+    "quote": "Following the Battle of New York in 2012, Adrian Toomes and his salvage company are contracted to clean up the city, but their operation is taken over by the Department of Damage Control (DODC), a partnership between Tony Stark and the U.S.",
+    "refers_to": "Battle of New York",
+    "confidence": 0.4003,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-hand-digs-under-new-york",
+    "target": "m-loki-arrested-by-tva",
+    "type": "setup-payoff",
+    "quote": "Loki is arrested by the Time Variance Authority (TVA) when he creates a new timeline after escaping from the Battle of New York with the Tesseract in 2012.",
+    "refers_to": "Battle of New York",
+    "confidence": 0.4003,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-hand-digs-under-new-york",
+    "target": "m-kate-sees-barton-2012",
+    "type": "setup-payoff",
+    "quote": "In 2012, during the Battle of New York, a young Kate Bishop witnesses Clint Barton battling the Chitauri and aspires to become a hero like him after he inadvertently saves her life.",
+    "refers_to": "Battle of New York",
+    "confidence": 0.4003,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-battle-of-new-york",
+    "target": "m-coulson-survived",
+    "type": "setup-payoff",
+    "quote": "Following the Battle of New York, Agent Phil Coulson, having survived his apparent death before the battle, assembles a team of agents (Melinda May, Grant Ward, Leo Fitz, and Jemma Simmons) to investigate superhumans and other related phenomena, which are now public knowledge.",
+    "refers_to": "Battle of New York",
+    "confidence": 0.3914,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-battle-of-new-york",
+    "target": "m-winter-soldier-is-bucky",
+    "type": "setup-payoff",
+    "quote": "Two years after the Battle of New York, Steve Rogers works in Washington, D.C., for the espionage agency S.H.I.E.L.D., while adjusting to contemporary society.",
+    "refers_to": "Battle of New York",
+    "confidence": 0.3914,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-rambeau-returns-from-blip",
+    "target": "m-wilson-donates-shield",
+    "type": "setup-payoff",
+    "quote": "Six months after being handed the mantle of Captain America at the end of Avengers: Endgame (2019), Sam Wilson teams up with Bucky Barnes on a global mission to stop an anti-patriotism group, the Flag Smashers, who are enhanced with a recreation of the Super Soldier Serum and believe the world was better during the Blip.",
+    "refers_to": "the Blip",
+    "confidence": 0.3783,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-rambeau-returns-from-blip",
+    "target": "m-sharon-is-power-broker",
+    "type": "setup-payoff",
+    "quote": "Six months after half of all life returned from the Blip, Sam Wilson stops Georges Batroc and the terrorist group LAF, who have hijacked a plane and taken a hostage over Tunisia, with support from U.S.",
+    "refers_to": "the Blip",
+    "confidence": 0.3783,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-rambeau-returns-from-blip",
+    "target": "m-flag-smashers-serum",
+    "type": "setup-payoff",
+    "quote": "Torres investigates another terrorist group, the Flag Smashers, who believe life was better during the Blip.",
+    "refers_to": "the Blip",
+    "confidence": 0.3783,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-sokovia-accords-proposed",
+    "target": "m-surtur-prophecy",
+    "type": "setup-payoff",
+    "quote": "Two years after the Battle of Sokovia, Thor is imprisoned by the fire demon Surtur, who reveals that Thor's father Odin is no longer on Asgard.",
+    "refers_to": "Battle of Sokovia",
+    "confidence": 0.3741,
+    "proposed_by": "references.py/stated-in-source"
+  }
+]
