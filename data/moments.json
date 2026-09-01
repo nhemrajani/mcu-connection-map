@@ -4334,5 +4334,133 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "With Frost contained, Peggy Carter is persuaded to stay in Los Angeles with Daniel Sousa rather than return to New York, and Jack Thompson is shot for a file bearing her name."
+  },
+  {
+    "id": "m-hells-kitchen-after-incident",
+    "title": "The neighbourhood the aliens wrecked",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Crime cartels move into Hell's Kitchen to exploit the rebuilding after the alien attack on New York, which everyone in the city refers to only as the incident."
+  },
+  {
+    "id": "m-murdock-blinded-as-a-boy",
+    "title": "Chemicals in his eyes",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Blinded as a child in an accident that sharpened every other sense past human limits, Matt Murdock practises law by day and fights the city's criminals at night."
+  },
+  {
+    "id": "m-jack-murdock-killed",
+    "title": "His father won the fight he was told to lose",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Matt Murdock's father was murdered by the Irish mob for refusing to throw a fight, the first lesson his son learned about what standing up costs."
+  },
+  {
+    "id": "m-claire-temple-finds-him",
+    "title": "A nurse pulls him from a dumpster",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Nurse Claire Temple finds a beaten Matt Murdock in a dumpster and patches him up, becoming the medic several of the city's vigilantes quietly rely on."
+  },
+  {
+    "id": "m-fisk-rises",
+    "title": "A man rebuilding a city his way",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Wilson Fisk unites the Russian, Yakuza and Chinese operations under himself while presenting publicly as a philanthropist rebuilding Hell's Kitchen."
+  },
+  {
+    "id": "m-castle-crosses-murdock",
+    "title": "A vigilante who kills",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Matt Murdock crosses paths with Frank Castle, a vigilante who solves the same problem by killing, forcing Murdock to defend a line he cannot fully justify."
+  },
+  {
+    "id": "m-murdock-spares-fisk",
+    "title": "He beats him and stops",
+    "film": "Daredevil (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Matt Murdock overpowers Wilson Fisk in his own penthouse and refuses to kill him, trading his silence about Vanessa for Fisk returning to prison and leaving his friends alone."
+  },
+  {
+    "id": "m-kilgrave-controlled-her",
+    "title": "A voice she could not refuse",
+    "film": "Jessica Jones (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Jessica Jones's brief career as a hero ended when Kilgrave, who can make anyone obey a spoken command, controlled her and made her kill someone."
+  },
+  {
+    "id": "m-kilgrave-resurfaces",
+    "title": "He is not dead after all",
+    "film": "Jessica Jones (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Believing Kilgrave died under a bus, Jessica Jones discovers he survived and is controlling a young woman named Hope, and makes Hope murder her own parents in front of her."
+  },
+  {
+    "id": "m-jones-meets-cage",
+    "title": "Two unbreakable people",
+    "film": "Jessica Jones (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Jessica Jones sleeps with bar owner Luke Cage while investigating him, and discovers his skin cannot be cut \u2014 the first of them to find another like themselves."
+  },
+  {
+    "id": "m-trish-becomes-a-vigilante",
+    "title": "Her sister goes further than she does",
+    "film": "Jessica Jones (2015)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Trish Walker acquires powers of her own and becomes a masked vigilante who starts killing, until Jessica Jones exposes her identity and sends her to the Raft."
+  },
+  {
+    "id": "m-cage-experiment",
+    "title": "A sabotaged experiment in prison",
+    "film": "Luke Cage (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "An experiment sabotaged while Luke Cage was in prison gives him enormous strength and skin that cannot be broken, and he escapes to Harlem as a fugitive."
+  },
+  {
+    "id": "m-hammer-weapons-in-harlem",
+    "title": "Hammer Industries guns on the street",
+    "film": "Luke Cage (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Cornell Stokes traffics Hammer Industries weapons through Harlem, salvaged technology from a defunct arms company leaking down to street gangs."
+  },
+  {
+    "id": "m-pop-killed",
+    "title": "They shoot up the barbershop",
+    "film": "Luke Cage (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Henry Hunter's barbershop, the neutral ground of the neighbourhood, is shot up and Pop is killed, which is what makes Luke Cage stop hiding."
+  },
+  {
+    "id": "m-cage-becomes-visible",
+    "title": "A bulletproof man in a hoodie",
+    "film": "Luke Cage (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Luke Cage stops hiding and becomes a public figure in Harlem, a Black man walking through gunfire in a hooded sweatshirt while the neighbourhood watches."
+  },
+  {
+    "id": "m-cage-inherits-the-club",
+    "title": "He inherits the room he washed dishes in",
+    "film": "Luke Cage (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Mariah Dillard leaves Harlem's Paradise to Luke Cage in her will, and he takes it, establishing himself as the neighbourhood's law and worrying everyone who knows him."
   }
 ]
