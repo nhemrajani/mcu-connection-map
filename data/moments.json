@@ -4590,5 +4590,101 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "With Attilan failing, the Royal Family evacuate every Inhuman to Earth, lock Maximus inside the empty city, and leave it to collapse behind them."
+  },
+  {
+    "id": "m-pride-sacrifice",
+    "title": "Their parents are killing people",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Six teenagers drift back together and find a hidden passage in one of their houses, where they watch their own parents sacrifice a girl in a ritual."
+  },
+  {
+    "id": "m-runaways-powers-surface",
+    "title": "Each of them finds something",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Karolina Dean's hands begin to glow, Molly Hernandez discovers superhuman strength, Nico Minoru inherits a staff of magic, and Gert Yorkes finds a genetically engineered dinosaur bonded to her mind."
+  },
+  {
+    "id": "m-church-of-gibborim",
+    "title": "A church built around one of them",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The Church of Gibborim recruits vulnerable young people for the Pride's rituals, and is run by Leslie Dean on behalf of an alien her family has served for generations."
+  },
+  {
+    "id": "m-runaways-leave-home",
+    "title": "They leave and do not come back",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Unable to trust any adult they know, the six teenagers run from their own families and live rough while trying to dismantle the Pride."
+  },
+  {
+    "id": "m-morgan-le-fay",
+    "title": "Magic older than any of them",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Nico Minoru's staff draws the attention of Morgan le Fay, an ancient sorceress who fights the group across the Dark Dimension and their own timeline."
+  },
+  {
+    "id": "m-note-says-kill-nico",
+    "title": "A note from a future that failed",
+    "film": "Runaways (2017)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "After erasing a future in which they lose, Alex Wilder finds a note left from it naming Mancha and instructing him to kill Nico, and quietly puts it in his pocket."
+  },
+  {
+    "id": "m-roxxon-rig-explodes",
+    "title": "A rig blows and two lives change",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "The Roxxon Gulf platform explodes off New Orleans; Tandy Bowen's father dies in the crash into the water and Tyrone Johnson's brother is shot by a policeman, and both children are altered by energy from the rig."
+  },
+  {
+    "id": "m-tandy-and-tyrone-meet",
+    "title": "They touch and it switches on",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Eight years later Tandy Bowen and Tyrone Johnson collide at a party and the contact activates their powers \u2014 she forms daggers of light, he can teleport through darkness."
+  },
+  {
+    "id": "m-powers-work-together",
+    "title": "They only work properly together",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Tandy and Tyrone discover their abilities are two halves of the same thing: hers shows people their hopes, his shows their fears, and both are stronger when they are in contact."
+  },
+  {
+    "id": "m-connors-exposed",
+    "title": "The policeman who shot his brother",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Tyrone Johnson's pursuit of Detective Connors, the officer who killed his brother and framed him, drives him to abandon everything else until the cover-up is finally exposed."
+  },
+  {
+    "id": "m-roxxon-covered-it-up",
+    "title": "The company buried it",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Roxxon's negligence caused the rig explosion, and the company and a sitting senator spend years burying the evidence and the people who look for it."
+  },
+  {
+    "id": "m-they-leave-new-orleans",
+    "title": "They leave together",
+    "film": "Cloak & Dagger (2018)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "With Andre defeated and the cover-up exposed, Tandy and Tyrone leave New Orleans together to find other people like them."
   }
 ]
