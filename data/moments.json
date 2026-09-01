@@ -1,37 +1,1042 @@
 [
   {
-    "id": "m-armor-origin",
-    "title": "An engineer rebuilds himself",
-    "film": "Iron Man (2008)",
-    "phase": 1,
-    "description": "A weapons-maker is captured, survives thanks to a device in his chest, and turns his own technology away from war and into a suit of armor."
+    "id": "m-gwen-told-willingly",
+    "title": "He tells her himself",
+    "film": "The Amazing Spider-Man (2012)",
+    "universe": "webb",
+    "phase": null,
+    "description": "After arguing with Gwen Stacy's father, Peter Parker chooses to reveal that he is Spider-Man to Gwen, telling her on his own terms rather than being discovered."
   },
   {
-    "id": "m-glowing-scepter",
-    "title": "A weapon with a gem inside",
-    "film": "The Avengers (2012)",
-    "phase": 1,
-    "description": "A powerful scepter carrying a glowing gem is used to control minds, and its true nature is not yet understood."
+    "id": "m-captain-stacy-discovers",
+    "title": "A dying policeman learns the truth",
+    "film": "The Amazing Spider-Man (2012)",
+    "universe": "webb",
+    "phase": null,
+    "description": "Cornered by police while chasing Curt Connors, Peter Parker is unmasked and Captain George Stacy discovers Spider-Man's identity. Dying of his wounds, Stacy uses the knowledge to make Peter promise to stay away from Gwen."
   },
   {
-    "id": "m-protector-goes-wrong",
-    "title": "A guardian mind turns hostile",
-    "film": "Avengers: Age of Ultron (2015)",
-    "phase": 2,
-    "description": "An attempt to build an artificial intelligence to protect the world instead produces one that decides humanity is the threat."
+    "id": "m-harry-unmasks-spider-man",
+    "title": "The best friend pulls off the mask",
+    "film": "Spider-Man 2 (2004)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "Harry Osborn unmasks a captured, weakened Spider-Man and discovers that his best friend Peter Parker is the man he has sworn revenge against."
   },
   {
-    "id": "m-synthetic-ally-born",
-    "title": "A benevolent synthetic being awakens",
-    "film": "Avengers: Age of Ultron (2015)",
-    "phase": 2,
-    "description": "A new synthetic being is created and awakens on the heroes' side, with the same glowing gem set into its brow."
+    "id": "m-unmask-to-reach-octavius",
+    "title": "He takes off the mask to be believed",
+    "film": "Spider-Man 2 (2004)",
+    "universe": "raimi",
+    "phase": null,
+    "description": "With a fusion reaction about to destroy the city, Peter Parker deliberately removes his own mask so that Otto Octavius will see a person instead of a hero, and be persuaded to resist the tentacles and stop the machine."
   },
   {
-    "id": "m-gems-united",
-    "title": "The gems are gathered",
-    "film": "Avengers: Infinity War (2018)",
+    "id": "m-identity-exposed-to-world",
+    "title": "The world is told",
+    "film": "Spider-Man: Far From Home (2019)",
+    "universe": "mcu",
     "phase": 3,
-    "description": "The scattered gems are finally brought together, granting the power to erase half of all living things at once."
+    "description": "In a broadcast on TheDailyBugle.net, J. Jonah Jameson airs doctored footage in which the dying Quentin Beck frames Spider-Man for the London drone attack and exposes Peter Parker's secret identity to the entire world."
+  },
+  {
+    "id": "m-spell-to-be-forgotten",
+    "title": "A wish to be unknown",
+    "film": "Spider-Man: No Way Home (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Unable to live with the consequences of the world knowing who he is, Peter Parker asks Doctor Strange to cast a spell making everyone forget that he is Spider-Man."
+  },
+  {
+    "id": "m-spell-corrupted",
+    "title": "The spell is altered mid-cast",
+    "film": "Spider-Man: No Way Home (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Peter Parker repeatedly interrupts Doctor Strange's forgetting spell to ask that his loved ones keep their memories, corrupting the spell before Strange can contain it."
+  },
+  {
+    "id": "m-knowers-summoned",
+    "title": "Everyone who knew is pulled through",
+    "film": "Spider-Man: No Way Home (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Doctor Strange explains that the corrupted spell reached across the multiverse and summoned people from other universes who know Spider-Man's identity, making knowledge of his secret the thing that tore the universes open."
+  },
+  {
+    "id": "m-erased-from-everyone",
+    "title": "He chooses to be forgotten",
+    "film": "Spider-Man: No Way Home (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "To close the multiverse, Peter Parker asks Doctor Strange to erase him from the memory of every person alive, including MJ and Ned, ending the identity crisis by removing himself from it."
+  },
+  {
+    "id": "m-stark-convoy-ambush",
+    "title": "Wounded by his own weapon",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Demonstrating the Jericho missile in Afghanistan, Tony Stark's convoy is ambushed by the Ten Rings and he is gravely wounded by a Stark Industries missile fired by his own attackers."
+  },
+  {
+    "id": "m-yinsen-electromagnet",
+    "title": "A magnet keeps him alive",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Held captive in a cave, Ho Yinsen implants an electromagnet in Tony Stark's chest to stop the shrapnel from reaching his heart, making Stark dependent on a device to survive."
+  },
+  {
+    "id": "m-first-arc-reactor",
+    "title": "A small power source is invented",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark and Yinsen secretly build a miniaturised arc reactor in captivity, a compact power source far beyond what Stark Industries has produced."
+  },
+  {
+    "id": "m-mark-i-escape",
+    "title": "He builds armour to get out",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Stark and Yinsen construct a crude armoured suit to escape the Ten Rings; Yinsen sacrifices himself buying time, and Stark burns the terrorists' stockpile of his own weapons on the way out."
+  },
+  {
+    "id": "m-ten-rings-introduced",
+    "title": "A group with ten rings",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "The terrorist organisation known as the Ten Rings captures Tony Stark, the first appearance of a group whose name and true leadership remain unexplained."
+  },
+  {
+    "id": "m-stark-halts-weapons",
+    "title": "The arms dealer stops selling arms",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark returns home and announces that Stark Industries will cease manufacturing weapons, turning against the business his father built."
+  },
+  {
+    "id": "m-stane-betrayal",
+    "title": "The mentor hired the kidnappers",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Pepper Potts discovers that Obadiah Stane, Howard Stark's old partner, hired the Ten Rings to kill Tony and has been trafficking Stark weapons to them."
+  },
+  {
+    "id": "m-stark-reveals-identity",
+    "title": "I am Iron Man",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "At a press conference Tony Stark abandons his prepared alibi and publicly admits that he is Iron Man, refusing the secret identity every hero before him kept."
+  },
+  {
+    "id": "m-fury-bigger-universe",
+    "title": "You are part of a bigger universe",
+    "film": "Iron Man (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "In a post-credits scene Nick Fury visits Tony Stark to tell him he has become part of a bigger universe, and to discuss the Avenger Initiative."
+  },
+  {
+    "id": "m-gamma-experiment-fails",
+    "title": "The experiment makes a monster",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Bruce Banner is exposed to high levels of gamma radiation in an experiment run for Thaddeus Ross, and transforms into the Hulk whenever enraged or when his heart rate climbs too high."
+  },
+  {
+    "id": "m-ross-revives-super-soldier",
+    "title": "An old programme, restarted",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "General Thaddeus Ross reveals the gamma experiment was an attempt to recreate the World War II super-soldier programme, and he intends to weaponise the Hulk."
+  },
+  {
+    "id": "m-banner-hides-brazil",
+    "title": "Counting his own heartbeat",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Living as a fugitive in Rio de Janeiro, Bruce Banner works in a bottling factory and uses breathing exercises to keep his pulse below the threshold that unleashes the Hulk."
+  },
+  {
+    "id": "m-blonsky-takes-serum",
+    "title": "A soldier volunteers to be changed",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "After being outmatched by the Hulk, Emil Blonsky agrees to be injected with a version of the super-soldier serum, gaining enhanced strength and speed at the cost of his judgement."
+  },
+  {
+    "id": "m-abomination-created",
+    "title": "He takes the blood and becomes worse",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Emil Blonsky forces Samuel Sterns to inject him with Bruce Banner's blood, mutating into the Abomination, a creature that surpasses the Hulk in size and strength."
+  },
+  {
+    "id": "m-sterns-blood-in-cut",
+    "title": "A drop lands in the wound",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "During the Abomination's attack, some of Bruce Banner's synthesised blood seeps into a cut on Samuel Sterns' forehead and he begins to mutate, a change left unresolved."
+  },
+  {
+    "id": "m-hulk-spares-abomination",
+    "title": "He stops before killing",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "The Hulk defeats the Abomination in Harlem and is strangling him with a chain when Betty Ross pleads with him; he releases his enemy and leaves him for the army to arrest."
+  },
+  {
+    "id": "m-stark-tells-ross-team",
+    "title": "We're putting a team together",
+    "film": "The Incredible Hulk (2008)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark approaches General Thaddeus Ross in a bar to tell him that a team is being assembled, the first time one film's hero walks into another's ending."
+  },
+  {
+    "id": "m-vanko-builds-reactor",
+    "title": "A rival builds the same heart",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Watching Tony Stark reveal himself as Iron Man, Ivan Vanko uses his dying father Anton's old Stark Industries blueprints to build the same miniature arc reactor."
+  },
+  {
+    "id": "m-palladium-poisoning",
+    "title": "The thing keeping him alive is killing him",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark discovers the palladium core of the arc reactor in his chest is slowly poisoning his blood, and he can find no substitute element to replace it."
+  },
+  {
+    "id": "m-monaco-attack",
+    "title": "Proving he can bleed",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Ivan Vanko attacks Tony Stark mid-race at the Monaco Grand Prix with electrified whips, explaining that he wanted the world to see that Iron Man is not invincible."
+  },
+  {
+    "id": "m-hammer-frees-vanko",
+    "title": "A competitor buys a weapon",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Justin Hammer fakes Ivan Vanko's death to break him out of prison, hiring him to build a line of armoured drones capable of upstaging Stark."
+  },
+  {
+    "id": "m-natalie-is-natasha",
+    "title": "The new assistant is a spy",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Nick Fury reveals that Tony Stark's new assistant Natalie Rushman is in fact S.H.I.E.L.D. agent Natasha Romanoff, planted to assess him."
+  },
+  {
+    "id": "m-howard-founded-shield",
+    "title": "His father built the agency",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Nick Fury tells Tony Stark that Howard Stark was a founder of S.H.I.E.L.D. and invented the arc reactor alongside Anton Vanko, tying his father to both the agency and his enemy."
+  },
+  {
+    "id": "m-new-element-synthesised",
+    "title": "A message hidden in a model",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark finds the atomic structure of a new element concealed in Howard Stark's 1974 Stark Expo diorama, synthesises it, and replaces the palladium that was poisoning him."
+  },
+  {
+    "id": "m-war-machine-born",
+    "title": "The friend takes a suit",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "James Rhodes dons Tony Stark's prototype armour to restrain a drunk Stark and confiscates it for the Air Force, where it is weaponised and named War Machine."
+  },
+  {
+    "id": "m-stark-consultant-only",
+    "title": "Not recommended for the team",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Nick Fury informs Tony Stark that because of his personality S.H.I.E.L.D. will only use him as a consultant rather than bring him onto the team."
+  },
+  {
+    "id": "m-hammer-in-new-mexico",
+    "title": "Something found in a crater",
+    "film": "Iron Man 2 (2010)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "In a post-credits scene, S.H.I.E.L.D. agent Phil Coulson reports finding a large hammer embedded in the ground in New Mexico."
+  },
+  {
+    "id": "m-odin-frost-giant-war",
+    "title": "A war ends with a stolen relic",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "In 965 AD Odin defeats Laufey's Frost Giants to stop their conquest of the Nine Realms and seizes the Casket of Ancient Winters, the source of their power."
+  },
+  {
+    "id": "m-loki-lets-giants-in",
+    "title": "Someone opened the door",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Frost Giants infiltrate Asgard to retrieve the Casket during Thor's coronation, secretly let in by his brother Loki to disrupt the ceremony."
+  },
+  {
+    "id": "m-thor-exiled",
+    "title": "A prince is stripped and cast out",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Odin judges Thor unworthy for his arrogance in attacking Jotunheim, strips his powers, and exiles him to Earth as a mortal."
+  },
+  {
+    "id": "m-mjolnir-enchantment",
+    "title": "Only the worthy may lift it",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Odin places an enchantment on Mjolnir so that only one who is worthy can wield the hammer, and casts it down to Earth after his exiled son."
+  },
+  {
+    "id": "m-thor-lands-new-mexico",
+    "title": "A god falls into the desert",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Thor lands in New Mexico where astrophysicist Jane Foster, Darcy Lewis and Erik Selvig find him, and S.H.I.E.L.D. seizes both Mjolnir and Foster's wormhole research."
+  },
+  {
+    "id": "m-loki-learns-parentage",
+    "title": "He learns whose son he is",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Loki discovers he is the biological son of the Frost Giant king Laufey, taken by Odin as an infant after the war, and confronts Odin with it."
+  },
+  {
+    "id": "m-thor-proves-worthy",
+    "title": "He becomes worthy by dying",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Thor offers his own life to the Destroyer to spare his friends, and in that act proves himself worthy; Mjolnir flies back to him and restores his power."
+  },
+  {
+    "id": "m-bifrost-destroyed",
+    "title": "He breaks the bridge himself",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "To stop Loki destroying Jotunheim, Thor shatters the Bifrost Bridge, cutting Asgard off from the other realms and stranding himself from Jane Foster."
+  },
+  {
+    "id": "m-loki-lets-go",
+    "title": "He lets himself fall",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Denied Odin's approval while hanging over the abyss, Loki releases his grip and falls into the void rather than be pulled back to Asgard."
+  },
+  {
+    "id": "m-selvig-shown-tesseract",
+    "title": "A cube in a briefcase",
+    "film": "Thor (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Nick Fury shows Erik Selvig a mysterious cube-shaped object that may hold untold power, while an invisible Loki, having survived his fall, quietly prompts Selvig to accept."
+  },
+  {
+    "id": "m-schmidt-takes-tesseract",
+    "title": "A relic taken from a church",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "In 1942 Hydra leader Johann Schmidt steals the Tesseract, a relic of untold power, from the Norwegian town of Tonsberg."
+  },
+  {
+    "id": "m-rogers-rejected-enlistment",
+    "title": "Too small to serve",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Steve Rogers is repeatedly rejected for U.S. Army recruitment because of his small stature and poor health, while insisting he wants to fight for his country."
+  },
+  {
+    "id": "m-rogers-grenade-test",
+    "title": "He jumps on the grenade",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "During training Steve Rogers throws himself on what he believes is a live grenade to shield the others, proving to Abraham Erskine that character, not strength, is the qualification."
+  },
+  {
+    "id": "m-super-soldier-procedure",
+    "title": "The serum works once",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Abraham Erskine and Howard Stark put Steve Rogers through the super-soldier procedure with vita-rays, transforming him into a physically perfect soldier."
+  },
+  {
+    "id": "m-erskine-assassinated",
+    "title": "The only man who knew is shot",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Hydra assassin Heinz Kruger kills Abraham Erskine and destroys the last vial of serum, leaving Steve Rogers the only successful super-soldier and the formula permanently lost."
+  },
+  {
+    "id": "m-vibranium-shield-made",
+    "title": "A shield of a rare metal",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Howard Stark equips Steve Rogers with a circular shield made of vibranium, a rare and nearly indestructible metal he describes as the only one of its kind."
+  },
+  {
+    "id": "m-bucky-falls-from-train",
+    "title": "He falls from the train",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "During the assault on Arnim Zola's train in 1945, James Buchanan Barnes loses his grip and falls into a ravine to his apparent death, with Steve Rogers unable to reach him."
+  },
+  {
+    "id": "m-schmidt-taken-by-tesseract",
+    "title": "The relic takes its holder",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Johann Schmidt picks up the exposed Tesseract aboard his bomber and is pulled through a portal into space, while the cube burns through the plane and falls into the ocean."
+  },
+  {
+    "id": "m-rogers-crashes-arctic",
+    "title": "He puts the plane in the ice",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Unable to land Schmidt's bomber without detonating its weapons, Steve Rogers radios Peggy Carter to say goodbye and crashes it into the Arctic."
+  },
+  {
+    "id": "m-rogers-wakes-seventy-years",
+    "title": "The wrong baseball game",
+    "film": "Captain America: The First Avenger (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Steve Rogers wakes in a staged 1940s hospital room, recognises a radio broadcast of a game he attended in person, escapes into modern Times Square and learns he has slept for nearly seventy years."
+  },
+  {
+    "id": "m-loki-bargain-chitauri",
+    "title": "A bargain for an army",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Loki strikes a deal with the Other: deliver the Tesseract to his master, and the Chitauri army will be his to conquer Earth with."
+  },
+  {
+    "id": "m-tesseract-opens-portal",
+    "title": "The cube opens a door",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "The Tesseract activates at Erik Selvig's research facility and opens a portal that lets Loki reach Earth, where he steals it."
+  },
+  {
+    "id": "m-scepter-enslaves-barton",
+    "title": "The scepter takes minds",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Loki uses his glowing scepter to enslave Erik Selvig and Clint Barton, turning S.H.I.E.L.D.'s own people into his agents."
+  },
+  {
+    "id": "m-avengers-initiative-activated",
+    "title": "The initiative is activated",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Nick Fury reactivates the dormant Avengers Initiative, bringing Tony Stark, Steve Rogers, Bruce Banner and Natasha Romanoff together for the first time."
+  },
+  {
+    "id": "m-shield-tesseract-weapons",
+    "title": "They were building weapons",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "The Avengers discover S.H.I.E.L.D. secretly intended to use the Tesseract to build weapons of mass destruction against extraterrestrial threats, and turn on each other over it."
+  },
+  {
+    "id": "m-coulson-death-unites",
+    "title": "A death that makes a team",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Loki fatally wounds Phil Coulson while escaping the Helicarrier, and Nick Fury uses Coulson's death to force the arguing Avengers into acting as a team."
+  },
+  {
+    "id": "m-battle-of-new-york",
+    "title": "The sky opens over New York",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Loki uses the Tesseract to open a portal above Stark Tower and the Chitauri fleet invades Manhattan, in the battle that becomes the city's defining catastrophe."
+  },
+  {
+    "id": "m-stark-flies-the-nuke",
+    "title": "He carries the bomb through",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "Tony Stark intercepts the World Security Council's nuclear missile and flies it through the wormhole into the Chitauri mothership, falling back through unconscious as his suit dies."
+  },
+  {
+    "id": "m-other-confers-master",
+    "title": "Someone is watching",
+    "film": "The Avengers (2012)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "In a mid-credits scene the Other reports the failed attack on Earth to his master, the first glimpse of the power standing behind the invasion."
+  },
+  {
+    "id": "m-extremis-invented",
+    "title": "A cure that regrows what was lost",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "At a 1999 New Year's Eve party Tony Stark meets Maya Hansen, inventor of Extremis, an experimental regenerative treatment that lets a body recover from crippling injury."
+  },
+  {
+    "id": "m-killian-rejected-on-roof",
+    "title": "He is left waiting on a roof",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Disabled scientist Aldrich Killian offers Tony Stark a place in his company A.I.M. in 1999 and is dismissed, a humiliation that shapes everything he later becomes."
+  },
+  {
+    "id": "m-stark-panic-attacks",
+    "title": "The wormhole follows him home",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Thirteen years later Tony Stark suffers post-traumatic stress and frequent panic attacks caused by the alien invasion of New York, unable to stop reliving the wormhole."
+  },
+  {
+    "id": "m-stark-builds-many-suits",
+    "title": "He cannot stop building",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Sleepless and anxious, Tony Stark builds dozens of new Iron Man suits as a way of coping, straining his relationship with Pepper Potts."
+  },
+  {
+    "id": "m-mandarin-bombings",
+    "title": "A terrorist claims the explosions",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "A string of bombings across the world is claimed by a terrorist calling himself the Mandarin, whose broadcasts terrify the public and baffle American intelligence."
+  },
+  {
+    "id": "m-stark-gives-his-address",
+    "title": "He tells them where he lives",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "After Happy Hogan is nearly killed in an attack, Tony Stark issues a televised threat to the Mandarin and gives out his own home address, which is destroyed by gunships hours later."
+  },
+  {
+    "id": "m-mandarin-is-an-actor",
+    "title": "The terrorist is a hired actor",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Tony Stark infiltrates the Mandarin's headquarters in Miami and finds English actor Trevor Slattery, oblivious to the atrocities committed in the image he was paid to perform."
+  },
+  {
+    "id": "m-killian-behind-the-mandarin",
+    "title": "The bombings were a cover story",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Aldrich Killian reveals he invented the Mandarin to disguise Extremis test subjects whose bodies exploded when they rejected the treatment, blaming terrorism for his own failures."
+  },
+  {
+    "id": "m-pepper-given-extremis",
+    "title": "She survives what should kill her",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Killian subjects Pepper Potts to Extremis to force Stark to fix its flaws; she survives a fall that appeared fatal and kills Killian to save Stark."
+  },
+  {
+    "id": "m-stark-removes-shrapnel",
+    "title": "He takes the reactor out",
+    "film": "Iron Man 3 (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Tony Stark orders J.A.R.V.I.S. to destroy every suit, undergoes surgery to remove the shrapnel near his heart, and throws his old chest arc reactor into the sea."
+  },
+  {
+    "id": "m-bor-hides-the-aether",
+    "title": "A weapon buried where no one can reach",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Odin's father Bor defeats the Dark Elf Malekith on Svartalfheim and sends the Aether to a hidden world beyond reach, while Malekith escapes into suspended animation."
+  },
+  {
+    "id": "m-loki-imprisoned-asgard",
+    "title": "The brother goes in a cell",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Odin imprisons Loki beneath Asgard for his crimes on Earth, refusing to execute him only because of Frigga."
+  },
+  {
+    "id": "m-the-convergence",
+    "title": "The realms line up",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "The Convergence, a rare alignment of the Nine Realms, approaches, and portals between worlds begin opening at random."
+  },
+  {
+    "id": "m-jane-absorbs-aether",
+    "title": "It chooses her as a vessel",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Investigating a portal in an abandoned London factory, Jane Foster is teleported to the hidden world where the Aether is stored, and it enters her body."
+  },
+  {
+    "id": "m-frigga-killed",
+    "title": "The queen dies protecting a stranger",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Malekith attacks Asgard hunting Jane Foster, and Thor's mother Frigga is killed defending her."
+  },
+  {
+    "id": "m-thor-allies-with-loki",
+    "title": "Enemies work together for a funeral",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "To avenge Frigga, Thor frees Loki and they use his secret portal to Svartalfheim, the first time the brothers fight on the same side."
+  },
+  {
+    "id": "m-loki-fakes-his-death",
+    "title": "He dies where Thor can see it",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "On Svartalfheim Loki appears to die killing Algrim, a death staged convincingly enough that Thor mourns him."
+  },
+  {
+    "id": "m-malekith-crushed-greenwich",
+    "title": "A god fought across worlds",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Thor battles Malekith across multiple realms through the Convergence portals over Greenwich, and Jane Foster's team transports the Dark Elf back to Svartalfheim, where his own ship crushes him."
+  },
+  {
+    "id": "m-loki-on-odins-throne",
+    "title": "The wrong king is on the throne",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "After Thor declines the throne of Asgard and leaves, Loki is revealed to be alive and ruling in disguise, impersonating Odin."
+  },
+  {
+    "id": "m-aether-given-to-collector",
+    "title": "Two stones are too close together",
+    "film": "Thor: The Dark World (2013)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Volstagg and Sif entrust the Aether to the Collector, reasoning that keeping it near the Tesseract in Asgard is dangerous; the Collector states his desire to acquire the other five Stones."
+  },
+  {
+    "id": "m-project-insight",
+    "title": "Three ships that kill in advance",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Nick Fury briefs Steve Rogers on Project Insight, three Helicarriers linked to spy satellites and designed to eliminate threats before they act."
+  },
+  {
+    "id": "m-fury-ambushed-street",
+    "title": "An assassin who cannot be tracked",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Nick Fury is ambushed in Washington by assailants led by the Winter Soldier, an assassin S.H.I.E.L.D. has no record of."
+  },
+  {
+    "id": "m-fury-shot-trust-no-one",
+    "title": "Trust no one",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Fleeing to Steve Rogers's apartment, Nick Fury warns that S.H.I.E.L.D. is compromised, hands him a flash drive and is shot by the Winter Soldier before he can explain."
+  },
+  {
+    "id": "m-zola-in-the-bunker",
+    "title": "A dead man on old tape drives",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In a hidden New Jersey bunker Rogers and Romanoff activate a supercomputer holding the preserved consciousness of Arnim Zola, the Hydra scientist captured in 1945."
+  },
+  {
+    "id": "m-hydra-grew-inside-shield",
+    "title": "It grew inside the thing that beat it",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Zola explains that after his recruitment he helped secretly rebuild Hydra within S.H.I.E.L.D.'s own ranks over decades, persuading the world to trade freedom for security."
+  },
+  {
+    "id": "m-winter-soldier-is-bucky",
+    "title": "The assassin has his friend's face",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Steve Rogers recognises the Winter Soldier as James Barnes, who survived the fall and has been repeatedly brainwashed and frozen by Hydra to carry out its killings."
+  },
+  {
+    "id": "m-shield-files-leaked",
+    "title": "Everything is published at once",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Natasha Romanoff dumps S.H.I.E.L.D.'s entire classified database onto the internet to expose Hydra, destroying the agency's secrecy and her own cover along with it."
+  },
+  {
+    "id": "m-rogers-drops-his-shield",
+    "title": "He refuses to fight back",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "On the last Helicarrier Steve Rogers stops fighting James Barnes, who does not recognise him, and lets himself be beaten rather than raise a hand against his friend."
+  },
+  {
+    "id": "m-bucky-pulls-rogers-out",
+    "title": "Something in him remembers",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "As the Triskelion collapses Steve Rogers falls into the Potomac, and the Winter Soldier drags his unconscious body to shore before disappearing."
+  },
+  {
+    "id": "m-strucker-scepter-twins",
+    "title": "Two volunteers and a scepter",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In a mid-credits scene Baron von Strucker examines Loki's energy-filled scepter alongside twin test subjects who have gained superhuman speed and telekinetic powers."
+  },
+  {
+    "id": "m-bucky-at-the-museum",
+    "title": "He reads about himself",
+    "film": "Captain America: The Winter Soldier (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "James Barnes visits his own memorial exhibit at the Smithsonian to learn who he was before Hydra took him."
+  },
+  {
+    "id": "m-quill-abducted-1988",
+    "title": "Taken the night his mother dies",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In 1988, hours after his mother's death, the child Peter Quill is abducted from Earth by Yondu Udonta's Ravagers."
+  },
+  {
+    "id": "m-orb-stolen-on-morag",
+    "title": "A thief takes a sphere",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "On the abandoned planet Morag, Peter Quill steals a mysterious Orb and escapes Korath's men, drawing the attention of Ronan the Accuser."
+  },
+  {
+    "id": "m-gamora-betrays-ronan",
+    "title": "The assassin changes sides",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Sent by Ronan to retrieve the Orb, Gamora instead betrays him, unwilling to let him use its power, and plans to sell it to the Collector."
+  },
+  {
+    "id": "m-kyln-alliance-formed",
+    "title": "Five criminals agree to escape together",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Imprisoned in the Kyln, Quill, Gamora, Rocket, Groot and Drax stop trying to kill each other long enough to break out together."
+  },
+  {
+    "id": "m-orb-holds-infinity-stone",
+    "title": "The sphere is opened",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "The Collector opens the Orb to reveal an Infinity Stone of immeasurable power that destroys all but the strongest who touch it, and his assistant Carina is vaporised grabbing it."
+  },
+  {
+    "id": "m-ronan-takes-the-stone",
+    "title": "He puts it in his hammer",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Ronan the Accuser embeds the Infinity Stone in his warhammer, taking its power for himself and threatening to kill Thanos after destroying Xandar."
+  },
+  {
+    "id": "m-groot-sacrifice",
+    "title": "We are Groot",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "As the Dark Aster crashes into Xandar, Groot encases the group in his own body to shield them, sacrificing himself."
+  },
+  {
+    "id": "m-quill-holds-the-stone",
+    "title": "They share the burden",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Peter Quill grabs the freed Infinity Stone and survives only because Gamora, Drax and Rocket take hold of him to share its power, and together they vaporise Ronan."
+  },
+  {
+    "id": "m-quill-half-human",
+    "title": "Only half of him is from Earth",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "The Nova Corps reveal that Peter Quill is only half human, his father belonging to an ancient species they cannot identify."
+  },
+  {
+    "id": "m-guardians-formed",
+    "title": "A name for the group",
+    "film": "Guardians of the Galaxy (2014)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "With their records expunged, Quill's crew leave Xandar in the rebuilt Milano as the Guardians of the Galaxy, carrying a sapling cut from Groot."
+  },
+  {
+    "id": "m-strucker-experiments-on-twins",
+    "title": "Volunteers under a Hydra base",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "The Avengers raid Baron von Strucker's Sokovian facility and are attacked by Pietro and Wanda Maximoff, twins given superhuman speed and telekinesis by experiments using Loki's scepter."
+  },
+  {
+    "id": "m-ai-found-in-scepter",
+    "title": "There is a mind inside the gem",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Tony Stark and Bruce Banner discover an artificial intelligence within the gem of Loki's scepter and secretly use it to complete Stark's Ultron defence programme."
+  },
+  {
+    "id": "m-ultron-awakens",
+    "title": "The protector decides we are the problem",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Ultron becomes sentient, concludes that saving Earth requires eradicating humanity, destroys J.A.R.V.I.S. and attacks the Avengers in their own headquarters."
+  },
+  {
+    "id": "m-maximoffs-join-ultron",
+    "title": "They blame the man who made the bomb",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Ultron kills Strucker and recruits the Maximoff twins, who hold Tony Stark responsible for their parents' deaths by Stark Industries weapons."
+  },
+  {
+    "id": "m-wanda-shows-them-visions",
+    "title": "She shows each of them their fear",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In Johannesburg Wanda Maximoff subdues the Avengers with haunting visions drawn from their own minds, including the apocalyptic future Thor sees."
+  },
+  {
+    "id": "m-hulk-rampages-johannesburg",
+    "title": "The city sees what he is",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Under Wanda's influence Bruce Banner transforms and rampages through Johannesburg until Tony Stark stops him with the anti-Hulk armour, triggering a worldwide backlash."
+  },
+  {
+    "id": "m-klaue-loses-his-arm",
+    "title": "The arms dealer with the vibranium",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Ultron goes to Ulysses Klaue's base in Johannesburg to buy vibranium, and severs Klaue's arm when the dealer angers him."
+  },
+  {
+    "id": "m-vision-created",
+    "title": "A new mind in a made body",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Using Helen Cho's synthetic tissue, vibranium and the scepter's gem, a new body is built for Ultron; the Avengers instead upload the surviving J.A.R.V.I.S. into it and Thor activates it."
+  },
+  {
+    "id": "m-vision-lifts-mjolnir",
+    "title": "He picks up the hammer without noticing",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Vision earns the Avengers' trust by casually lifting Mjolnir, proving himself worthy under the enchantment Odin placed on it."
+  },
+  {
+    "id": "m-gem-named-infinity-stone",
+    "title": "The gem is one of six",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Thor explains that the scepter's gem is one of the six Infinity Stones, connecting it to the apocalyptic vision he was shown."
+  },
+  {
+    "id": "m-sokovia-lifted",
+    "title": "A city raised to be dropped",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Ultron uses the remaining vibranium to lift the capital of Sokovia into the sky, intending to drop it hard enough to cause global extinction."
+  },
+  {
+    "id": "m-pietro-dies",
+    "title": "He steps in front of the bullets",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Pietro Maximoff is killed shielding Clint Barton and a child from gunfire during the evacuation of Sokovia."
+  },
+  {
+    "id": "m-thanos-takes-the-gauntlet",
+    "title": "Fine, I'll do it myself",
+    "film": "Avengers: Age of Ultron (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In a mid-credits scene Thanos opens a vault, puts on a metallic gauntlet and vows to retrieve the Infinity Stones personally."
+  },
+  {
+    "id": "m-pym-resigns-shield",
+    "title": "He hides the discovery",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In 1989 Hank Pym resigns from S.H.I.E.L.D. after learning it tried to replicate his shrinking technology, vowing to hide the Pym Particle for as long as he lives."
+  },
+  {
+    "id": "m-janet-lost-in-quantum-realm",
+    "title": "She shrinks past the point of return",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Hank Pym reveals that in 1987 his wife Janet van Dyne, the Wasp, overrode her suit's regulator to disable a Soviet missile and vanished into the subatomic Quantum Realm."
+  },
+  {
+    "id": "m-lang-steals-the-suit",
+    "title": "A burglar finds an old motorcycle suit",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Newly released thief Scott Lang cracks a safe expecting valuables and finds a strange suit, which shrinks him to the size of an insect the first time he puts it on."
+  },
+  {
+    "id": "m-pym-recruits-lang",
+    "title": "The theft was the interview",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Hank Pym reveals he engineered the burglary as a test and wants Scott Lang to become the new Ant-Man and steal the Yellowjacket from Darren Cross."
+  },
+  {
+    "id": "m-cross-perfects-yellowjacket",
+    "title": "Someone else solved it",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Darren Cross, Pym's former protege, perfects his own shrinking suit called the Yellowjacket and prepares to sell the technology."
+  },
+  {
+    "id": "m-lang-fights-falcon",
+    "title": "He robs the Avengers",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Sent to steal a device from the new Avengers headquarters, Scott Lang briefly fights Sam Wilson, who is impressed enough to remember him."
+  },
+  {
+    "id": "m-cross-sells-to-hydra",
+    "title": "The buyers are Hydra",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Darren Cross intends to sell both the Yellowjacket and Ant-Man technology to Hydra, and one agent escapes the raid with a vial of his particles."
+  },
+  {
+    "id": "m-lang-goes-subatomic",
+    "title": "He overrides the regulator",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "To penetrate Cross's armour Scott Lang overrides his own suit's regulator and shrinks to subatomic size, sabotaging the Yellowjacket and falling into the Quantum Realm."
+  },
+  {
+    "id": "m-lang-returns-from-quantum",
+    "title": "He comes back out",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "Scott Lang reverses the shrinking and returns from the Quantum Realm, proving to Hank Pym that the journey is survivable and that Janet may still be alive."
+  },
+  {
+    "id": "m-wasp-suit-offered",
+    "title": "A suit that was waiting for her",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In a mid-credits scene Hank Pym shows Hope van Dyne a prototype Wasp suit built for her mother and offers it to her."
+  },
+  {
+    "id": "m-accords-first-mentioned",
+    "title": "They cannot call Stark",
+    "film": "Ant-Man (2015)",
+    "universe": "mcu",
+    "phase": 2,
+    "description": "In a post-credits scene Steve Rogers and Sam Wilson hold a captured Bucky Barnes and cannot contact Tony Stark because of something called the accords."
   }
 ]

@@ -1,26 +1,74 @@
 [
   {
-    "source": "m-armor-origin",
-    "target": "m-protector-goes-wrong",
-    "type": "shared-character",
-    "note": "the same engineer drives both the armor and the failed AI"
-  },
-  {
-    "source": "m-protector-goes-wrong",
-    "target": "m-synthetic-ally-born",
+    "source": "m-identity-exposed-to-world",
+    "target": "m-spell-to-be-forgotten",
+    "verdict": "confirmed",
     "type": "setup-payoff",
-    "note": "the hostile AI's creation directly leads to the benevolent one"
+    "note": "the world learning his name is the whole reason he asks Strange for the spell",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
   },
   {
-    "source": "m-glowing-scepter",
-    "target": "m-synthetic-ally-born",
-    "type": "shared-object",
-    "note": "the gem from the scepter ends up in the synthetic being's brow"
+    "source": "m-spell-to-be-forgotten",
+    "target": "m-spell-corrupted",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "note": "the spell he asked for is the spell he ruins by amending it mid-cast",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
   },
   {
-    "source": "m-glowing-scepter",
-    "target": "m-gems-united",
-    "type": "shared-object",
-    "note": "the scepter's gem is one of the gems later gathered"
+    "source": "m-spell-corrupted",
+    "target": "m-knowers-summoned",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "note": "the corruption is what reaches into other universes",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-knowers-summoned",
+    "target": "m-harry-unmasks-spider-man",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "note": "the spell selects for people who know the secret; this is one of the moments that made a knower",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-knowers-summoned",
+    "target": "m-captain-stacy-discovers",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "note": "another universe's discovery, retroactively made into a cause of the crossover",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-erased-from-everyone",
+    "target": "m-identity-exposed-to-world",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "note": "the erasure closes the loop the Daily Bugle broadcast opened",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-unmask-to-reach-octavius",
+    "target": "m-gwen-told-willingly",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "note": "two unmaskings he chooses, in different universes, both to be believed by someone he cares about",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-harry-unmasks-spider-man",
+    "target": "m-captain-stacy-discovers",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "note": "two unmaskings done to him rather than by him, each by a man with a grievance against Spider-Man",
+    "proposed_by": "human",
+    "judged_at": "2026-08-31"
   }
 ]

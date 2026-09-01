@@ -1,0 +1,618 @@
+[
+  {
+    "title": "Spider-Man",
+    "article": "Spider-Man (2002 film)",
+    "released": "2002-01-01",
+    "kind": "film",
+    "universe": "raimi",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man 2",
+    "article": "Spider-Man 2",
+    "released": "2004-01-01",
+    "kind": "film",
+    "universe": "raimi",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man 3",
+    "article": "Spider-Man 3",
+    "released": "2007-01-01",
+    "kind": "film",
+    "universe": "raimi",
+    "status": "released"
+  },
+  {
+    "title": "Iron Man",
+    "article": "Iron Man (2008 film)",
+    "released": "2008-05-02",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Incredible Hulk",
+    "article": "The Incredible Hulk (film)",
+    "released": "2008-06-13",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Iron Man 2",
+    "article": "Iron Man 2",
+    "released": "2010-05-07",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Thor",
+    "article": "Thor (film)",
+    "released": "2011-05-06",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "article": "Captain America: The First Avenger",
+    "released": "2011-07-22",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Amazing Spider-Man",
+    "article": "The Amazing Spider-Man (film)",
+    "released": "2012-01-01",
+    "kind": "film",
+    "universe": "webb",
+    "status": "released"
+  },
+  {
+    "title": "The Avengers",
+    "article": "The Avengers (2012 film)",
+    "released": "2012-05-04",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Iron Man 3",
+    "article": "Iron Man 3",
+    "released": "2013-05-03",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Agents of S.H.I.E.L.D.",
+    "article": "Agents of S.H.I.E.L.D.",
+    "released": "2013-09-24",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Thor: The Dark World",
+    "article": "Thor: The Dark World",
+    "released": "2013-11-08",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Amazing Spider-Man 2",
+    "article": "The Amazing Spider-Man 2",
+    "released": "2014-01-01",
+    "kind": "film",
+    "universe": "webb",
+    "status": "released"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "article": "Captain America: The Winter Soldier",
+    "released": "2014-04-04",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "article": "Guardians of the Galaxy (film)",
+    "released": "2014-08-01",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Agent Carter",
+    "article": "Agent Carter (TV series)",
+    "released": "2015-01-06",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Daredevil",
+    "article": "Daredevil (TV series)",
+    "released": "2015-04-10",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "article": "Avengers: Age of Ultron",
+    "released": "2015-05-01",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Ant-Man",
+    "article": "Ant-Man (film)",
+    "released": "2015-07-17",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Jessica Jones",
+    "article": "Jessica Jones (TV series)",
+    "released": "2015-11-20",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "article": "Captain America: Civil War",
+    "released": "2016-05-06",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Luke Cage",
+    "article": "Luke Cage (TV series)",
+    "released": "2016-09-30",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Doctor Strange",
+    "article": "Doctor Strange (2016 film)",
+    "released": "2016-11-04",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Iron Fist",
+    "article": "Iron Fist (TV series)",
+    "released": "2017-03-17",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "article": "Guardians of the Galaxy Vol. 2",
+    "released": "2017-05-05",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "article": "Spider-Man: Homecoming",
+    "released": "2017-07-07",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Defenders",
+    "article": "The Defenders (miniseries)",
+    "released": "2017-08-18",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Inhumans",
+    "article": "Inhumans (TV series)",
+    "released": "2017-09-29",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "article": "Thor: Ragnarok",
+    "released": "2017-11-03",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Punisher",
+    "article": "The Punisher (TV series)",
+    "released": "2017-11-17",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Runaways",
+    "article": "Runaways (TV series)",
+    "released": "2017-11-21",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Black Panther",
+    "article": "Black Panther (film)",
+    "released": "2018-02-16",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "article": "Avengers: Infinity War",
+    "released": "2018-04-27",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Cloak & Dagger",
+    "article": "Cloak & Dagger (TV series)",
+    "released": "2018-06-07",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "article": "Ant-Man and the Wasp",
+    "released": "2018-07-06",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Captain Marvel",
+    "article": "Captain Marvel (film)",
+    "released": "2019-03-08",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "article": "Avengers: Endgame",
+    "released": "2019-04-26",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "article": "Spider-Man: Far From Home",
+    "released": "2019-07-02",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "WandaVision",
+    "article": "WandaVision",
+    "released": "2021-01-15",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Falcon and the Winter Soldier",
+    "article": "The Falcon and the Winter Soldier",
+    "released": "2021-03-19",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Loki",
+    "article": "Loki (TV series)",
+    "released": "2021-06-09",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Black Widow",
+    "article": "Black Widow (2021 film)",
+    "released": "2021-07-09",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "What If...?",
+    "article": "What If...? (TV series)",
+    "released": "2021-08-11",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "article": "Shang-Chi and the Legend of the Ten Rings",
+    "released": "2021-09-03",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Eternals",
+    "article": "Eternals (film)",
+    "released": "2021-11-05",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Hawkeye",
+    "article": "Hawkeye (miniseries)",
+    "released": "2021-11-24",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "article": "Spider-Man: No Way Home",
+    "released": "2021-12-17",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Moon Knight",
+    "article": "Moon Knight (miniseries)",
+    "released": "2022-03-30",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "article": "Doctor Strange in the Multiverse of Madness",
+    "released": "2022-05-06",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Ms. Marvel",
+    "article": "Ms. Marvel (miniseries)",
+    "released": "2022-06-08",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "article": "Thor: Love and Thunder",
+    "released": "2022-07-08",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "She-Hulk: Attorney at Law",
+    "article": "She-Hulk: Attorney at Law",
+    "released": "2022-08-18",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "article": "Black Panther: Wakanda Forever",
+    "released": "2022-11-11",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "article": "Ant-Man and the Wasp: Quantumania",
+    "released": "2023-02-17",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "article": "Guardians of the Galaxy Vol. 3",
+    "released": "2023-05-05",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Secret Invasion",
+    "article": "Secret Invasion (miniseries)",
+    "released": "2023-06-21",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Marvels",
+    "article": "The Marvels",
+    "released": "2023-11-10",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Echo",
+    "article": "Echo (miniseries)",
+    "released": "2024-01-09",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "article": "Deadpool & Wolverine",
+    "released": "2024-07-26",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Agatha All Along",
+    "article": "Agatha All Along",
+    "released": "2024-09-18",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Your Friendly Neighborhood Spider-Man",
+    "article": "Your Friendly Neighborhood Spider-Man",
+    "released": "2025-01-29",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "article": "Captain America: Brave New World",
+    "released": "2025-02-14",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "article": "Daredevil: Born Again",
+    "released": "2025-03-04",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Thunderbolts*",
+    "article": "Thunderbolts*",
+    "released": "2025-05-02",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Ironheart",
+    "article": "Ironheart (miniseries)",
+    "released": "2025-06-24",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "article": "The Fantastic Four: First Steps",
+    "released": "2025-07-25",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Eyes of Wakanda",
+    "article": "Eyes of Wakanda",
+    "released": "2025-08-01",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Marvel Zombies",
+    "article": "Marvel Zombies (TV series)",
+    "released": "2025-09-24",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Wonder Man",
+    "article": "Wonder Man (TV series)",
+    "released": "2026-01-27",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "article": "Spider-Man: Brand New Day",
+    "released": "2026-07-31",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "VisionQuest",
+    "article": "VisionQuest",
+    "released": "2026-10-14",
+    "kind": "series",
+    "universe": "mcu",
+    "status": "upcoming"
+  },
+  {
+    "title": "Avengers: Doomsday",
+    "article": "Avengers: Doomsday",
+    "released": "2026-12-18",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "upcoming"
+  },
+  {
+    "title": "Avengers: Secret Wars",
+    "article": "Avengers: Secret Wars",
+    "released": "2027-12-17",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "upcoming"
+  },
+  {
+    "title": "Untitled X-Men film",
+    "article": "Untitled X-Men film",
+    "released": "2028-05-05",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "upcoming"
+  },
+  {
+    "title": "Ghost Rider",
+    "article": "Ghost Rider (2028 film)",
+    "released": "2028-07-28",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "upcoming"
+  },
+  {
+    "title": "Black Panther III",
+    "article": "Black Panther III",
+    "released": "2028-12-15",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "upcoming"
+  }
+]
