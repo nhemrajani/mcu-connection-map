@@ -2790,5 +2790,285 @@
     "universe": "mcu",
     "phase": 5,
     "description": "Hunter B-15 refuses to rewrite Logan's history, telling him the failures he wants erased are exactly what made him the man who just saved a universe."
+  },
+  {
+    "id": "m-ross-elected-president",
+    "title": "The general becomes president",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Thaddeus Ross, who spent decades hunting the Hulk and pushing the Sokovia Accords, is elected President of the United States and asks Sam Wilson to help him reform the Avengers."
+  },
+  {
+    "id": "m-adamantium-on-celestial-island",
+    "title": "A new metal in the dead god",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Adamantium is discovered on Celestial Island, the landmass formed where the Celestial Tiamut was turned to stone in the Indian Ocean, triggering an international race to control it."
+  },
+  {
+    "id": "m-mr-blue-mind-control",
+    "title": "A song that makes them shoot",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "During the White House summit the song Mr. Blue plays and several men including Isaiah Bradley open fire on Ross, then come to themselves with no memory of it."
+  },
+  {
+    "id": "m-sterns-behind-it",
+    "title": "The man from the Harlem lab",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "The mastermind is Samuel Sterns, made hyper-intelligent by exposure to Bruce Banner's blood during the Abomination's rampage, whom Ross imprisoned at a black site and publicly blamed for it."
+  },
+  {
+    "id": "m-ross-pills-gamma",
+    "title": "The pills were poisoning him",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Ross admits he is dying of heart failure and kept Sterns captive to keep making the pills prolonging his life; the pills have been loading his body with gamma radiation."
+  },
+  {
+    "id": "m-ross-becomes-red-hulk",
+    "title": "The hunter becomes the thing",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Publicly exposed at a press conference, Ross loses control and transforms into a red Hulk, destroying part of the White House \u2014 the fate he spent his career trying to weaponise in someone else."
+  },
+  {
+    "id": "m-ross-goes-to-the-raft",
+    "title": "He puts himself in prison",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Ross resigns the presidency and has himself incarcerated at the Raft, where Sam Wilson and his estranged daughter Betty visit him."
+  },
+  {
+    "id": "m-sterns-warns-of-invasion",
+    "title": "Something is coming from outside",
+    "film": "Captain America: Brave New World (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "From his cell, Samuel Sterns warns Sam Wilson that an attack is coming from other worlds."
+  },
+  {
+    "id": "m-fontaine-buries-sentry",
+    "title": "She destroys her own evidence",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Facing impeachment, CIA director Valentina Allegra de Fontaine has Yelena Belova destroy a laboratory to erase any trace of her involvement in the O.X.E. Group's Project Sentry."
+  },
+  {
+    "id": "m-sent-to-kill-each-other",
+    "title": "All the loose ends in one room",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "De Fontaine sends Yelena Belova, John Walker, Ava Starr and Antonia Dreykov to the same facility with orders to kill one another, intending to incinerate the survivors with the evidence."
+  },
+  {
+    "id": "m-bob-released-from-pod",
+    "title": "A man wakes in the room",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "An amnesiac man calling himself Bob is released from a suspended-animation pod during the fight, and touching him gives Yelena and Walker visions of their worst memories."
+  },
+  {
+    "id": "m-bob-is-the-sentry",
+    "title": "The volunteer who survived",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Bob is revealed as the presumed-dead volunteer from the Sentry trials, and de Fontaine presents him to the press as a superpowered protector to save her own career."
+  },
+  {
+    "id": "m-the-void-emerges",
+    "title": "His depression becomes weather",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "A failsafe knocks Bob out and releases the Void, the embodiment of his depression, which swallows New York in darkness and traps everyone in their own worst memories."
+  },
+  {
+    "id": "m-yelena-goes-in-after-him",
+    "title": "She walks into the dark",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Understanding the Void can only be stopped from inside, Yelena Belova enters the darkness, faces her own past as a Widow, and finds Bob hiding in a recreation of his childhood bedroom."
+  },
+  {
+    "id": "m-they-hold-onto-him",
+    "title": "They hold on to him",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Overpowered by Bob's traumas, the Thunderbolts stop fighting and simply hold on to him, and that is what lets him take control back from the Void."
+  },
+  {
+    "id": "m-renamed-new-avengers",
+    "title": "She steals the credit and the name",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "De Fontaine stages a press conference introducing the team as the New Avengers and claiming their victory; they go along with it, and Yelena tells her they own her now."
+  },
+  {
+    "id": "m-four-emblem-arrives",
+    "title": "A ship with a four on the side",
+    "film": "Thunderbolts* (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Fourteen months later the Watchtower detects an extra-dimensional spacecraft arriving, marked with a large number four."
+  },
+  {
+    "id": "m-ff-cosmic-rays",
+    "title": "Four astronauts come back changed",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "On Earth-828, Reed Richards, Sue Storm, Ben Grimm and Johnny Storm gain superhuman abilities from cosmic rays on a space mission and become celebrated heroes whose work has demilitarised much of the world."
+  },
+  {
+    "id": "m-surfer-marks-the-earth",
+    "title": "A herald marks the planet",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "The Silver Surfer arrives to announce that Earth has been marked for consumption by Galactus, and Reed Richards confirms it by tracing the disappearance of other worlds."
+  },
+  {
+    "id": "m-galactus-wants-the-child",
+    "title": "He asks for the baby",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Galactus senses immense cosmic power in Reed and Sue's unborn child and offers to spare Earth in exchange for him, wanting the child to carry his hunger instead."
+  },
+  {
+    "id": "m-franklin-born-in-flight",
+    "title": "Born on the way home",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Fleeing Galactus's ship and slingshotting off a neutron star, the team escapes back toward Earth and Sue gives birth to Franklin during the journey."
+  },
+  {
+    "id": "m-world-demands-the-child",
+    "title": "The world asks them to give him up",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "When Reed reveals what Galactus offered, public opinion turns and many demand Franklin be sacrificed to save the planet."
+  },
+  {
+    "id": "m-shalla-bal-bargain",
+    "title": "She sold her world's neighbours",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Johnny deciphers the Silver Surfer's language and learns she is Shalla-Bal, who became Galactus's herald to spare her own planet Zenn-La at the cost of every world since."
+  },
+  {
+    "id": "m-bridges-to-move-the-planet",
+    "title": "They try to move the Earth",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Reed designs teleportation bridges to transport the entire planet beyond Galactus's reach, and Sue organises the world's nations to build them."
+  },
+  {
+    "id": "m-sue-dies-and-returns",
+    "title": "She pushes a god through a door",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Sue Storm spends all her power forcing Galactus into the portal, and dies of the effort before Franklin revives her."
+  },
+  {
+    "id": "m-green-cloak-and-mask",
+    "title": "A man with a metal mask",
+    "film": "The Fantastic Four: First Steps (2025)",
+    "universe": "earth-828",
+    "phase": 6,
+    "description": "Four years later Sue returns to find Franklin at home with a man in a green cloak holding a metal mask."
+  },
+  {
+    "id": "m-four-years-anonymous",
+    "title": "Four years as nobody",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Having chosen not to reintroduce himself to MJ or Ned after the spell, Peter Parker spends four years protecting New York anonymously and visiting May's grave."
+  },
+  {
+    "id": "m-peter-mutates",
+    "title": "His body changes on its own",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "After seeing MJ with someone else, Peter Parker wakes with heightened senses and organic spinnerets in his wrists, abilities he cannot control."
+  },
+  {
+    "id": "m-telepath-body-hops",
+    "title": "Something moving between people",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "A telepath hops from body to body attacking Damage Control facilities in search of something called V-Max, and finds it cannot enter Peter Parker's mind."
+  },
+  {
+    "id": "m-telepath-is-jean-grey",
+    "title": "The telepath is a teenager",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Peter Parker identifies the telepath as a teenage girl named Jean Grey, after she possesses MJ and nearly kills her."
+  },
+  {
+    "id": "m-banner-inhibitor",
+    "title": "A device that holds the other one down",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Bruce Banner shows Peter Parker the siRNA inhibitor he uses to suppress the Hulk, and Peter builds his own to control what he is becoming."
+  },
+  {
+    "id": "m-mj-does-not-remember",
+    "title": "She reads the letter and feels nothing",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "MJ finds the unsent letter Peter wrote to reintroduce himself; he declares his love, and she still does not remember him or feel the same."
+  },
+  {
+    "id": "m-v-max-was-a-vent",
+    "title": "The last thing her sister saw",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "V-Max turns out to be the weathered label on an air vent, the last thing Jean Grey's sister Sara saw before dying in Damage Control custody, transmitted to Jean as she died."
+  },
+  {
+    "id": "m-peter-takes-the-bullet",
+    "title": "He steps in front of her",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Peter Parker senses Frank Castle shooting at Jean Grey and shields her, taking a critical wound; Jean keeps him alive remotely with her powers."
+  },
+  {
+    "id": "m-peter-reintroduces-himself",
+    "title": "The old handshake",
+    "film": "Spider-Man: Brand New Day (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Peter Parker vows to stop doing everything alone, and reintroduces himself to Ned using the handshake only the two of them ever knew."
   }
 ]
