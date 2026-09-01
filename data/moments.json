@@ -4030,5 +4030,141 @@
     "universe": "mcu",
     "phase": 6,
     "description": "A vibranium axe recovered by Wakandan agents ends up in a London museum, where years later Erik Stevens prepares to steal it."
+  },
+  {
+    "id": "m-yfnsm-paradox-bite",
+    "title": "The spider came through a portal",
+    "film": "Your Friendly Neighborhood Spider-Man (2025)",
+    "universe": "yfnsm",
+    "phase": null,
+    "description": "On Peter Parker's first day at Midtown High, Stephen Strange bursts out of a portal fighting a symbiotic alien, and Peter is bitten by a spider that came through with them \u2014 a bite caused by time travel rather than an accident."
+  },
+  {
+    "id": "m-osborn-as-mentor",
+    "title": "The wrong billionaire takes him in",
+    "film": "Your Friendly Neighborhood Spider-Man (2025)",
+    "universe": "yfnsm",
+    "phase": null,
+    "description": "In this timeline it is Norman Osborn, not Tony Stark, who offers Peter Parker an internship and becomes his mentor and patron."
+  },
+  {
+    "id": "m-nico-minoru-friend",
+    "title": "He saves a girl in the corridor",
+    "film": "Your Friendly Neighborhood Spider-Man (2025)",
+    "universe": "yfnsm",
+    "phase": null,
+    "description": "Peter Parker pulls fellow freshman Nico Minoru clear of the alien attacking their school, and the two become best friends in a life where Ned and MJ never appear."
+  },
+  {
+    "id": "m-norman-keeps-the-symbiote",
+    "title": "He keeps what was left behind",
+    "film": "Your Friendly Neighborhood Spider-Man (2025)",
+    "universe": "yfnsm",
+    "phase": null,
+    "description": "After Strange and Peter send the alien back and close the gateway, a fragment of the symbiote remains on Earth and Norman Osborn quietly takes possession of it."
+  },
+  {
+    "id": "m-richard-parker-alive",
+    "title": "His father is in prison",
+    "film": "Your Friendly Neighborhood Spider-Man (2025)",
+    "universe": "yfnsm",
+    "phase": null,
+    "description": "May Parker visits Peter's father Richard, alive and incarcerated in this timeline rather than dead as in every other version of the story."
+  },
+  {
+    "id": "m-foggy-killed",
+    "title": "They kill his best friend in a bar",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Benjamin Poindexter attacks Josie's Bar and kills Foggy Nelson, and an enraged Matt Murdock throws him from a roof before giving up the mask for a year."
+  },
+  {
+    "id": "m-fisk-elected-mayor",
+    "title": "The crime boss wins the election",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Wilson Fisk runs for mayor of New York on an anti-vigilante platform and wins, turning the city's government into an instrument against people like Murdock."
+  },
+  {
+    "id": "m-murdock-fisk-truce",
+    "title": "Two men agree on terms",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Murdock and Fisk meet as lawyer and candidate and each promises consequences if the other returns to what he was, a truce neither of them can keep."
+  },
+  {
+    "id": "m-white-tiger-case",
+    "title": "A vigilante on trial for murder",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Matt Murdock defends Hector Ayala, secretly the vigilante White Tiger, after two off-duty police officers frame him for a death in a subway station."
+  },
+  {
+    "id": "m-martial-law",
+    "title": "He declares martial law",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Having consolidated power, Fisk declares martial law and forms an Anti-Vigilante Task Force to hunt masked people through the city."
+  },
+  {
+    "id": "m-fisk-exiled",
+    "title": "He takes the deal and leaves",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Cornered after killing protesters, Wilson Fisk is talked by Murdock into accepting exile from New York, and the Task Force is disbanded and arrested."
+  },
+  {
+    "id": "m-murdock-imprisoned",
+    "title": "The lawyer goes to prison",
+    "film": "Daredevil: Born Again (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "With Fisk gone and the city recovering, Matt Murdock is arrested and imprisoned for everything he did as Daredevil."
+  },
+  {
+    "id": "m-zombie-virus",
+    "title": "A virus takes the Avengers",
+    "film": "Marvel Zombies (2025)",
+    "universe": "zombies",
+    "phase": null,
+    "description": "In a branch of the multiverse a virus turns most of Earth's population, the Avengers included, into zombies, and the survivors scavenge a ruined world five years later."
+  },
+  {
+    "id": "m-transmitter-in-selvig",
+    "title": "A device inside a corpse",
+    "film": "Marvel Zombies (2025)",
+    "universe": "zombies",
+    "phase": null,
+    "description": "Kamala Khan, Kate Bishop and Riri Williams find a shrunken transmitter inside a zombified Erik Selvig, which must be broadcast from space to call the Nova Corps."
+  },
+  {
+    "id": "m-wenwu-gives-the-rings",
+    "title": "A father passes the rings to hold back the bite",
+    "film": "Marvel Zombies (2025)",
+    "universe": "zombies",
+    "phase": null,
+    "description": "When Shang-Chi is bitten, Xu Wenwu gives him the ten rings to contain the infection and sacrifices himself covering the group's escape."
+  },
+  {
+    "id": "m-wanda-queen-of-the-dead",
+    "title": "The Queen of the Dead",
+    "film": "Marvel Zombies (2025)",
+    "universe": "zombies",
+    "phase": null,
+    "description": "The zombie hordes are commanded by Wanda Maximoff, the Queen of the Dead, who wants the Infinity Stones' energy to remake the world in her own image."
+  },
+  {
+    "id": "m-kamala-accepts-remaking",
+    "title": "She agrees to remake it",
+    "film": "Marvel Zombies (2025)",
+    "universe": "zombies",
+    "phase": null,
+    "description": "With nearly everyone dead, Kamala Khan is persuaded to help Wanda remake the world, and wakes in a restored life that flickers when the real Riri tells her none of it is true."
   }
 ]
