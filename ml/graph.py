@@ -58,14 +58,31 @@ def main():
     connections = json.loads((DATA / "connections.json").read_text())
     confirmed = [c for c in connections if c.get("verdict") == "confirmed"]
 
+    # Machine proposals from relate.py join the graph so it has enough structure
+    # to cluster, but stay marked as proposals. A human judgement and a regex
+    # guess are not the same claim and the data should never pretend otherwise.
+    rejected = {frozenset((c["source"], c["target"]))
+                for c in connections if c.get("verdict") == "rejected"}
+    proposed = []
+    proposals_file = OUT / "proposed_edges.json"
+    if proposals_file.exists():
+        for p in json.loads(proposals_file.read_text()):
+            if frozenset((p["source"], p["target"])) in rejected:
+                continue
+            proposed.append({**p, "verdict": "proposed"})
+
+    edges = [{**c, "verdict": "confirmed"} for c in confirmed] + proposed
+
     graph = nx.Graph()
     for m in moments:
         graph.add_node(m["id"])
-    for c in confirmed:
-        graph.add_edge(c["source"], c["target"], type=c.get("type", "related"))
+    for e in edges:
+        graph.add_edge(e["source"], e["target"],
+                       type=e.get("type", "related"),
+                       weight=e.get("weight", 1.0))
 
     # --- threads -----------------------------------------------------------
-    if len(confirmed) >= MIN_EDGES_FOR_COMMUNITIES:
+    if len(edges) >= MIN_EDGES_FOR_COMMUNITIES:
         groups = list(greedy_modularity_communities(graph))
         community_of = {n: i for i, g in enumerate(groups) for n in g}
         basis = "graph communities"
@@ -75,7 +92,7 @@ def main():
         basis = "embedding clusters (too few confirmed edges for communities)"
 
     # --- centrality --------------------------------------------------------
-    centrality = nx.degree_centrality(graph) if confirmed else {}
+    centrality = nx.degree_centrality(graph) if edges else {}
 
     # --- layout from meaning ----------------------------------------------
     ids = json.loads((OUT / "moment_ids.json").read_text())
@@ -109,17 +126,18 @@ def main():
     OUT.mkdir(exist_ok=True)
     (OUT / "graph.json").write_text(json.dumps({
         "nodes": nodes,
-        "edges": confirmed,
+        "edges": edges,
         "meta": {
             "moments": len(nodes),
             "confirmed_edges": len(confirmed),
-            "rejected": len(connections) - len(confirmed),
+            "proposed_edges": len(proposed),
+            "rejected": len(rejected),
             "threads": len(groups),
             "thread_basis": basis,
         },
     }, indent=2) + "\n")
 
-    print(f"{len(nodes)} moments, {len(confirmed)} confirmed edges")
+    print(f"{len(nodes)} moments, {len(confirmed)} confirmed + {len(proposed)} proposed edges")
     print(f"{len(groups)} threads from {basis}")
     print("wrote ml/out/graph.json")
 

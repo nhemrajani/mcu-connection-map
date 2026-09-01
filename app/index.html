@@ -119,14 +119,25 @@ function fit() {
 function draw() {
   ctx.clearRect(0, 0, innerWidth, innerHeight);
 
-  // edges first, underneath the stars
-  ctx.lineWidth = Math.max(0.5, 1.1 * Math.min(scale, 2));
+  // Edges first, underneath the stars. With a thousand of them a uniform
+  // stroke is an unreadable hairball, so proposed edges stay very faint and
+  // fade with length: short links describe local structure, long ones just
+  // cross the map. Confirmed edges are drawn brighter and last.
   const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
-  for (const e of edges) {
+  const ordered = [...edges].sort(a => (a.verdict === 'confirmed' ? 1 : -1));
+  for (const e of ordered) {
     const a = byId[e.source], b = byId[e.target];
     if (!a || !b) continue;
     const p = toScreen(a), q = toScreen(b);
-    ctx.strokeStyle = 'rgba(150,170,255,.28)';
+    const len = Math.hypot(p.x - q.x, p.y - q.y);
+    const confirmed = e.verdict === 'confirmed';
+    const fade = Math.max(0, 1 - len / (620 * Math.max(scale, .6)));
+    const alpha = confirmed ? .55 : 0.16 * fade;
+    if (alpha < 0.012) continue;
+    ctx.lineWidth = confirmed ? 1.4 : Math.max(0.35, 0.7 * Math.min(scale, 1.8));
+    ctx.strokeStyle = confirmed
+      ? `rgba(255,236,190,${alpha})`
+      : `${colour(a.community, alpha).replace('hsla', 'hsla')}`;
     ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
   }
 
@@ -203,7 +214,7 @@ fetch('../ml/out/graph.json')
   .then(g => {
     nodes = g.nodes; edges = g.edges; meta = g.meta || {};
     document.getElementById('n-moments').textContent = meta.moments ?? nodes.length;
-    document.getElementById('n-edges').textContent = meta.confirmed_edges ?? edges.length;
+    document.getElementById('n-edges').textContent = (meta.confirmed_edges ?? 0) + (meta.proposed_edges ?? 0);
     document.getElementById('n-threads').textContent = meta.threads ?? '–';
 
     const counts = {};
