@@ -2558,5 +2558,237 @@
     "universe": "mcu",
     "phase": 4,
     "description": "In Haiti, Shuri learns that Nakia and T'Challa had a son she has been raising in secret, and that his Wakandan name is T'Challa."
+  },
+  {
+    "id": "m-cassie-signals-quantum",
+    "title": "A child calls into the small place",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Cassie Lang builds a device to send a signal into the Quantum Realm; Janet van Dyne panics and shuts it off too late, and a portal drags all five of them down."
+  },
+  {
+    "id": "m-janet-met-kang",
+    "title": "What she never told them",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Janet van Dyne confesses she met Kang during her thirty years below, helped rebuild his multiversal power core, and saw a vision of him conquering and erasing entire timelines."
+  },
+  {
+    "id": "m-kang-exiled-by-variants",
+    "title": "His own kind put him there",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Kang reveals he was exiled into the Quantum Realm by his own variants, who feared what he would do with the multiverse."
+  },
+  {
+    "id": "m-modok-is-darren-cross",
+    "title": "He survived the shrinking",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Kang's enforcer M.O.D.O.K. turns out to be Darren Cross, who survived the collapse of the Yellowjacket suit and was rebuilt into something else entirely."
+  },
+  {
+    "id": "m-kang-killed-in-core",
+    "title": "They put him in the engine",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Scott Lang and Hope van Dyne throw Kang and the Pym Particles into his own multiversal power core, destroying both."
+  },
+  {
+    "id": "m-council-of-kangs",
+    "title": "There were always more of him",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Countless Kang variants led by Immortus gather in a vast arena to mourn the dead one and plan a multiversal uprising."
+  },
+  {
+    "id": "m-victor-timely-1893",
+    "title": "Another one, at a world's fair",
+    "film": "Ant-Man and the Wasp: Quantumania (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Loki and Mobius watch a Kang variant calling himself Victor Timely give a demonstration at the Chicago World's Fair in 1893."
+  },
+  {
+    "id": "m-adam-warlock-attacks",
+    "title": "The weapon Ayesha built arrives",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Adam Warlock attacks the Guardians on Knowhere and critically wounds Rocket, whose implanted kill switch prevents any med-pack from saving him."
+  },
+  {
+    "id": "m-rocket-was-made",
+    "title": "He was batch eighty-nine",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Rocket remembers being taken as an infant raccoon and rebuilt by the High Evolutionary, who was enraged that his creation could solve a problem he could not."
+  },
+  {
+    "id": "m-lylla-teefs-floor-killed",
+    "title": "Three friends in cages",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "The High Evolutionary kills Lylla in front of Rocket and mocks his grief, and Teefs and Floor die in the escape, leaving Rocket the only survivor of his batch."
+  },
+  {
+    "id": "m-counter-earth-bombed",
+    "title": "He deletes his own world",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Judging Counter-Earth imperfect, the High Evolutionary bombards the entire planet, killing the Humanimals he built it for and Ayesha with them."
+  },
+  {
+    "id": "m-rocket-flatlines",
+    "title": "He nearly goes with them",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Rocket's heart stops and he meets Lylla, Teefs and Floor again, and is told his time has not come before the kill switch is disabled and he is restarted."
+  },
+  {
+    "id": "m-rocket-spares-evolutionary",
+    "title": "He does not take the revenge",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "With the High Evolutionary beaten and begging, Rocket spares him and turns instead to freeing the caged animals aboard the ship."
+  },
+  {
+    "id": "m-quill-leaves-the-guardians",
+    "title": "He hands over the ship",
+    "film": "Guardians of the Galaxy Vol. 3 (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Peter Quill leaves the Guardians, names Rocket captain, and returns to Earth to find his grandfather Jason still alive."
+  },
+  {
+    "id": "m-hala-dies",
+    "title": "Killing the machine killed the world",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Carol Danvers destroys the Supreme Intelligence, triggering a Kree civil war that strips Hala of air, water and sunlight over thirty years and earns her the name the Annihilator."
+  },
+  {
+    "id": "m-quantum-bands-found",
+    "title": "One band, then the other",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Dar-Benn recovers one of the two legendary Quantum Bands and forces open a new jump point, destabilising the whole travel network; Kamala Khan wears the other on Earth."
+  },
+  {
+    "id": "m-entanglement-swaps-them",
+    "title": "They keep swapping places",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Carol Danvers, Monica Rambeau and Kamala Khan become quantum-entangled through their light-based powers, teleporting into each other's positions whenever any two of them use them at once."
+  },
+  {
+    "id": "m-tarnax-atmosphere-stolen",
+    "title": "She takes the air off a refugee world",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "When talks collapse, Dar-Benn rips a jump point over the Skrull colony on Tarnax and siphons its atmosphere to Hala, forcing a frantic evacuation."
+  },
+  {
+    "id": "m-rambeau-strands-herself",
+    "title": "She closes it from the other side",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Monica Rambeau seals the rupture between realities from within, closing it behind her and stranding herself in another universe."
+  },
+  {
+    "id": "m-rambeau-meets-binary",
+    "title": "Her mother, but not hers",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Monica Rambeau wakes in a parallel universe greeted by Binary, an alternate version of her mother Maria, and the mutant scientist Hank McCoy."
+  },
+  {
+    "id": "m-kamala-recruits-kate",
+    "title": "She starts assembling a team",
+    "film": "The Marvels (2023)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Inspired by fighting alongside Danvers and Rambeau, Kamala Khan begins recruiting other young heroes, starting with Kate Bishop."
+  },
+  {
+    "id": "m-tva-explained-to-wade",
+    "title": "An office outside of time",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "The Time Variance Authority detains Wade Wilson and explains that it monitors the Sacred Timeline and the wider multiverse from outside time itself."
+  },
+  {
+    "id": "m-anchor-being",
+    "title": "A universe held up by one man",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Mr. Paradox explains that Wade's universe is decaying because its anchor being, Logan, is dead, and that he intends to accelerate its collapse with a Time Ripper."
+  },
+  {
+    "id": "m-wade-shops-for-a-logan",
+    "title": "He goes looking for a replacement",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Unable to resurrect his own Logan, Wade Wilson travels the multiverse collecting Wolverine variants and returns with the one considered the worst of them."
+  },
+  {
+    "id": "m-the-void",
+    "title": "The rubbish tip at the end of time",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Paradox dumps Wade and Logan in the Void, the wasteland at the end of time where the TVA discards what it prunes, patrolled by the creature Alioth."
+  },
+  {
+    "id": "m-cassandra-nova",
+    "title": "Xavier had a twin",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "The Void is ruled by Cassandra Nova, Charles Xavier's sadistic twin sister, who made a deal with the TVA to oversee what it throws away."
+  },
+  {
+    "id": "m-logan-blames-himself",
+    "title": "He was not there when it happened",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "This Logan is the variant who failed his X-Men and let them die, and joins the resistance only when Laura tells him what he could still be."
+  },
+  {
+    "id": "m-time-ripper-destroyed",
+    "title": "Two men share a death",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Destroying the Time Ripper would kill whoever does it, so Wade and Logan take hold of it together and split the current between them, and both survive."
+  },
+  {
+    "id": "m-history-cannot-be-changed",
+    "title": "His past is why he is here",
+    "film": "Deadpool & Wolverine (2024)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Hunter B-15 refuses to rewrite Logan's history, telling him the failures he wants erased are exactly what made him the man who just saved a universe."
   }
 ]
