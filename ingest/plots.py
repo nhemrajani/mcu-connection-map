@@ -27,6 +27,9 @@ from wiki import sections, wikitext
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "plots"
 NARRATIVE = ("Plot", "Plot summary", "Synopsis", "Premise")
+# Anthology articles (Marvel One-Shots) have no single Plot section; each short
+# gets its own italicised, year-stamped heading instead.
+ANTHOLOGY = re.compile(r"^<i>.+</i>\s*\((?:series\s*)?\d{4}")
 # Season articles look like "Loki season 1"; long-running shows instead use a
 # single "List of <Show> episodes" article.
 EPISODE_ARTICLE = re.compile(r"(season \d+$|^List of .* episodes$)", re.I)
@@ -92,6 +95,14 @@ def narrative_for(article, kind):
             used.append(name)
             if kind == "film":
                 return "\n\n".join(parts), used
+
+    if not parts:
+        for name, idx in by_name.items():
+            if ANTHOLOGY.match(name):
+                parts.append(clean(wikitext(article, idx)))
+                used.append(name)
+        if parts:
+            return "\n\n".join(parts), used
 
     if "Episodes" in by_name or any(SEASON_HEADING.match(n) for n in by_name):
         got, sources = collect_episodes(article)

@@ -48,6 +48,14 @@
     "status": "released"
   },
   {
+    "title": "Marvel One-Shots",
+    "article": "Marvel One-Shots",
+    "released": "2011-01-01",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
     "title": "Thor",
     "article": "Thor (film)",
     "released": "2011-05-06",
@@ -163,6 +171,14 @@
     "title": "Jessica Jones",
     "article": "Jessica Jones (TV series)",
     "released": "2015-11-20",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
+    "title": "Agents of S.H.I.E.L.D.: Slingshot",
+    "article": "Agents of S.H.I.E.L.D.: Slingshot",
+    "released": "2016-01-01",
     "kind": "series",
     "universe": "marvel-tv",
     "status": "released"
@@ -312,6 +328,14 @@
     "status": "released"
   },
   {
+    "title": "Helstrom",
+    "article": "Helstrom (TV series)",
+    "released": "2020-01-01",
+    "kind": "series",
+    "universe": "marvel-tv",
+    "status": "released"
+  },
+  {
     "title": "WandaVision",
     "article": "WandaVision",
     "released": "2021-01-15",
@@ -379,6 +403,22 @@
     "title": "Spider-Man: No Way Home",
     "article": "Spider-Man: No Way Home",
     "released": "2021-12-17",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "Werewolf by Night",
+    "article": "Werewolf by Night (film)",
+    "released": "2022-01-01",
+    "kind": "film",
+    "universe": "mcu",
+    "status": "released"
+  },
+  {
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "article": "The Guardians of the Galaxy Holiday Special",
+    "released": "2022-01-01",
     "kind": "film",
     "universe": "mcu",
     "status": "released"

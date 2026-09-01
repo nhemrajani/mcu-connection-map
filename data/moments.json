@@ -4686,5 +4686,109 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "With Andre defeated and the cover-up exposed, Tandy and Tyrone leave New Orleans together to find other people like them."
+  },
+  {
+    "id": "m-consultant-blonsky-blocked",
+    "title": "They send Stark to ruin the meeting",
+    "film": "Marvel One-Shots (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "The World Security Council wants Emil Blonsky released to join the Avengers Initiative, blaming Harlem on Bruce Banner; Nick Fury refuses, so Coulson and Sitwell send Tony Stark to sabotage the meeting with Thaddeus Ross."
+  },
+  {
+    "id": "m-item-47",
+    "title": "A couple with a Chitauri gun",
+    "film": "Marvel One-Shots (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "A recovered Chitauri weapon left behind after the Battle of New York is used by a young couple to rob banks, and S.H.I.E.L.D. recruits rather than arrests them."
+  },
+  {
+    "id": "m-all-hail-the-king",
+    "title": "The real Mandarin is not amused",
+    "film": "Marvel One-Shots (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "A documentary filmmaker interviewing the imprisoned Trevor Slattery reveals himself as a member of the actual Ten Rings, and breaks Slattery out to face the real Mandarin, whose name he has been wearing."
+  },
+  {
+    "id": "m-carter-one-shot",
+    "title": "She takes the call herself",
+    "film": "Marvel One-Shots (2011)",
+    "universe": "mcu",
+    "phase": 1,
+    "description": "A year after the war, Peggy Carter is sidelined at the SSR until she runs an operation alone and is put in charge of the new S.H.I.E.L.D. by Howard Stark."
+  },
+  {
+    "id": "m-bloodstone-hunt",
+    "title": "A hunt to decide who leads",
+    "film": "Werewolf by Night (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "After Ulysses Bloodstone's death, his widow Verussa summons five monster hunters to compete in a lethal hunt at Bloodstone Manor for the right to wield the Bloodstone."
+  },
+  {
+    "id": "m-jack-russell-is-a-monster",
+    "title": "The hunter is one of them",
+    "film": "Werewolf by Night (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The Bloodstone reacts violently to Jack Russell's touch, exposing him as a monster; Verussa uses it to force his transformation into a werewolf."
+  },
+  {
+    "id": "m-elsa-takes-the-manor",
+    "title": "She inherits what she rejected",
+    "film": "Werewolf by Night (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Elsa Bloodstone, estranged from her father's monster-hunting legacy, kills the remaining hunters, spares the werewolf and takes possession of the manor and the Bloodstone."
+  },
+  {
+    "id": "m-guardians-buy-knowhere",
+    "title": "They buy the severed head",
+    "film": "The Guardians of the Galaxy Holiday Special (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The Guardians purchase Knowhere from the Collector as a home and take in Cosmo the Spacedog, settling somewhere for the first time."
+  },
+  {
+    "id": "m-kevin-bacon-abducted",
+    "title": "They kidnap Kevin Bacon",
+    "film": "The Guardians of the Galaxy Holiday Special (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Trying to cheer up a grieving Peter Quill, Mantis and Drax travel to Earth and abduct the actor Kevin Bacon, believing him to be a real hero."
+  },
+  {
+    "id": "m-mantis-is-his-sister",
+    "title": "She finally tells him",
+    "film": "The Guardians of the Galaxy Holiday Special (2022)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Mantis tells Peter Quill that she is his half-sister, a truth she withheld for years rather than remind him of what their father Ego did."
+  },
+  {
+    "id": "m-helstrom-siblings",
+    "title": "The children of a serial killer",
+    "film": "Helstrom (2020)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Daimon and Ana Helstrom, the children of a Satanist serial killer and a demonically possessed mother, use their inherited abilities to hunt the worst of humanity while barely speaking to each other."
+  },
+  {
+    "id": "m-mother-possession",
+    "title": "Their mother is not alone in there",
+    "film": "Helstrom (2020)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Victoria Helstrom is held in a psychiatric hospital, possessed by a demon called Mother, and her children are drawn back together by what she starts drawing on the walls."
+  },
+  {
+    "id": "m-yoyo-forced-to-sign",
+    "title": "She signs because of what she is",
+    "film": "Agents of S.H.I.E.L.D.: Slingshot (2016)",
+    "universe": "marvel-tv",
+    "phase": null,
+    "description": "Elena Rodriguez is compelled to sign the Sokovia Accords because she is an Inhuman, while pursuing a private vendetta S.H.I.E.L.D. would never authorise."
   }
 ]

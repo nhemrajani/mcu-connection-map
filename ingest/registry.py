@@ -30,6 +30,21 @@ SOURCES = [
     ("List of Marvel Cinematic Universe television series (Marvel Television)", "series", "marvel-tv"),
 ]
 
+# Titles the two list articles do not carry. Wikipedia files specials,
+# one-shots and a few orphaned series outside "List of ... films" and
+# "List of ... television series", so deriving only from those lists silently
+# misses them — including All Hail the King, which establishes that the real
+# Mandarin exists and pays off seven years later in Shang-Chi.
+SPECIALS = [
+    ("Marvel One-Shots", "Marvel One-Shots", 2011, "mcu", "film"),
+    ("Werewolf by Night (TV special)", "Werewolf by Night", 2022, "mcu", "film"),
+    ("The Guardians of the Galaxy Holiday Special",
+     "The Guardians of the Galaxy Holiday Special", 2022, "mcu", "film"),
+    ("Helstrom (TV series)", "Helstrom", 2020, "marvel-tv", "series"),
+    ("Agents of S.H.I.E.L.D.: Slingshot", "Agents of S.H.I.E.L.D.: Slingshot",
+     2016, "marvel-tv", "series"),
+]
+
 # In scope because No Way Home pulls them into the multiverse. See data/schema.md.
 MULTIVERSE = [
     ("Spider-Man (2002 film)", "Spider-Man", 2002, "raimi"),
@@ -130,6 +145,11 @@ def main():
     if out.exists():
         titles += [t for t in json.loads(out.read_text()) if re.search(r"[A-Za-z]", t["title"])]
 
+    for article, title, year, universe, kind in SPECIALS:
+        titles.append({"title": title, "article": article,
+                       "released": f"{year}-01-01", "kind": kind,
+                       "universe": universe})
+
     for article, title, year, universe in MULTIVERSE:
         titles.append({
             "title": title,
@@ -139,11 +159,15 @@ def main():
             "universe": universe,
         })
 
-    seen, uniq = set(), []
+    # Dedup on title as well as article: correcting a wrong article name would
+    # otherwise leave the old entry behind as a phantom duplicate of the same
+    # title, since the merge above never removes anything.
+    seen, seen_titles, uniq = set(), set(), []
     for t in titles:
-        if t["article"] in seen:
+        if t["article"] in seen or t["title"] in seen_titles:
             continue
         seen.add(t["article"])
+        seen_titles.add(t["title"])
         t["status"] = "released" if t["released"] <= today else "upcoming"
         uniq.append(t)
     uniq.sort(key=lambda t: t["released"])
