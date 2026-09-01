@@ -3894,5 +3894,141 @@
     "universe": "mcu",
     "phase": 5,
     "description": "Billy Maximoff seals the Road, records the names of the dead, and sets out with Agatha's ghost to find his twin brother Tommy."
+  },
+  {
+    "id": "m-watcher-observes",
+    "title": "He is only supposed to watch",
+    "film": "What If...? (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Following the shattering of the Sacred Timeline, the Watcher observes alternate branches of the multiverse where key moments went differently, sworn never to intervene in any of them."
+  },
+  {
+    "id": "m-peggy-takes-the-serum",
+    "title": "She stays in the room",
+    "film": "What If...? (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In one branch Steve Rogers is shot before the procedure and Peggy Carter takes the super-soldier serum instead, becoming Captain Carter while Rogers pilots an armoured Hydra Stomper suit."
+  },
+  {
+    "id": "m-tchalla-star-lord",
+    "title": "The Ravagers take the wrong boy",
+    "film": "What If...? (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sent to Earth to collect Ego's son, the Ravagers abduct a young T'Challa from Wakanda instead of Peter Quill, and he becomes a Star-Lord who talks the galaxy out of its wars."
+  },
+  {
+    "id": "m-watcher-breaks-his-oath",
+    "title": "He finally intervenes",
+    "film": "What If...? (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Facing an Ultron who has won the Infinity Stones across every universe, the Watcher breaks his oath of non-interference and assembles heroes from separate timelines as the Guardians of the Multiverse."
+  },
+  {
+    "id": "m-riri-expelled",
+    "title": "She sells her work and is thrown out",
+    "film": "Ironheart (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Riri Williams is expelled from MIT for selling coursework to other students, and takes her half-finished suit of armour home to Chicago."
+  },
+  {
+    "id": "m-natalie-ai",
+    "title": "Grief builds itself an interface",
+    "film": "Ironheart (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Mapping her own brain to build an AI for her suit, Riri Williams's unprocessed grief produces N.A.T.A.L.I.E., a digital recreation of the best friend killed in a drive-by shooting."
+  },
+  {
+    "id": "m-the-hood-cloak",
+    "title": "A cloak that bends the world",
+    "film": "Ironheart (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Parker Robbins leads a crew of thieves using a mysterious hood that bends bullets and reality around him, while black veins spread further across his body with every use."
+  },
+  {
+    "id": "m-mephisto-revealed",
+    "title": "Not the demon she assumed",
+    "film": "Ironheart (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "The power behind the hood reveals himself as Mephisto, laughing that Riri Williams assumed he was Dormammu, and offers her a bargain of her own."
+  },
+  {
+    "id": "m-riri-takes-the-deal",
+    "title": "She trades for her friend back",
+    "film": "Ironheart (2025)",
+    "universe": "mcu",
+    "phase": 5,
+    "description": "Riri Williams accepts Mephisto's deal on the condition her family is left alone; Natalie is restored to life, and his veins begin spreading across Riri's arm."
+  },
+  {
+    "id": "m-doorman-clause",
+    "title": "Powered actors cannot be cast",
+    "film": "Wonder Man (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Hollywood's Doorman Clause bars superpowered individuals from working as actors, forcing struggling performer Simon Williams to hide what he can do."
+  },
+  {
+    "id": "m-slattery-informs-for-ddc",
+    "title": "The Mandarin actor turns informant",
+    "film": "Wonder Man (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Trevor Slattery, freed from the Ten Rings and rearrested, takes a deal with Damage Control to inform on Simon Williams in exchange for not finishing his sentence."
+  },
+  {
+    "id": "m-simons-powers-surface",
+    "title": "The apartment goes up",
+    "film": "Wonder Man (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Filming a self-tape and seeing his ex-girlfriend in old footage, Simon Williams loses control and releases a blast of ionic energy inside his own apartment."
+  },
+  {
+    "id": "m-simon-frees-slattery",
+    "title": "He breaks his friend out",
+    "film": "Wonder Man (2026)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "After Slattery's arrest, Simon Williams uses a documentary as cover to get inside the Damage Control prison, and flies out with him."
+  },
+  {
+    "id": "m-hatut-zaraze-founded",
+    "title": "Warriors sent out to fetch it back",
+    "film": "Eyes of Wakanda (2025)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "The Hatut Zaraze are Wakandan agents sent across the world through history to recover vibranium artefacts before anyone can trace them home."
+  },
+  {
+    "id": "m-nkati-the-lion",
+    "title": "An agent who wanted to share it",
+    "film": "Eyes of Wakanda (2025)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "In 1260 BC the rogue agent Nkati plans an independent state built with Wakandan technology, and is hunted down by Noni before he can expose the kingdom."
+  },
+  {
+    "id": "m-vibranium-at-troy",
+    "title": "A necklace at the fall of Troy",
+    "film": "Eyes of Wakanda (2025)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "Infiltrating the Greek army as Memnon during the Trojan War, a Wakandan agent lets Paris and Helen flee in exchange for a vibranium necklace, and is branded a traitor by Achilles for it."
+  },
+  {
+    "id": "m-axe-ends-in-a-museum",
+    "title": "The axe on display in London",
+    "film": "Eyes of Wakanda (2025)",
+    "universe": "mcu",
+    "phase": 6,
+    "description": "A vibranium axe recovered by Wakandan agents ends up in a London museum, where years later Erik Stevens prepares to steal it."
   }
 ]
