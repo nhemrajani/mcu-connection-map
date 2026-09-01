@@ -3438,5 +3438,157 @@
     "universe": "mcu",
     "phase": 4,
     "description": "Rather than kill Sylvie to save the Loom, Loki destroys it, gathers the dying timelines by hand into a tree, and takes the throne at the End of Time to hold them alone forever."
+  },
+  {
+    "id": "m-wilson-donates-shield",
+    "title": "He gives the shield to a museum",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Unable to see himself as Captain America, Sam Wilson hands Steve Rogers's shield to the U.S. government for a museum display rather than carry it."
+  },
+  {
+    "id": "m-government-names-walker",
+    "title": "They give it to someone else",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Days after Wilson donates the shield, the government announces John Walker as the new Captain America, using the symbol Wilson chose not to claim."
+  },
+  {
+    "id": "m-flag-smashers-serum",
+    "title": "Life was better during the Blip",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The Flag Smashers, led by Karli Morgenthau, take a recreated Super Soldier Serum and fight to keep the borderless world that existed while half of humanity was gone."
+  },
+  {
+    "id": "m-isaiah-bradley-revealed",
+    "title": "There was another super soldier",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Bucky Barnes introduces Sam Wilson to Isaiah Bradley, a Black super soldier who fought the Winter Soldier in Korea in 1951 and was then imprisoned and experimented on for thirty years."
+  },
+  {
+    "id": "m-zemo-broken-out",
+    "title": "They break Zemo out on purpose",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Bucky Barnes engineers a prison riot to free Helmut Zemo, the man who broke the Avengers, because he is the only one who can find the serum."
+  },
+  {
+    "id": "m-serum-recreated-in-madripoor",
+    "title": "Twenty doses in Madripoor",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Former Hydra scientist Wilfred Nagel, hired by the Power Broker, recreated the Super Soldier Serum and made twenty doses, which Karli Morgenthau stole."
+  },
+  {
+    "id": "m-walker-takes-the-serum",
+    "title": "He takes the vial he hid",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "John Walker secretly keeps the last vial of serum from the batch Zemo destroys, and takes it after failing to match the Flag Smashers unaided."
+  },
+  {
+    "id": "m-walker-kills-with-the-shield",
+    "title": "The shield, in public, covered in blood",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Enraged by Lemar Hoskins's death, John Walker beats a surrendering Flag Smasher to death with Captain America's shield in a public square while bystanders film it."
+  },
+  {
+    "id": "m-shield-taken-back",
+    "title": "They take it off him",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sam Wilson and Bucky Barnes fight John Walker for the shield and take it back, breaking his arm; he is stripped of the title and discharged."
+  },
+  {
+    "id": "m-wilson-accepts-the-mantle",
+    "title": "He puts on the wings and the star",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sam Wilson accepts the shield and a Wakandan-built Captain America suit, choosing to carry the symbol as a Black man in full knowledge of what was done to Isaiah Bradley."
+  },
+  {
+    "id": "m-sharon-is-power-broker",
+    "title": "The fugitive was running Madripoor",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sharon Carter is revealed as the Power Broker, kills Karli Morgenthau and Batroc to protect the secret, and then accepts a full pardon and returns to the CIA intending to sell its secrets."
+  },
+  {
+    "id": "m-walker-becomes-us-agent",
+    "title": "Someone else picks him up",
+    "film": "The Falcon and the Winter Soldier (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Valentina Allegra de Fontaine approaches the disgraced John Walker, gives him a black uniform and renames him U.S. Agent."
+  },
+  {
+    "id": "m-kate-sees-barton-2012",
+    "title": "A child watches the sky open",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "During the Battle of New York in 2012, young Kate Bishop watches Clint Barton fight the Chitauri and is inadvertently saved by him, deciding then to become a hero."
+  },
+  {
+    "id": "m-ronin-suit-recovered",
+    "title": "She puts on the wrong costume",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "At a black-market auction of items salvaged from the ruined Avengers Compound, Kate Bishop takes the Ronin suit and fights off the Tracksuit Mafia in it, making the world think Ronin has returned."
+  },
+  {
+    "id": "m-maya-hunts-ronin",
+    "title": "Ronin killed her father",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Maya Lopez leads the Tracksuit Mafia in hunting Ronin, who killed her father William during the five years Clint Barton spent murdering criminals after the snap."
+  },
+  {
+    "id": "m-barton-was-ronin",
+    "title": "He admits what he did",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Clint Barton puts the Ronin suit back on, unmasks himself in front of Maya Lopez at the shop where he killed her father, and takes responsibility for the years he spent as an assassin."
+  },
+  {
+    "id": "m-yelena-hunts-barton",
+    "title": "She comes for the man she blames",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Yelena Belova, hired by Eleanor Bishop, hunts Clint Barton believing he is responsible for Natasha Romanoff's death, and demands the truth of it from him."
+  },
+  {
+    "id": "m-kingpin-revealed",
+    "title": "Maya's uncle is Kingpin",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The figure behind the Tracksuit Mafia and Eleanor Bishop's debts is Wilson Fisk, whom Barton identifies as Kingpin."
+  },
+  {
+    "id": "m-barton-tells-yelena-truth",
+    "title": "He tells her how she died",
+    "film": "Hawkeye (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Clint Barton tells Yelena Belova that Natasha Romanoff chose to die on Vormir to save the universe, and that he tried to go instead."
   }
 ]
