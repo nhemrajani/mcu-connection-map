@@ -48,8 +48,9 @@ def report(title, rows):
     print(f"\n{title}")
     print(f"  {'group':22s} {'n':>5s} {'confirmed':>10s} {'precision':>10s}   95% CI")
     for name, judged in sorted(rows.items(), key=lambda kv: -len(kv[1])):
-        n = len(judged)
-        k = sum(1 for v in judged if v == "confirmed")
+        decided = [v for v in judged if v != "unsure"]
+        n = len(decided)
+        k = sum(1 for v in decided if v == "confirmed")
         lo, hi = wilson(k, n)
         pct = f"{k / n:.0%}" if n else "–"
         print(f"  {name:22s} {n:5d} {k:10d} {pct:>10s}   {lo:.0%}–{hi:.0%}")
@@ -70,10 +71,16 @@ def main():
         by_bucket[c["bucket"]].append(c["verdict"])
         by_source[c["bucket"].split("-")[0]].append(c["verdict"])
 
-    total = len(labelled)
-    confirmed = sum(1 for c in labelled if c["verdict"] == "confirmed")
+    decided = [c for c in labelled if c["verdict"] != "unsure"]
+    unsure = len(labelled) - len(decided)
+    total = len(decided)
+    confirmed = sum(1 for c in decided if c["verdict"] == "confirmed")
+    if not total:
+        print(f"{unsure} judgements, all marked unsure - nothing to measure yet.")
+        return
     lo, hi = wilson(confirmed, total)
-    print(f"{total} judgements   overall precision {confirmed / total:.0%}  ({lo:.0%}–{hi:.0%})")
+    print(f"{total} decided   overall precision {confirmed / total:.0%}  ({lo:.0%}–{hi:.0%})"
+          + (f"   [{unsure} marked unsure, excluded]" if unsure else ""))
 
     report("By source", by_source)
     report("By source and strength", by_bucket)

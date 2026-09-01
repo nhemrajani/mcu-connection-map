@@ -41,7 +41,8 @@ for i, m in enumerate(moments):
     if len(m.get("description", "").split()) < 12:
         warnings.append(f"{where}: description is very short; embeddings need meaning")
 
-VERDICTS = {"confirmed", "rejected"}
+# "unsure" is a real answer: the reviewer looked and the evidence did not settle it.
+VERDICTS = {"confirmed", "rejected", "unsure"}
 
 for i, c in enumerate(connections):
     where = f"connection #{i} ({c.get('source')} -> {c.get('target')})"
@@ -63,8 +64,9 @@ for orphan in sorted(ids - linked):
 
 confirmed = sum(1 for c in connections if c.get("verdict") == "confirmed")
 rejected = sum(1 for c in connections if c.get("verdict") == "rejected")
-print(f"{len(moments)} moments, {confirmed} confirmed, {rejected} rejected "
-      f"({len(connections)} judgements total)")
+unsure = sum(1 for c in connections if c.get("verdict") == "unsure")
+print(f"{len(moments)} moments, {confirmed} confirmed, {rejected} rejected, "
+      f"{unsure} unsure ({len(connections)} judgements total)")
 for w in warnings:
     print(f"  warning  {w}")
 for e in errors:

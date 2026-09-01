@@ -36,6 +36,13 @@
   .card .film{font-size:12.5px;color:var(--muted);margin-bottom:9px}
   .card p{margin:0;color:var(--soft);font-size:14.5px}
 
+  .src{font-family:ui-monospace,monospace;font-size:10.5px;letter-spacing:.09em;
+       text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+  blockquote{margin:0 0 7px;padding:9px 12px;background:var(--sunk);
+       border-left:2px solid var(--rule);border-radius:0 6px 6px 0;
+       font-size:13px;color:var(--soft)}
+  mark{background:rgba(217,164,65,.22);color:var(--brass);padding:0 2px;border-radius:2px}
+  .order{text-align:center;font-size:12.5px;color:var(--muted);margin:2px 0 4px}
   .ask{text-align:center;margin:22px 0 14px;color:var(--muted);font-size:13.5px}
   .keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:8px}
   button{
@@ -87,6 +94,7 @@ function render(){
     return;
   }
   const q = queue[i];
+  CURRENT_TERMS = q.evidence || [];
   const a = moments[q.source], b = moments[q.target];
   const pct = Math.round(i / queue.length * 100);
   const ev = q.evidence?.length ? `<span class="chip ev">shared: ${q.evidence.slice(0,3).join(', ')}</span>` : '';
@@ -103,33 +111,42 @@ function render(){
       ${q.suggested_type ? `<span class="chip">suggests: ${q.suggested_type}</span>`:''}
       ${ev}${sc}
     </div>
-    <div class="card">
-      <div class="lbl">A</div>
-      <h2>${esc(a.title)}</h2>
-      <div class="film">${esc(a.film)}</div>
-      <p>${esc(a.description)}</p>
-    </div>
-    <div class="card">
-      <div class="lbl">B</div>
-      <h2>${esc(b.title)}</h2>
-      <div class="film">${esc(b.film)}</div>
-      <p>${esc(b.description)}</p>
-    </div>
+    ${card('A', a, q.quotes_a, q.year_a)}
+    ${card('B', b, q.quotes_b, q.year_b)}
+    ${order(q)}
     <div class="ask">If yes, pick the kind of connection. If they only share a word, reject.</div>
     <div class="keys">
       ${TYPES.map(([k,t,d])=>`<button data-type="${t}"><kbd>${k}</kbd><span>${t}<br><small style="color:var(--muted)">${d}</small></span></button>`).join('')}
       <button class="no" data-verdict="rejected"><kbd>X</kbd><span>not a real connection</span></button>
-      <button class="skip" data-skip="1"><kbd>S</kbd><span>skip / unsure</span></button>
+      <button class="skip" data-verdict="unsure"><kbd>S</kbd><span>can't tell from this</span></button>
     </div>
-    <div class="hint">Keys 1–5 confirm with a type · X rejects · S skips</div>`;
+    <div class="hint">Keys 1–5 confirm with a type · X rejects · S if the evidence doesn't tell you<br>
+      <span style="opacity:.7">Judge what the quotes support, not what you remember.</span></div>`;
 
   app.querySelectorAll('button').forEach(b=>b.onclick=()=>{
-    if(b.dataset.skip) return next();
-    if(b.dataset.verdict) return judge('rejected');
+    if(b.dataset.verdict) return judge(b.dataset.verdict);
     judge('confirmed', b.dataset.type);
   });
 }
 
+function card(lbl, m, quotes, year){
+  const qs = (quotes||[]).map(t=>`<blockquote>${hl(esc(t))}</blockquote>`).join('');
+  return `<div class="card">
+    <div class="lbl">${lbl}${year?` &middot; ${year}`:''}</div>
+    <h2>${esc(m.title)}</h2>
+    <div class="film">${esc(m.film)}</div>
+    <p>${esc(m.description)}</p>
+    ${qs ? `<div class="src">From the original plot summary</div>${qs}` : ''}
+  </div>`;
+}
+function order(q){
+  if(!q.year_a || !q.year_b || q.year_a === q.year_b) return '';
+  const first = q.year_a < q.year_b ? 'A' : 'B';
+  return `<div class="order">${first} was released first &mdash; if one sets up the other, it is ${first}.</div>`;
+}
+let CURRENT_TERMS = [];
+const hl = t => CURRENT_TERMS.reduce((acc,term)=>
+  acc.replace(new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`,'gi'),'<mark>$1</mark>'), t);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 async function judge(verdict, type){
@@ -146,7 +163,7 @@ addEventListener('keydown', e=>{
   const t = TYPES.find(([k])=>k===e.key);
   if(t) return judge('confirmed', t[1]);
   if(e.key.toLowerCase()==='x') return judge('rejected');
-  if(e.key.toLowerCase()==='s') return next();
+  if(e.key.toLowerCase()==='s') return judge('unsure');
 });
 
 load();
