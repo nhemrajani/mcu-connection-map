@@ -2126,5 +2126,221 @@
     "universe": "mcu",
     "phase": 3,
     "description": "In a post-credits scene the Fury and Hill Peter dealt with are revealed to be the Skrulls Talos and Soren, while the real Nick Fury is off Earth commanding a Skrull crew."
+  },
+  {
+    "id": "m-ohio-family-was-cover",
+    "title": "The family was an assignment",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In 1995 Alexei Shostakov and Melina Vostokoff pose as an American family in Ohio with Natasha Romanoff and Yelena Belova as their daughters, then steal S.H.I.E.L.D. intelligence and flee to Cuba, where the girls are handed to the Red Room."
+  },
+  {
+    "id": "m-budapest-bombing",
+    "title": "What happened in Budapest",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Natasha Romanoff defects to S.H.I.E.L.D. after helping Clint Barton bomb General Dreykov's Budapest office, an act she believes killed Dreykov and his young daughter Antonia."
+  },
+  {
+    "id": "m-antidote-frees-widows",
+    "title": "A gas that breaks the leash",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Yelena Belova is exposed to a synthetic gas that neutralises the Red Room's chemical mind control, and sends the antidote to Romanoff hoping the Avengers will free the other Widows."
+  },
+  {
+    "id": "m-taskmaster-is-antonia",
+    "title": "The soldier who copies anyone",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Dreykov reveals Taskmaster is his daughter Antonia, so badly injured in the Budapest bombing that he implanted technology in her head, turning her into a soldier who can mimic anyone she watches."
+  },
+  {
+    "id": "m-romanoff-breaks-her-nose",
+    "title": "She breaks her own nose",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "A pheromone lock stops any Widow from attacking Dreykov, so Natasha Romanoff severs her own olfactory nerve by breaking her nose to get free of it."
+  },
+  {
+    "id": "m-widows-locations-taken",
+    "title": "A list of everyone still owned",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Romanoff copies the worldwide locations of the remaining mind-controlled Widows from Dreykov's computer and gives them to Belova with the antidote, so she can free them."
+  },
+  {
+    "id": "m-quinjet-for-the-raft",
+    "title": "A jet to go break them out",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Two weeks later Rick Mason supplies Natasha Romanoff with a Quinjet, which she uses to free the Avengers imprisoned for refusing the Sokovia Accords."
+  },
+  {
+    "id": "m-fontaine-targets-barton",
+    "title": "A new handler at the grave",
+    "film": "Black Widow (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "After Romanoff's death, Valentina Allegra de Fontaine finds Yelena Belova at her sister's grave, blames Clint Barton for it, and assigns him as Belova's next target."
+  },
+  {
+    "id": "m-wenwu-finds-the-rings",
+    "title": "Ten rings and a thousand years",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "A thousand years ago Xu Wenwu discovers the mystical ten rings, which grant godly power and immortality, and founds the Ten Rings organisation to topple kingdoms across history."
+  },
+  {
+    "id": "m-wenwu-meets-ying-li",
+    "title": "A guardian stops him at the forest",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In 1996 Wenwu seeks the hidden village of Ta Lo and is turned back by its guardian Ying Li; they fall in love, she leaves her village for him, and he locks the rings away."
+  },
+  {
+    "id": "m-ying-li-murdered",
+    "title": "They come for her while he is unarmed",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Wenwu's old enemies the Iron Gang murder Ying Li while the rings are locked away, and he takes them up again, massacres the Gang and returns to the organisation he had abandoned."
+  },
+  {
+    "id": "m-shang-chi-sent-to-kill",
+    "title": "A father sends a boy to kill",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "At fourteen Shang-Chi is sent by Wenwu to assassinate the Iron Gang's leader; he completes it and runs to San Francisco, calling himself Shaun."
+  },
+  {
+    "id": "m-slattery-in-the-cell",
+    "title": "The fake Mandarin, still alive",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Imprisoned in the Ten Rings compound is Trevor Slattery, the actor who once impersonated the Mandarin, kept alive as a joke and now performing for his captors."
+  },
+  {
+    "id": "m-ta-lo-and-the-dark-gate",
+    "title": "A gate holding something back",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Ying Nan explains that Ta Lo's universe was once attacked by the soul-consuming Dweller-in-Darkness, and that the Great Protector helped seal the Dark Gate that still holds it."
+  },
+  {
+    "id": "m-voice-was-the-dweller",
+    "title": "The voice was never his wife",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The voice Wenwu believes is his imprisoned wife calling from behind the gate is the Dweller-in-Darkness, manipulating him into using the rings to break the seal."
+  },
+  {
+    "id": "m-shang-chi-spares-father",
+    "title": "He does not finish it",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Shang-Chi beats Wenwu and chooses to spare him; Wenwu is killed by the Dweller-in-Darkness saving his son, and passes the ten rings to him as he dies."
+  },
+  {
+    "id": "m-rings-are-a-beacon",
+    "title": "The rings are calling something",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Wong, Bruce Banner and Carol Danvers examine the ten rings and find they are far older than anyone knew and are transmitting a signal to something unknown."
+  },
+  {
+    "id": "m-xialing-takes-the-org",
+    "title": "She keeps it instead",
+    "film": "Shang-Chi and the Legend of the Ten Rings (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Having promised to disband the Ten Rings, Xialing instead takes command of the organisation and begins training women alongside the men."
+  },
+  {
+    "id": "m-eternals-sent-to-earth",
+    "title": "Ten sent to kill the Deviants",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "In 5000 BC the Celestial Arishem sends ten Eternals to Earth aboard the Domo to exterminate the predatory Deviants, and forbids them from interfering in human affairs otherwise."
+  },
+  {
+    "id": "m-ajak-found-dead",
+    "title": "Their leader is already dead",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sersi, Sprite and Ikaris travel to South Dakota to find Ajak dead, and Sersi is posthumously made her successor, gaining the ability to speak with Arishem."
+  },
+  {
+    "id": "m-emergence-explained",
+    "title": "The planet was an egg",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Arishem reveals the Eternals' real mission: Earth carries the seed of the Celestial Tiamut, and a large enough population will let it be born, destroying the planet in the process."
+  },
+  {
+    "id": "m-blip-triggers-emergence",
+    "title": "Bringing everyone back started the clock",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Restoring the population erased by Thanos pushes humanity past the threshold Tiamut needs, meaning the Avengers' victory is what makes the Emergence possible."
+  },
+  {
+    "id": "m-ikaris-killed-ajak",
+    "title": "He led her to them",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Ikaris admits he stayed loyal to Arishem and delivered Ajak to the Deviants to be killed, because she had decided to stop the Emergence and save humanity."
+  },
+  {
+    "id": "m-uni-mind-formed",
+    "title": "They join into one mind",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "The Eternals link through the Uni-Mind, pooling their power so Sersi can act on a Celestial, and Ikaris finds he cannot kill her and joins them."
+  },
+  {
+    "id": "m-tiamut-turned-to-stone",
+    "title": "A god halfway born, stopped",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Sersi turns the emerging Celestial Tiamut to stone in the Indian Ocean, leaving its vast petrified form protruding from the sea."
+  },
+  {
+    "id": "m-arishem-takes-them",
+    "title": "He will come back to judge",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Displeased by the Eternals' treason, Arishem takes Sersi, Phastos and Kingo into a singularity, saying he will spare humanity only if their memories prove humans worth saving."
+  },
+  {
+    "id": "m-ebony-blade-teased",
+    "title": "A blade in his family",
+    "film": "Eternals (2021)",
+    "universe": "mcu",
+    "phase": 4,
+    "description": "Dane Whitman is about to tell Sersi a secret about his family when she is taken, and an unseen voice later asks whether he is ready to wield the Ebony Blade."
   }
 ]
