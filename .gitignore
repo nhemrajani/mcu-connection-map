@@ -33,3 +33,8 @@ ml/out/*
 .vscode/
 .idea/
 *.log
+
+# Generated art: regenerate with art/style.py, keep the sheet only
+art/sheet/
+art/_smoke.png
+art/one.png
