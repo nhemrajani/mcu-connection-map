@@ -39,6 +39,27 @@ OUT = Path(__file__).resolve().parent / "out"
 
 # An entity in more than this fraction of moments is too common to be evidence.
 COMMON_CUTOFF = 0.06
+
+# Places are the one class of entity that passes the rarity filter and still
+# means nothing. "New York" appears in about ten moments - rare enough to look
+# informative - but two events happening in New York are not connected, they
+# are just both in New York. This was inflating centrality: "Three buildings
+# holding a shield" ranked sixth most central in the MCU purely on London,
+# New York and Hong Kong.
+#
+# A curated list is blunt, and it is a known limitation: a place that also
+# carries story weight (Wakanda, Westview) is excluded here even where the
+# link would have been real. Frequency alone cannot separate the two cases,
+# so this errs toward dropping edges rather than keeping false ones.
+PLACES = {
+    "Earth", "New York", "New York City", "London", "Hong Kong", "Manhattan",
+    "Harlem", "Asgard", "New Asgard", "Wakanda", "Sokovia", "Knowhere",
+    "Kamar-Taj", "San Francisco", "Chicago", "Oakland", "Los Angeles",
+    "Washington", "Brazil", "Afghanistan", "Norway", "Hala", "Talokan",
+    "Westview", "Hell's Kitchen", "New Jersey", "Siberia", "Berlin", "Vienna",
+    "Budapest", "Sakaar", "Jotunheim", "Svartalfheim", "Xandar", "Vormir",
+    "Titan", "Ta Lo", "Madripoor", "New Orleans", "Portland", "Queens",
+}
 # Words that start sentences and would otherwise be mistaken for proper nouns.
 SENTENCE_STARTERS = {
     "The", "A", "An", "In", "On", "At", "After", "Before", "During", "While",
@@ -92,7 +113,8 @@ def main():
     ents = {m["id"]: entities(m["description"]) for m in moments}
     freq = collections.Counter(e for s in ents.values() for e in s)
     cutoff = max(2, int(len(moments) * COMMON_CUTOFF))
-    informative = {e for e, n in freq.items() if 2 <= n <= cutoff}
+    informative = {e for e, n in freq.items()
+                   if 2 <= n <= cutoff and e not in PLACES}
 
     by_id = {m["id"]: m for m in moments}
     proposals = []
