@@ -36,6 +36,13 @@
   .stat b { display: block; font-size: 17px; font-variant-numeric: tabular-nums; }
   .stat span { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 
+  .modes { display:flex; gap:0; margin-top:12px; border:1px solid var(--border); border-radius:7px; overflow:hidden; }
+  .modes button {
+    flex:1; padding:6px 8px; font:inherit; font-size:11.5px; cursor:pointer;
+    background:transparent; color:var(--muted); border:0;
+  }
+  .modes button.on { background:rgba(217,164,65,.16); color:#e9d7a8; }
+  .modes button:focus-visible { outline:2px solid #D9A441; outline-offset:-2px; }
   .legend { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
   .legend div { display: flex; align-items: center; gap: 7px; font-size: 11.5px; color: var(--muted); margin-bottom: 3px; }
   .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
@@ -66,6 +73,9 @@
     <div class="stat"><b id="n-edges">–</b><span>edges</span></div>
     <div class="stat"><b id="n-threads">–</b><span>threads</span></div>
   </div>
+  <div class="modes">
+    <button id="m-threads" class="on">Threads</button><button id="m-meaning">Meaning</button>
+  </div>
   <div class="legend" id="legend"></div>
 </div>
 
@@ -88,7 +98,13 @@ let nodes = [], edges = [], meta = {};
 let scale = 1, ox = 0, oy = 0;          // viewport transform
 let hover = null;
 
-const world = p => ({ x: p.x * 1.1, y: p.y * 1.1 });
+// "threads" uses the hybrid layout (connection pulls linked moments together);
+// "meaning" uses the pure embedding projection, where position is only ever
+// about what a moment means.
+let mode = 'threads';
+const world = p => mode === 'threads'
+  ? ({ x: p.x * 1.1, y: p.y * 1.1 })
+  : ({ x: (p.sx ?? p.x) * 1.1, y: (p.sy ?? p.y) * 1.1 });
 const toScreen = p => ({ x: world(p).x * scale + ox, y: world(p).y * scale + oy });
 
 function radius(n) {
@@ -208,6 +224,15 @@ cv.addEventListener('wheel', e => {
   draw();
 }, { passive: false });
 addEventListener('resize', resize);
+
+function setMode(next) {
+  mode = next;
+  document.getElementById('m-threads').classList.toggle('on', next === 'threads');
+  document.getElementById('m-meaning').classList.toggle('on', next === 'meaning');
+  fit(); draw();
+}
+document.getElementById('m-threads').onclick = () => setMode('threads');
+document.getElementById('m-meaning').onclick = () => setMode('meaning');
 
 fetch('../ml/out/graph.json')
   .then(r => r.json())

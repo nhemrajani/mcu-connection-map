@@ -43,8 +43,21 @@ MIN_EDGES_FOR_COMMUNITIES = 40
 # See the precision table in ml/evaluate.py output and PROVENANCE.md.
 MIN_EDGE_WEIGHT = 0.125
 
+# How far the graph is allowed to drag a moment away from where meaning put it.
+# 0 = pure semantic layout (threads scatter), 1 = pure force-directed (the
+# semantic geography is lost). Tuned by eye against thread contiguity.
+GRAPH_PULL = 0.55
+SPRING_ITERATIONS = 60
 
-def layout(vectors, seed=42):
+
+def normalise(coords):
+    """Fit coordinates into a friendly 0-1000 square for the canvas."""
+    lo, hi = coords.min(axis=0), coords.max(axis=0)
+    span = np.where(hi - lo == 0, 1, hi - lo)
+    return (coords - lo) / span * 1000
+
+
+def semantic_layout(vectors, seed=42):
     """Squeeze high-dimensional meaning down to a 2D position per moment."""
     n = len(vectors)
     perplexity = max(5, min(30, (n - 1) // 3))
@@ -54,10 +67,44 @@ def layout(vectors, seed=42):
         init="pca",
         random_state=seed,
     ).fit_transform(np.asarray(vectors))
-    # Normalise into a friendly 0-1000 square for the canvas.
-    lo, hi = coords.min(axis=0), coords.max(axis=0)
-    span = np.where(hi - lo == 0, 1, hi - lo)
-    return (coords - lo) / span * 1000
+    return normalise(coords)
+
+
+def layout(vectors, graph, ids, pull=GRAPH_PULL, seed=42):
+    """Position from meaning, then pulled toward connection.
+
+    Two things want to decide where a moment sits and they disagree.
+
+    Meaning (the embedding) put the two "I am Iron Man" moments sixteen units
+    apart with no edge between them - the single best thing this map does, and
+    worth preserving.
+
+    Connection (the graph) is what a THREAD is made of, and threads are what
+    the illustrated canvas has to draw. Colouring by community over a purely
+    semantic layout scattered every colour across the whole map, because two
+    moments can share an entity while describing quite different things.
+
+    So: start a force-directed layout from the semantic positions and run it
+    briefly, then blend. Connected moments drift together without the semantic
+    geography being thrown away. `pull` is the blend - 0 is pure meaning, 1 is
+    pure graph. Stronger edges pull harder, so a confident link moves two
+    moments further than a marginal one.
+    """
+    base = semantic_layout(vectors, seed)
+    if graph.number_of_edges() == 0 or pull <= 0:
+        return base
+
+    start = {mid: (base[i] / 1000.0) for i, mid in enumerate(ids)}
+    sprung = nx.spring_layout(
+        graph,
+        pos=start,
+        iterations=SPRING_ITERATIONS,
+        weight="weight",
+        k=1.6 / np.sqrt(max(1, graph.number_of_nodes())),
+        seed=seed,
+    )
+    spring = normalise(np.array([sprung[mid] for mid in ids]))
+    return normalise(base * (1 - pull) + spring * pull)
 
 
 def main():
@@ -134,7 +181,16 @@ def main():
             f"Run  .venv/bin/python ml/embed.py  first."
         )
     vectors = np.array([vectors[order[m["id"]]] for m in moments])
-    positions = layout(vectors)
+    # Two layouts, because the tradeoff between them is real and picking one
+    # is bad at both. Meaning keeps the two "I am Iron Man" moments 7 units
+    # apart but scatters each thread across the map; connection makes threads
+    # into contiguous regions the art pipeline can illustrate but pulls
+    # semantic neighbours apart. The canvas offers both and the reader
+    # switches. The embedding distances are unchanged either way - the
+    # semantic finding lives in the vectors, not in the pixels.
+    order_ids = [m["id"] for m in moments]
+    positions = layout(vectors, graph, order_ids)          # hybrid, threads
+    semantic = semantic_layout(vectors)                    # pure meaning
 
     if not community_of:
         k = max(2, min(12, len(moments) // 20))
@@ -156,6 +212,8 @@ def main():
             "centrality": round(centrality.get(m["id"], 0.0), 4),
             "x": round(float(positions[i][0]), 2),
             "y": round(float(positions[i][1]), 2),
+            "sx": round(float(semantic[i][0]), 2),
+            "sy": round(float(semantic[i][1]), 2),
         })
 
     OUT.mkdir(exist_ok=True)
@@ -170,6 +228,7 @@ def main():
             "threads": len(groups),
             "thread_basis": basis,
             "min_edge_weight": MIN_EDGE_WEIGHT,
+            "graph_pull": GRAPH_PULL,
         },
     }, indent=2) + "\n")
 
