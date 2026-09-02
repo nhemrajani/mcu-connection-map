@@ -22,7 +22,7 @@ import sys
 from datetime import date
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-QUEUE = ROOT / "ml" / "out" / "review_queue.json"
+QUEUE = ROOT / "ml" / "out" / "worklist.json"
 DEST = ROOT / "data" / "annotations.json"
 
 TYPES = {
@@ -48,7 +48,7 @@ def main():
             sys.exit(f"malformed token {token!r} — expected like 3:x")
         pos, key = token.split(":", 1)
         key = key.lower().strip()
-        idx = int(pos) - 1
+        idx = int(pos)          # worklist positions are 0-indexed
         if not 0 <= idx < len(queue):
             sys.exit(f"position {pos} is outside the queue (1..{len(queue)})")
 
@@ -56,7 +56,7 @@ def main():
         record = {
             "source": q["source"],
             "target": q["target"],
-            "annotated_by": "claude-opus-5/primary-text-blind",
+            "annotated_by": "claude-opus-5/in-session",
             
             "judged_at": date.today().isoformat(),
         }
@@ -66,7 +66,7 @@ def main():
             # machine-assigned, because asking a non-expert to choose between
             # five categories was the thing that made this unusable.
             record["verdict"] = "confirmed"
-            record["type"] = q.get("suggested_type") or "theme-echo"
+            record["type"] = q.get("type") or "theme-echo"
             record["type_source"] = "suggested"
         elif key in TYPES:
             record["verdict"] = "confirmed"

@@ -96,5 +96,652 @@
     "verdict": "confirmed",
     "type": "setup-payoff",
     "type_source": "suggested"
+  },
+  {
+    "source": "m-lylla-teefs-floor-killed",
+    "target": "m-rocket-flatlines",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-wanda-studies-the-darkhold",
+    "target": "m-wanda-has-the-darkhold",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-mbaku-challenge",
+    "target": "m-jabari-return-the-mercy",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-yondu-exiled-by-ravagers",
+    "target": "m-ravager-funeral",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-surtur-prophecy",
+    "target": "m-ragnarok-triggered",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-gorr-loses-his-daughter",
+    "target": "m-necrosword-claims-gorr",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-maximus-coup",
+    "target": "m-attilan-abandoned",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-powers-work-together",
+    "target": "m-they-leave-new-orleans",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-strucker-scepter-twins",
+    "target": "m-strucker-experiments-on-twins",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ajak-found-dead",
+    "target": "m-ikaris-killed-ajak",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-emergence-explained",
+    "target": "m-arishem-takes-them",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-tiamut-turned-to-stone",
+    "target": "m-adamantium-on-celestial-island",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-illuminati-killed",
+    "target": "m-ff-cosmic-rays",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-flag-smashers-serum",
+    "target": "m-serum-recreated-in-madripoor",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-serum-recreated-in-madripoor",
+    "target": "m-sharon-is-power-broker",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-vision-asks-to-die",
+    "target": "m-wanda-destroys-vision",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-sterns-blood-in-cut",
+    "target": "m-sterns-behind-it",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-vanko-builds-reactor",
+    "target": "m-monaco-attack",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-toomes-keeps-the-tech",
+    "target": "m-peter-saves-toomes",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-rambeau-returns-from-blip",
+    "target": "m-rambeau-meets-binary",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-fisk-arranged-williams-death",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-iron-fist-and-kun-lun",
+    "target": "m-colleen-becomes-iron-fist",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-secret-warriors",
+    "target": "m-accords-legitimise-shield",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-fontaine-buries-sentry",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-pym-recruits-lang",
+    "target": "m-cross-sells-to-hydra",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-vers-amnesia-hala",
+    "target": "m-mar-vell-killed",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-the-void",
+    "target": "m-time-ripper-destroyed",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-mr-blue-mind-control",
+    "target": "m-ross-becomes-red-hulk",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-gamora-reveals-soul-stone",
+    "target": "m-thanos-sacrifices-gamora",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-stane-betrayal",
+    "target": "m-pepper-given-extremis",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-ancient-one-drew-dark-power",
+    "target": "m-ancient-one-dies",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ancient-one-dies",
+    "target": "m-mordo-renounces",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-telepath-body-hops",
+    "target": "m-v-max-was-a-vent",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-consultant-blonsky-blocked",
+    "target": "m-avengers-initiative-activated",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-wasp-suit-offered",
+    "target": "m-hope-becomes-the-wasp",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-schmidt-takes-tesseract",
+    "target": "m-schmidt-taken-by-tesseract",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-kevin-bacon-abducted",
+    "target": "m-mantis-is-his-sister",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-janet-lost-in-quantum-realm",
+    "target": "m-wasp-suit-offered",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-abomination-created",
+    "target": "m-sterns-behind-it",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-fontaine-targets-barton",
+    "target": "m-walker-becomes-us-agent",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-shang-chi-sent-to-kill",
+    "target": "m-shang-chi-spares-father",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-voice-was-the-dweller",
+    "target": "m-shang-chi-spares-father",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-walker-becomes-us-agent",
+    "target": "m-fontaine-buries-sentry",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-galactus-wants-the-child",
+    "target": "m-world-demands-the-child",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ronin-suit-recovered",
+    "target": "m-maya-hunts-ronin",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-loki-exposed-as-odin",
+    "target": "m-heimdall-sends-hulk-away",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-world-demands-the-child",
+    "target": "m-bridges-to-move-the-planet",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ross-shot-in-busan",
+    "target": "m-herb-garden-burned",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-edith-handed-over",
+    "target": "m-peter-gives-edith-away",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-maya-hunts-ronin",
+    "target": "m-kingpin-revealed",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-he-who-remains",
+    "target": "m-loki-becomes-the-tree",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-entanglement-swaps-them",
+    "target": "m-rambeau-strands-herself",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-killmonger-defeats-tchalla",
+    "target": "m-shuri-takes-the-herb",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-gem-named-infinity-stone",
+    "target": "m-time-heist-planned",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ross-pills-gamma",
+    "target": "m-ross-becomes-red-hulk",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-accords-legitimise-shield",
+    "target": "m-ross-elected-president",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-entanglement-swaps-them",
+    "target": "m-rambeau-meets-binary",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-government-names-walker",
+    "target": "m-sent-to-kill-each-other",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "shared-object",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-hela-revealed",
+    "target": "m-mjolnir-destroyed",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-first-arc-reactor",
+    "target": "m-stark-halts-weapons",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-shield-taken-back",
+    "target": "m-walker-becomes-us-agent",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-ramonda-drowns",
+    "target": "m-transmitter-in-selvig",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-quantum-bands-found",
+    "target": "m-transmitter-in-selvig",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-murdock-spares-fisk",
+    "target": "m-maya-heals-fisk",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-geraldine-mentions-ultron",
+    "target": "m-wanda-studies-the-darkhold",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-klaue-loses-his-arm",
+    "target": "m-watcher-breaks-his-oath",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-anton-vanko-cameo",
+    "target": "m-illuminati-killed",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-lagos-explosion",
+    "target": "m-wanda-destroys-vision",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-rocket-steals-batteries",
+    "target": "m-rocket-spares-evolutionary",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-zemo-succeeds",
+    "target": "m-mbaku-challenge",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-klaue-museum-theft",
+    "target": "m-wakanda-revealed-to-world",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-lang-goes-subatomic",
+    "target": "m-kang-killed-in-core",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-airport-battle-leipzig",
+    "target": "m-romanoff-breaks-her-nose",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-lang-fights-falcon",
+    "target": "m-shield-taken-back",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-tchalla-vows-revenge",
+    "target": "m-mbaku-challenge",
+    "annotated_by": "claude-opus-5/in-session",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
   }
 ]
