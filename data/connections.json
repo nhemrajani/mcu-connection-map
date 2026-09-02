@@ -70,5 +70,253 @@
     "note": "two unmaskings done to him rather than by him, each by a man with a grievance against Spider-Man",
     "proposed_by": "human",
     "judged_at": "2026-08-31"
+  },
+  {
+    "source": "m-pym-resigns-shield",
+    "target": "m-lang-under-house-arrest",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-boy-left-in-oakland",
+    "target": "m-killmonger-claims-throne",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-stark-takes-the-suit",
+    "target": "m-peter-declines-avengers",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-mjolnir-destroyed",
+    "target": "m-zeus-refuses-help",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-wilson-donates-shield",
+    "target": "m-ross-elected-president",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-witches-road-trials",
+    "target": "m-agatha-bargains-with-death",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-renamed-new-avengers",
+    "target": "m-barton-tells-yelena-truth",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-fury-ambushed-street",
+    "target": "m-fury-names-the-initiative",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-thor-allies-with-loki",
+    "target": "m-mjolnir-reforges-for-jane",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-battle-of-new-york",
+    "target": "m-stark-flies-the-nuke",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-wasp-suit-offered",
+    "target": "m-lang-under-house-arrest",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-scepter-enslaves-barton",
+    "target": "m-barton-tells-yelena-truth",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-fury-sends-the-signal",
+    "target": "m-fury-was-a-skrull",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-statesman-attacked",
+    "target": "m-heimdall-sends-hulk-away",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-murdock-blinded-as-a-boy",
+    "target": "m-murdock-spares-fisk",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-zemo-succeeds",
+    "target": "m-zemo-broken-out",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-emergence-explained",
+    "target": "m-tiamut-turned-to-stone",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-gamora-reveals-soul-stone",
+    "target": "m-wanda-destroys-vision",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-skrulls-probe-memories",
+    "target": "m-skrulls-are-refugees",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-guardians-formed",
+    "target": "m-watcher-breaks-his-oath",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-anton-vanko-cameo",
+    "target": "m-peggy-stays-in-los-angeles",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-ying-li-murdered",
+    "target": "m-wenwu-gives-the-rings",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-shang-chi-spares-father",
+    "target": "m-wenwu-gives-the-rings",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-killian-rejected-on-roof",
+    "target": "m-stark-removes-shrapnel",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-strong",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-roxxon-rig-explodes",
+    "target": "m-roxxon-covered-it-up",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-thanos-destroys-the-stones",
+    "target": "m-stark-snaps-thanos-away",
+    "proposed_by": "all-MiniLM-L6-v2",
+    "bucket": "similar-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-thanos-takes-the-gauntlet",
+    "target": "m-banner-snaps-them-back",
+    "proposed_by": "relate.py/entities+chronology",
+    "bucket": "entity-weak",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
   }
 ]

@@ -1,0 +1,100 @@
+[
+  {
+    "source": "m-zemo-succeeds",
+    "target": "m-zemo-broken-out",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-emergence-explained",
+    "target": "m-tiamut-turned-to-stone",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-gamora-reveals-soul-stone",
+    "target": "m-wanda-destroys-vision",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-skrulls-probe-memories",
+    "target": "m-skrulls-are-refugees",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "timeline-adjacent",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-guardians-formed",
+    "target": "m-watcher-breaks-his-oath",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-anton-vanko-cameo",
+    "target": "m-peggy-stays-in-los-angeles",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-ying-li-murdered",
+    "target": "m-wenwu-gives-the-rings",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-shang-chi-spares-father",
+    "target": "m-wenwu-gives-the-rings",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-killian-rejected-on-roof",
+    "target": "m-stark-removes-shrapnel",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "rejected"
+  },
+  {
+    "source": "m-roxxon-rig-explodes",
+    "target": "m-roxxon-covered-it-up",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-thanos-destroys-the-stones",
+    "target": "m-stark-snaps-thanos-away",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "theme-echo",
+    "type_source": "suggested"
+  },
+  {
+    "source": "m-thanos-takes-the-gauntlet",
+    "target": "m-banner-snaps-them-back",
+    "annotated_by": "claude-opus-5/primary-text-blind",
+    "judged_at": "2026-09-01",
+    "verdict": "confirmed",
+    "type": "setup-payoff",
+    "type_source": "suggested"
+  }
+]

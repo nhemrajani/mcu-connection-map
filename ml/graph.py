@@ -98,6 +98,15 @@ def main():
     ids = json.loads((OUT / "moment_ids.json").read_text())
     vectors = np.load(OUT / "embeddings.npy")
     order = {mid: i for i, mid in enumerate(ids)}
+    # Moments added since the last embed run have no vector. Say so plainly
+    # rather than dying on a KeyError three lines below.
+    stale = [m["id"] for m in moments if m["id"] not in order]
+    if stale:
+        raise SystemExit(
+            f"{len(stale)} moment(s) have no embedding — embeddings.npy holds "
+            f"{len(ids)}, moments.json holds {len(moments)}.\n"
+            f"Run  .venv/bin/python ml/embed.py  first."
+        )
     vectors = np.array([vectors[order[m["id"]]] for m in moments])
     positions = layout(vectors)
 

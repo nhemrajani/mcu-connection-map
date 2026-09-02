@@ -6,6 +6,12 @@
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
+    "source": "m-slattery-in-the-cell",
+    "target": "m-all-hail-the-king",
+    "score": 0.8146,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
     "source": "m-yelena-hunts-barton",
     "target": "m-barton-tells-yelena-truth",
     "score": 0.8096,
@@ -129,6 +135,12 @@
     "source": "m-maya-hunts-ronin",
     "target": "m-fisk-arranged-williams-death",
     "score": 0.7122,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-slattery-informs-for-ddc",
+    "target": "m-all-hail-the-king",
+    "score": 0.7083,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -393,6 +405,12 @@
     "source": "m-palladium-poisoning",
     "target": "m-stark-flies-the-nuke",
     "score": 0.6586,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-avengers-initiative-activated",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.6581,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -1578,6 +1596,12 @@
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
+    "source": "m-peggy-takes-the-serum",
+    "target": "m-carter-one-shot",
+    "score": 0.5912,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
     "source": "m-simons-powers-surface",
     "target": "m-simon-frees-slattery",
     "score": 0.591,
@@ -1593,6 +1617,12 @@
     "source": "m-tchalla-vows-revenge",
     "target": "m-boy-left-in-oakland",
     "score": 0.5905,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-natalie-is-natasha",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.5904,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -1635,6 +1665,12 @@
     "source": "m-hulk-spares-abomination",
     "target": "m-banner-warns-the-sanctum",
     "score": 0.5899,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bloodstone-hunt",
+    "target": "m-jack-russell-is-a-monster",
+    "score": 0.5895,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -1728,6 +1764,12 @@
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
+    "source": "m-airport-battle-leipzig",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.5878,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
     "source": "m-janet-lost-in-quantum-realm",
     "target": "m-janet-heals-ava",
     "score": 0.5876,
@@ -1737,6 +1779,12 @@
     "source": "m-ross-elected-president",
     "target": "m-ross-becomes-red-hulk",
     "score": 0.5876,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-consultant-only",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.5874,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -1854,6 +1902,12 @@
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
+    "source": "m-sokovia-accords-proposed",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.583,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
     "source": "m-wenwu-meets-ying-li",
     "target": "m-shang-chi-spares-father",
     "score": 0.5827,
@@ -1863,6 +1917,12 @@
     "source": "m-maya-loses-her-leg",
     "target": "m-maya-shoots-fisk",
     "score": 0.5826,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-stark-tells-ross-team",
+    "target": "m-consultant-blonsky-blocked",
+    "score": 0.582,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -2007,6 +2067,12 @@
     "source": "m-rogers-leaves-the-shield",
     "target": "m-shield-taken-back",
     "score": 0.5789,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-bloodstone-hunt",
+    "target": "m-elsa-takes-the-manor",
+    "score": 0.5787,
     "proposed_by": "all-MiniLM-L6-v2"
   },
   {
@@ -2156,6 +2222,12 @@
   {
     "source": "m-palladium-poisoning",
     "target": "m-stark-panic-attacks",
+    "score": 0.5741,
+    "proposed_by": "all-MiniLM-L6-v2"
+  },
+  {
+    "source": "m-quill-half-human",
+    "target": "m-mantis-is-his-sister",
     "score": 0.5741,
     "proposed_by": "all-MiniLM-L6-v2"
   },
@@ -2325,78 +2397,6 @@
     "source": "m-witches-road-trials",
     "target": "m-ballad-was-a-lullaby",
     "score": 0.5706,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-strange-trades-time-stone",
-    "target": "m-time-heist-planned",
-    "score": 0.5704,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-wanda-built-westview",
-    "target": "m-white-vision-rebuilt",
-    "score": 0.5703,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-spell-to-be-forgotten",
-    "target": "m-great-power-responsibility",
-    "score": 0.5702,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-vision-asks-to-die",
-    "target": "m-kamala-accepts-remaking",
-    "score": 0.5702,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-harry-saves-peter",
-    "target": "m-yfnsm-paradox-bite",
-    "score": 0.5702,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-foggy-killed",
-    "target": "m-pop-killed",
-    "score": 0.57,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-rocket-was-made",
-    "target": "m-rocket-spares-evolutionary",
-    "score": 0.5699,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-fury-promised-a-home",
-    "target": "m-skrull-rebellion",
-    "score": 0.5698,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-loki-bargain-chitauri",
-    "target": "m-battle-of-new-york",
-    "score": 0.5695,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-thor-aims-for-the-chest",
-    "target": "m-the-snap",
-    "score": 0.5695,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-blonsky-takes-serum",
-    "target": "m-super-soldier-procedure",
-    "score": 0.5693,
-    "proposed_by": "all-MiniLM-L6-v2"
-  },
-  {
-    "source": "m-pym-resigns-shield",
-    "target": "m-janet-lost-in-quantum-realm",
-    "score": 0.5693,
     "proposed_by": "all-MiniLM-L6-v2"
   }
 ]

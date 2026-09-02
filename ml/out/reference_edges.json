@@ -1,5 +1,14 @@
 [
   {
+    "source": "m-hulk-spares-abomination",
+    "target": "m-consultant-blonsky-blocked",
+    "type": "setup-payoff",
+    "quote": "Set after the events of Iron Man 2 and The Incredible Hulk, Phil Coulson informs Jasper Sitwell that the World Security Council wishes for Emil Blonsky to be released from prison to join the Avengers Initiative.",
+    "refers_to": "The Incredible Hulk",
+    "confidence": 0.5681,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
     "source": "m-stark-snaps-thanos-away",
     "target": "m-westview-sitcom",
     "type": "setup-payoff",
@@ -69,6 +78,15 @@
     "quote": "She calls Fury, who has been working in space for years following the Blip.",
     "refers_to": "the Blip",
     "confidence": 0.438,
+    "proposed_by": "references.py/stated-in-source"
+  },
+  {
+    "source": "m-vibranium-shield-made",
+    "target": "m-carter-one-shot",
+    "type": "setup-payoff",
+    "quote": "One year after the events of Captain America: The First Avenger, Strategic Scientific Reserve Agent Peggy Carter is stuck compiling data instead of working field cases.",
+    "refers_to": "Captain America: The First Avenger",
+    "confidence": 0.4227,
     "proposed_by": "references.py/stated-in-source"
   },
   {
