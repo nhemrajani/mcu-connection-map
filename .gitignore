@@ -38,3 +38,6 @@ ml/out/*
 art/sheet/
 art/_smoke.png
 art/one.png
+art/world/
+art/world-test.png
+art/terrain-ink-*.png
