@@ -36,6 +36,13 @@ OUT = Path(__file__).resolve().parent / "out"
 # anything, so we fall back to clustering the embeddings directly.
 MIN_EDGES_FOR_COMMUNITIES = 40
 
+# Measured cutoff. 87 judged pairs, stratified across ten weight bands, showed
+# precision collapsing below roughly this value: 92% at the top, 83% and 67% in
+# the next two bands, then 33-40% underneath. Keeping the tail would fill the
+# graph with edges barely better than chance and merge distinct threads.
+# See the precision table in ml/evaluate.py output and PROVENANCE.md.
+MIN_EDGE_WEIGHT = 0.125
+
 
 def layout(vectors, seed=42):
     """Squeeze high-dimensional meaning down to a 2D position per moment."""
@@ -69,7 +76,26 @@ def main():
         for p in json.loads(proposals_file.read_text()):
             if frozenset((p["source"], p["target"])) in rejected:
                 continue
+            if p.get("weight", 0) < MIN_EDGE_WEIGHT:
+                continue
             proposed.append({**p, "verdict": "proposed"})
+
+    # The cutoff leaves some moments with no edge at all. On a map that is
+    # worse than a slightly weak edge: an unplaced moment tells the reader
+    # nothing, while its best available link at least says which region it
+    # belongs near. Each orphan gets its single strongest proposal back,
+    # flagged so it is never mistaken for a confident edge.
+    kept = {e for p in proposed for e in (p["source"], p["target"])}
+    orphans = {m["id"] for m in moments} - kept - {
+        e for c in confirmed for e in (c["source"], c["target"])}
+    if orphans and proposals_file.exists():
+        best = {}
+        for p in json.loads(proposals_file.read_text()):
+            for end in (p["source"], p["target"]):
+                if end in orphans and p["weight"] > best.get(end, {}).get("weight", 0):
+                    best[end] = p
+        for p in best.values():
+            proposed.append({**p, "verdict": "proposed", "low_confidence": True})
 
     edges = [{**c, "verdict": "confirmed"} for c in confirmed] + proposed
 
@@ -143,6 +169,7 @@ def main():
             "rejected": len(rejected),
             "threads": len(groups),
             "thread_basis": basis,
+            "min_edge_weight": MIN_EDGE_WEIGHT,
         },
     }, indent=2) + "\n")
 

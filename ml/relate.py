@@ -130,6 +130,32 @@ def main():
         same_film = a.get("film") == b.get("film")
         person = any(PERSON_HINT.search(s) for s in shared)
 
+        # A shared name across universes is not a shared person. The Reed
+        # Richards the Illuminati lose on Earth-838 is not the Reed Richards
+        # of Earth-828; the Peggy Carter of 1946 is not the one Wanda kills;
+        # the Riri Williams of the zombie timeline is a different Riri. Entity
+        # matching cannot see this and it was a recurring source of false
+        # edges in the low-precision bands.
+        #
+        # Cross-universe links are not banned outright - No Way Home makes
+        # some of them the point of the project - but a person's name alone
+        # cannot carry one. An object or concept still can, demoted to a
+        # theme-echo, because a rhyme across universes is a real observation
+        # even when the causal chain is not.
+        cross_universe = a.get("universe") != b.get("universe")
+        if cross_universe:
+            if person:
+                continue
+            proposals.append({
+                "source": a["id"], "target": b["id"],
+                "type": "theme-echo",
+                "evidence": sorted(shared),
+                "weight": round(sum(1.0 / freq[s] for s in shared) * 0.5, 4),
+                "cross_universe": True,
+                "proposed_by": "relate.py/entities+chronology",
+            })
+            continue
+
         if same_film:
             kind, source, target = "timeline-adjacent", a["id"], b["id"]
         elif ya and yb and ya != yb:
