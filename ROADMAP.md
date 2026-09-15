@@ -3,9 +3,13 @@
 Where the project is going, in order. Each step produces something you can see,
 and each depends on the one before it.
 
-**Where we are now:** 266 moments across 26 titles, 8 confirmed edges, a working
-`embed → graph → canvas` pipeline, and a debug canvas that renders the map with
-positions computed from meaning.
+**Where we are now:** 599 moments across all 76 released titles, 1,248 measured
+edges, 39 threads, a live map at mcu.neeha.xyz, and an image pipeline whose
+style is proven but whose tile pyramid is unbuilt.
+
+The project has two halves and they are equally the point: **a model that
+predicts narrative connection**, and **that structure rendered as a world**.
+Phase A and B are the first; Phase C is the second.
 
 ---
 
