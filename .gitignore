@@ -42,3 +42,6 @@ art/world/
 art/world-test.png
 art/terrain-ink-*.png
 art/scene-strip.png
+art/tiles/
+art/pyramid-check.png
+art/pyramid-plan.json
