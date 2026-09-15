@@ -234,7 +234,7 @@ function setMode(next) {
 document.getElementById('m-threads').onclick = () => setMode('threads');
 document.getElementById('m-meaning').onclick = () => setMode('meaning');
 
-fetch('../ml/out/graph.json')
+fetch('ml/out/graph.json')
   .then(r => r.json())
   .then(g => {
     nodes = g.nodes; edges = g.edges; meta = g.meta || {};
