@@ -36,7 +36,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from quilt import subject, STYLE, NEGATIVE
+from quilt import subject, STYLE, NEGATIVE, fit
 
 SCENE = 640
 SEAM = 128          # narrow on purpose: a wide gap is a blank canvas
@@ -124,7 +124,7 @@ def main(n=6, seed_id=None):
     scenes = []
     for i, m in enumerate(walk):
         t0 = time.time()
-        img = txt(prompt=f"{STYLE}, {subject(m)}", negative_prompt=NEGATIVE,
+        img = txt(prompt=fit(subject(m), STYLE), negative_prompt=NEGATIVE,
                   width=SCENE, height=SCENE, num_inference_steps=28,
                   guidance_scale=7.5,
                   generator=torch.Generator("mps").manual_seed(70 + i)).images[0]
@@ -156,8 +156,13 @@ def main(n=6, seed_id=None):
 
         a, b = walk[i], walk[i + 1]
         how = BRIDGE.get(e.get("type"), BRIDGE["theme-echo"])
-        prompt = (f"{STYLE}, {how}; on the left {subject(a)[:70]}; "
-                  f"on the right {subject(b)[:70]}")
+        # The bridge instruction leads, because it is what this strip of
+        # canvas is for. The two neighbours get a few words each as context,
+        # and the style comes last where truncation costs least.
+        prompt = fit(how,
+                     "left: " + " ".join(subject(a).split()[:6]),
+                     "right: " + " ".join(subject(b).split()[:6]),
+                     STYLE)
 
         t0 = time.time()
         patch = ink(prompt=prompt, negative_prompt=NEGATIVE,

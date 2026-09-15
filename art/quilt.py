@@ -55,13 +55,41 @@ from pyramid import NAME, IMAGERY          # shared depiction rules
 SCENE = 512            # each moment's own scene
 GAP = 256              # painted band between scenes
 
-STYLE = ("silver age comic book art, 1960s four colour printing, ben-day dot "
-         "halftone, heavy black ink outlines, flat saturated colour, dramatic "
-         "angular composition, aged newsprint")
-NEGATIVE = ("text, lettering, speech bubble, caption, words, letters, "
-            "signature, watermark, panel border, frame, gutter, page layout, "
-            "map, atlas, chart, diagram, place names, "
-            "photorealistic, 3d render, blurry, modern digital art")
+# CLIP accepts 77 tokens and silently discards the rest. The previous style
+# string was 39 of them, and a written visual description is around 41, so
+# every scene prompt overflowed and the model never saw the end of the
+# description it was supposed to draw. That, not vagueness, is why renders kept
+# missing their subject.
+#
+# Two consequences. The style string is now short enough to leave real room,
+# and the scene goes FIRST so that if anything is lost it is styling rather
+# than content.
+STYLE = "silver age comic art, ben-day dots, heavy ink, flat colour"
+NEGATIVE = ("text, lettering, speech bubble, caption, words, signature, "
+            "watermark, panel border, frame, gutter, map, atlas, chart, "
+            "photorealistic, 3d render, blurry")
+
+_TOK = None
+
+
+def fit(*parts, limit=74):
+    """Join prompt fragments and trim to what CLIP will actually read.
+
+    Silent truncation is the worst kind: the pipeline reports success, the
+    image comes back wrong, and nothing points at the cause. Trimming here
+    makes the loss explicit and puts it at the end, where the least important
+    words have been placed deliberately.
+    """
+    global _TOK
+    if _TOK is None:
+        from transformers import CLIPTokenizer
+        _TOK = CLIPTokenizer.from_pretrained(
+            "stabilityai/stable-diffusion-xl-base-1.0", subfolder="tokenizer")
+    text = ", ".join(p.strip(" ,") for p in parts if p and p.strip())
+    words = text.split()
+    while len(_TOK(" ".join(words))["input_ids"]) - 2 > limit and len(words) > 4:
+        words.pop()
+    return " ".join(words)
 
 
 def subject(moment):
@@ -115,7 +143,7 @@ def main(n=9):
     for i, m in enumerate(moments):
         s = subject(m)
         t0 = time.time()
-        img = txt(prompt=f"{STYLE}, {s}", negative_prompt=NEGATIVE,
+        img = txt(prompt=fit(s, STYLE), negative_prompt=NEGATIVE,
                   width=SCENE, height=SCENE, num_inference_steps=26,
                   guidance_scale=7.0,
                   generator=torch.Generator("mps").manual_seed(500 + i)).images[0]
