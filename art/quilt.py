@@ -25,8 +25,18 @@ the previous image. Continuity swallowed the content completely: four prompts
 for four different events produced four views of the same room. Generating
 independently and blending only the gaps keeps the two jobs apart.
 
-Depiction rules, enforced before any prompt is built: no names, no costumes, no
-insignia. Objects, places, weather and architecture only.
+On depiction. An earlier version stripped every character name before building
+a prompt, which produced "a figure" where the scene needed a person and made
+the images vague. That restriction is gone: prompts name what is in frame. The
+README discloses that Marvel's house style is present in the base model's
+training data and that recognisable characters therefore appear.
+
+The gaps between scenes are NOT generated. Asked to paint comic art surrounded
+by comic art, the inpainting model concluded it was painting a picture OF
+comics and produced covers, magazine pages and framed prints, turning a world
+into a gallery wall. The gaps are now filled deterministically from the colours
+of the scenes on either side, which is instant, cannot wander, and leaves the
+scenes as the only thing carrying content.
 """
 import json
 import re
@@ -59,14 +69,11 @@ def subject(moment):
 
     Prefers the hand-written `visual` field, which is a composed scene with a
     subject, a setting and a framing. Falls back to clipping imagery out of
-    `description`, which produces a fragment rather than a picture and is the
-    reason earlier renders looked like nothing in particular.
+    `description`, which produces a fragment rather than a picture.
     """
     if moment.get("visual"):
         return moment["visual"]
-    text = NAME.sub("a figure", moment["description"])
-    text = re.sub(r"\ba figure\b(?:\s+a figure\b)+", "a figure", text)
-    first = re.split(r"(?<=[.;])\s", text)[0]
+    first = re.split(r"(?<=[.;])\s", moment["description"])[0]
     # Prefer the clause carrying the most concrete imagery.
     clauses = [c.strip(" ,") for c in first.split(",") if c.strip()]
     if clauses:
@@ -127,36 +134,24 @@ def main(n=9):
         mask.paste(0, (x, y, x + SCENE, y + SCENE))  # black = keep the scene
     canvas.save(HERE / "quilt-before.png")
 
-    # --- 3. paint the gaps ------------------------------------------------
-    ink = StableDiffusionXLInpaintPipeline.from_pretrained(
-        "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
-        torch_dtype=torch.float16, variant="fp16", use_safetensors=True).to("mps")
-    ink.set_progress_bar_config(disable=True)
+    # --- 3. bridge the gaps without generating anything -------------------
+    # Each gap pixel takes a blend of the nearest scene edges, then a halftone
+    # dot screen is laid over it so the join reads as printing rather than as
+    # a blur. Deterministic, instant, and incapable of inventing a comic cover.
+    import numpy as np
 
-    # Inpaint in overlapping windows: the model only ever sees a gap together
-    # with the finished scenes on both sides of it, which is what lets it
-    # continue them rather than invent something unrelated.
-    win = SCENE + GAP * 2
-    joined = canvas
-    for gy in range(side):
-        for gx in range(side):
-            x = min(max(0, gx * step + SCENE - GAP), W - win)
-            y = min(max(0, gy * step + SCENE - GAP), H - win)
-            if mask.crop((x, y, x + win, y + win)).getextrema()[1] == 0:
-                continue
-            t0 = time.time()
-            patch = ink(
-                prompt=f"{STYLE}, continuous scenery joining the surrounding art",
-                negative_prompt=NEGATIVE,
-                image=joined.crop((x, y, x + win, y + win)),
-                mask_image=mask.crop((x, y, x + win, y + win)),
-                width=win, height=win, num_inference_steps=26,
-                guidance_scale=7.0,
-                generator=torch.Generator("mps").manual_seed(900 + gy * 8 + gx),
-            ).images[0]
-            joined.paste(patch, (x, y))
-            print(f"  gap ({gx},{gy})  {time.time()-t0:4.0f}s")
+    arr = np.asarray(canvas).astype(np.float32)
+    gap = np.asarray(mask) > 0
+    filled = canvas.filter(ImageFilter.GaussianBlur(GAP * 0.55))
+    fa = np.asarray(filled).astype(np.float32)
+    arr[gap] = fa[gap]
 
+    yy, xx = np.mgrid[0:arr.shape[0], 0:arr.shape[1]]
+    dots = (((xx % 6) - 3) ** 2 + ((yy % 6) - 3) ** 2) <= 2
+    screen = np.where(dots[..., None], 0.86, 1.04)
+    arr[gap] = np.clip(arr[gap] * screen[gap], 0, 255)
+
+    joined = Image.fromarray(arr.astype(np.uint8))
     joined.save(HERE / "quilt.png")
     print(f"\n-> art/quilt.png  ({joined.size[0]}x{joined.size[1]})")
 

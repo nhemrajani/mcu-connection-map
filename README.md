@@ -218,13 +218,25 @@ revision IDs in [PROVENANCE.md](./PROVENANCE.md). Moment descriptions are
 original prose written from that source and released under the same licence.
 Code is released under MIT.
 
-Generated artwork uses Stable Diffusion XL, an open-source model. No Marvel
-imagery is used, no model is trained on Marvel artwork, and no recognisable
-character, costume or insignia is depicted. The visual idiom is that of Silver
-Age comics printing, whose visual language was shaped above all by **Jack
-Kirby** and **Steve Ditko**, credited here as influences.
+Generated artwork uses Stable Diffusion XL, an open-source model. No model was
+trained or fine-tuned for this project, and no Marvel artwork was used as
+training data.
 
-This is an unofficial, non-commercial project. It is not affiliated with,
-endorsed by, or sponsored by Marvel, Marvel Studios, or The Walt Disney Company.
-Titles and character names are the property of their respective owners and are
-used here for identification and reference only.
+It should be acknowledged plainly that Marvel's house style is present in
+SDXL's training data, and that prompting for the Silver Age comics idiom
+therefore draws on it. Some generated imagery depicts recognisable characters,
+costumes and insignia. This is a property of the base model rather than an
+attempt to reproduce specific works, and it is disclosed here rather than
+implied to be absent.
+
+The visual idiom is that of Silver Age comics printing, whose visual language
+was shaped above all by **Jack Kirby** and **Steve Ditko**, credited here as
+influences.
+
+This is an unofficial, non-commercial project. Nothing here is sold, licensed or
+monetised in any form. It is not affiliated with, endorsed by, or sponsored by
+Marvel, Marvel Studios, or The Walt Disney Company. Marvel, the Marvel
+Cinematic Universe, and all associated characters, titles, logos and insignia
+are the property of Marvel Entertainment and The Walt Disney Company, and appear
+here only in the context of commentary and analysis of the works themselves.
+Requests to remove specific material will be honoured.

@@ -26,10 +26,9 @@ because proper nouns are what similarity and entity matching grip onto.
 
 `visual` is written for the image model, and the two want opposite things. A
 plot sentence clipped out of a description gives a diffusion model nothing to
-stage; it needs a subject, a setting and a camera. `visual` also carries the
-project's depiction rule, which cannot be enforced by a prompt written at
-render time: figures may appear, but never a named character, a recognisable
-costume or an insignia. People are described by silhouette and action.
+stage; it needs a subject, a setting and a camera. Name what is in frame,
+including characters and objects, because specificity is what the model has to
+work with.
 
 Where `visual` is absent the renderer falls back to extracting imagery from
 `description`, which works but reads as a fragment rather than a scene.
