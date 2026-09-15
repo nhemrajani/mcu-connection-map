@@ -12,11 +12,27 @@ Two files hold the whole map. Keep them human-editable.
 | `universe`    | string  | no       | `mcu`, `raimi`, `webb`, … which continuity it belongs to |
 | `phase`       | number  | no       | MCU phase, if you track it (drives colour palette). `null` for non-MCU |
 | `description` | string  | yes      | 1-2 original sentences (used for embeddings)      |
+| `visual`      | string  | no       | a composed scene for the image model: subject, setting, framing |
 
 The `description` is what the ML embeds, so write it to capture *meaning*, not
 just a label. Name people, objects and places explicitly — proper nouns are
 strong signal, and a description written to avoid spoilers embeds as generic
 mush. Keep the `title` spoiler-light instead; that's the part humans read first.
+
+### `visual` versus `description`
+
+`description` is written for the ML: it names people and objects explicitly,
+because proper nouns are what similarity and entity matching grip onto.
+
+`visual` is written for the image model, and the two want opposite things. A
+plot sentence clipped out of a description gives a diffusion model nothing to
+stage; it needs a subject, a setting and a camera. `visual` also carries the
+project's depiction rule, which cannot be enforced by a prompt written at
+render time: figures may appear, but never a named character, a recognisable
+costume or an insignia. People are described by silhouette and action.
+
+Where `visual` is absent the renderer falls back to extracting imagery from
+`description`, which works but reads as a fragment rather than a scene.
 
 ### Scope
 

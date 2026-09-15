@@ -373,7 +373,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "In 1942 Hydra leader Johann Schmidt steals the Tesseract, a relic of untold power, from the Norwegian town of Tonsberg."
+    "description": "In 1942 Hydra leader Johann Schmidt steals the Tesseract, a relic of untold power, from the Norwegian town of Tonsberg.",
+    "visual": "interior of an old stone church, a uniformed soldier prising a glowing blue cube out of a carved wooden reliquary, villagers face down on the flagstones, shafts of light from high windows"
   },
   {
     "id": "m-rogers-rejected-enlistment",
@@ -429,7 +430,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Johann Schmidt picks up the exposed Tesseract aboard his bomber and is pulled through a portal into space, while the cube burns through the plane and falls into the ocean."
+    "description": "Johann Schmidt picks up the exposed Tesseract aboard his bomber and is pulled through a portal into space, while the cube burns through the plane and falls into the ocean.",
+    "visual": "inside a huge bomber cockpit, a figure holding a burning blue cube that is consuming his arm in light, a hole opening onto a field of stars behind him, the cube searing a glowing gash through the metal deck"
   },
   {
     "id": "m-rogers-crashes-arctic",
@@ -461,7 +463,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "The Tesseract activates at Erik Selvig's research facility and opens a portal that lets Loki reach Earth, where he steals it."
+    "description": "The Tesseract activates at Erik Selvig's research facility and opens a portal that lets Loki reach Earth, where he steals it.",
+    "visual": "a small glowing blue cube clamped in a steel laboratory rig, brilliant light arcing upward into a widening tear in the air above it, technicians thrown backwards across the floor, cables whipping, low angle"
   },
   {
     "id": "m-scepter-enslaves-barton",
@@ -1677,7 +1680,8 @@
     "film": "Avengers: Infinity War (2018)",
     "universe": "mcu",
     "phase": 3,
-    "description": "Fatally wounded, Heimdall uses the last of his strength to send the Hulk to Earth through the Bifrost as a warning, and is killed for it."
+    "description": "Fatally wounded, Heimdall uses the last of his strength to send the Hulk to Earth through the Bifrost as a warning, and is killed for it.",
+    "visual": "the burning deck of a vast starship, a dying armoured sentinel on one knee raising a broad sword, a column of rainbow light blasting a huge shadowed figure out through the hull into blackness"
   },
   {
     "id": "m-banner-warns-the-sanctum",
@@ -1941,7 +1945,8 @@
     "film": "Avengers: Endgame (2019)",
     "universe": "mcu",
     "phase": 3,
-    "description": "Twenty-three days after the snap the Avengers find Thanos on an uninhabited planet and learn he used the Stones to destroy the Stones, making his work permanent; Thor decapitates him."
+    "description": "Twenty-three days after the snap the Avengers find Thanos on an uninhabited planet and learn he used the Stones to destroy the Stones, making his work permanent; Thor decapitates him.",
+    "visual": "a scorched hut on a barren red planet at dawn, an enormous blackened gauntlet hanging ruined on a post outside, a colossal seated silhouette in the doorway, long shadows"
   },
   {
     "id": "m-five-years-pass",
@@ -1965,7 +1970,8 @@
     "film": "Avengers: Endgame (2019)",
     "universe": "mcu",
     "phase": 3,
-    "description": "Tony Stark solves time travel and the Avengers plan to retrieve the Infinity Stones from moments in their own history; Banner warns that changing the past creates branches rather than fixing the present."
+    "description": "Tony Stark solves time travel and the Avengers plan to retrieve the Infinity Stones from moments in their own history; Banner warns that changing the past creates branches rather than fixing the present.",
+    "visual": "a war room at night, figures crowded around a lit table covered in diagrams, a glowing spiral schematic hanging in the air above it, walls papered with charts and dates"
   },
   {
     "id": "m-loki-escapes-with-tesseract",
@@ -1973,7 +1979,8 @@
     "film": "Avengers: Endgame (2019)",
     "universe": "mcu",
     "phase": 3,
-    "description": "During the 2012 heist Stark and Lang fumble the Space Stone, and the Loki of that year seizes the Tesseract and vanishes, creating a branch that should not exist."
+    "description": "During the 2012 heist Stark and Lang fumble the Space Stone, and the Loki of that year seizes the Tesseract and vanishes, creating a branch that should not exist.",
+    "visual": "a marble lobby wrecked by battle, a glowing blue cube skidding across the polished floor between fallen debris, a gloved hand closing over it, dust and papers still in the air"
   },
   {
     "id": "m-stark-meets-his-father",
@@ -3725,7 +3732,8 @@
     "film": "She-Hulk: Attorney at Law (2022)",
     "universe": "mcu",
     "phase": 4,
-    "description": "Bruce Banner returns from Sakaar bringing Skaar, a son he never mentioned, to a family barbecue."
+    "description": "Bruce Banner returns from Sakaar bringing Skaar, a son he never mentioned, to a family barbecue.",
+    "visual": "a suburban back garden at dusk, smoke rising from a grill, an enormous broad-shouldered figure ducking through a gate with a second younger giant behind him, startled guests at a long table"
   },
   {
     "id": "m-wong-frees-blonsky",
@@ -3925,7 +3933,8 @@
     "film": "What If...? (2021)",
     "universe": "mcu",
     "phase": 4,
-    "description": "Facing an Ultron who has won the Infinity Stones across every universe, the Watcher breaks his oath of non-interference and assembles heroes from separate timelines as the Guardians of the Multiverse."
+    "description": "Facing an Ultron who has won the Infinity Stones across every universe, the Watcher breaks his oath of non-interference and assembles heroes from separate timelines as the Guardians of the Multiverse.",
+    "visual": "a colossal robed figure with a blank featureless face reaching down through a rip in a starfield, galaxies spiralling around his arms, tiny figures on a cracked plain below looking up"
   },
   {
     "id": "m-riri-expelled",
