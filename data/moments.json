@@ -77,7 +77,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Demonstrating the Jericho missile in Afghanistan, Tony Stark's convoy is ambushed by the Ten Rings and he is gravely wounded by a Stark Industries missile fired by his own attackers."
+    "description": "Demonstrating the Jericho missile in Afghanistan, Tony Stark's convoy is ambushed by the Ten Rings and he is gravely wounded by a Stark Industries missile fired by his own attackers.",
+    "visual": "a convoy of armoured trucks burning on an Afghan mountain road, Tony Stark in a bloodied suit and tie sprawled behind a rock, a Stark Industries missile casing embedded in the dirt beside him"
   },
   {
     "id": "m-yinsen-electromagnet",
@@ -85,7 +86,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Held captive in a cave, Ho Yinsen implants an electromagnet in Tony Stark's chest to stop the shrapnel from reaching his heart, making Stark dependent on a device to survive."
+    "description": "Held captive in a cave, Ho Yinsen implants an electromagnet in Tony Stark's chest to stop the shrapnel from reaching his heart, making Stark dependent on a device to survive.",
+    "visual": "a dim cave workshop lit by one bulb, Yinsen bent over Tony Stark's bare chest wiring a car battery to an electromagnet sunk into his sternum, surgical tools on a rusted tray"
   },
   {
     "id": "m-first-arc-reactor",
@@ -93,7 +95,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark and Yinsen secretly build a miniaturised arc reactor in captivity, a compact power source far beyond what Stark Industries has produced."
+    "description": "Tony Stark and Yinsen secretly build a miniaturised arc reactor in captivity, a compact power source far beyond what Stark Industries has produced.",
+    "visual": "Tony Stark and Yinsen hunched over a workbench in a cave, a small ring of blue light coming alive between their hands, scattered missile parts and crude tools around them"
   },
   {
     "id": "m-mark-i-escape",
@@ -101,7 +104,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Stark and Yinsen construct a crude armoured suit to escape the Ten Rings; Yinsen sacrifices himself buying time, and Stark burns the terrorists' stockpile of his own weapons on the way out."
+    "description": "Stark and Yinsen construct a crude armoured suit to escape the Ten Rings; Yinsen sacrifices himself buying time, and Stark burns the terrorists' stockpile of his own weapons on the way out.",
+    "visual": "a hulking grey riveted iron suit bursting through a cave mouth wreathed in flame, Yinsen slumped against the rock behind it, terrorists scattering into the dark"
   },
   {
     "id": "m-ten-rings-introduced",
@@ -109,7 +113,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "The terrorist organisation known as the Ten Rings captures Tony Stark, the first appearance of a group whose name and true leadership remain unexplained."
+    "description": "The terrorist organisation known as the Ten Rings captures Tony Stark, the first appearance of a group whose name and true leadership remain unexplained.",
+    "visual": "masked fighters in desert scarves standing over a kneeling hooded prisoner in a cave, a banner bearing ten interlocking rings hanging on the rock wall behind them"
   },
   {
     "id": "m-stark-halts-weapons",
@@ -117,7 +122,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark returns home and announces that Stark Industries will cease manufacturing weapons, turning against the business his father built."
+    "description": "Tony Stark returns home and announces that Stark Industries will cease manufacturing weapons, turning against the business his father built.",
+    "visual": "Tony Stark sitting on the floor of a press conference in a rumpled suit, cameras and microphones crowding down at him, executives standing frozen behind the podium"
   },
   {
     "id": "m-stane-betrayal",
@@ -125,7 +131,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Pepper Potts discovers that Obadiah Stane, Howard Stark's old partner, hired the Ten Rings to kill Tony and has been trafficking Stark weapons to them."
+    "description": "Pepper Potts discovers that Obadiah Stane, Howard Stark's old partner, hired the Ten Rings to kill Tony and has been trafficking Stark weapons to them.",
+    "visual": "Pepper Potts in a green dress lit by a monitor in a darkened office, a grainy photograph of Obadiah Stane meeting masked fighters filling the screen"
   },
   {
     "id": "m-stark-reveals-identity",
@@ -133,7 +140,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "At a press conference Tony Stark abandons his prepared alibi and publicly admits that he is Iron Man, refusing the secret identity every hero before him kept."
+    "description": "At a press conference Tony Stark abandons his prepared alibi and publicly admits that he is Iron Man, refusing the secret identity every hero before him kept.",
+    "visual": "Tony Stark at a podium bristling with microphones, cue cards abandoned, saying the words, a wall of press photographers erupting in flashbulbs"
   },
   {
     "id": "m-fury-bigger-universe",
@@ -141,7 +149,8 @@
     "film": "Iron Man (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "In a post-credits scene Nick Fury visits Tony Stark to tell him he has become part of a bigger universe, and to discuss the Avenger Initiative."
+    "description": "In a post-credits scene Nick Fury visits Tony Stark to tell him he has become part of a bigger universe, and to discuss the Avenger Initiative.",
+    "visual": "a dark Malibu living room at night, Nick Fury in a long black coat and eyepatch stepping out of shadow, Tony Stark frozen in the doorway"
   },
   {
     "id": "m-gamma-experiment-fails",
@@ -149,7 +158,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Bruce Banner is exposed to high levels of gamma radiation in an experiment run for Thaddeus Ross, and transforms into the Hulk whenever enraged or when his heart rate climbs too high."
+    "description": "Bruce Banner is exposed to high levels of gamma radiation in an experiment run for Thaddeus Ross, and transforms into the Hulk whenever enraged or when his heart rate climbs too high.",
+    "visual": "a university laboratory shattered by a green flash, Bruce Banner arched backwards in a restraint chair as radiation floods the chamber, technicians thrown against the glass"
   },
   {
     "id": "m-ross-revives-super-soldier",
@@ -157,7 +167,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "General Thaddeus Ross reveals the gamma experiment was an attempt to recreate the World War II super-soldier programme, and he intends to weaponise the Hulk."
+    "description": "General Thaddeus Ross reveals the gamma experiment was an attempt to recreate the World War II super-soldier programme, and he intends to weaponise the Hulk.",
+    "visual": "General Ross in uniform in a briefing room, an old wartime super-soldier file projected on the wall behind him, officers around a long table"
   },
   {
     "id": "m-banner-hides-brazil",
@@ -165,7 +176,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Living as a fugitive in Rio de Janeiro, Bruce Banner works in a bottling factory and uses breathing exercises to keep his pulse below the threshold that unleashes the Hulk."
+    "description": "Living as a fugitive in Rio de Janeiro, Bruce Banner works in a bottling factory and uses breathing exercises to keep his pulse below the threshold that unleashes the Hulk.",
+    "visual": "Bruce Banner alone among clattering machinery in a Rio bottling plant, one hand pressed to his chest, a small pulse monitor on his wrist glowing green"
   },
   {
     "id": "m-blonsky-takes-serum",
@@ -173,7 +185,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "After being outmatched by the Hulk, Emil Blonsky agrees to be injected with a version of the super-soldier serum, gaining enhanced strength and speed at the cost of his judgement."
+    "description": "After being outmatched by the Hulk, Emil Blonsky agrees to be injected with a version of the super-soldier serum, gaining enhanced strength and speed at the cost of his judgement.",
+    "visual": "Emil Blonsky strapped to a gurney in a military tent, a thick syringe driven into his spine, his back arching, soldiers holding him down"
   },
   {
     "id": "m-abomination-created",
@@ -181,7 +194,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Emil Blonsky forces Samuel Sterns to inject him with Bruce Banner's blood, mutating into the Abomination, a creature that surpasses the Hulk in size and strength."
+    "description": "Emil Blonsky forces Samuel Sterns to inject him with Bruce Banner's blood, mutating into the Abomination, a creature that surpasses the Hulk in size and strength.",
+    "visual": "a laboratory wrecked by transformation, the Abomination rising bone-spurred and monstrous from a broken gurney, Samuel Sterns crawling backwards across the floor"
   },
   {
     "id": "m-sterns-blood-in-cut",
@@ -189,7 +203,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "During the Abomination's attack, some of Bruce Banner's synthesised blood seeps into a cut on Samuel Sterns' forehead and he begins to mutate, a change left unresolved."
+    "description": "During the Abomination's attack, some of Bruce Banner's synthesised blood seeps into a cut on Samuel Sterns' forehead and he begins to mutate, a change left unresolved.",
+    "visual": "close on Samuel Sterns fallen among smashed equipment, a bead of luminous green blood running into a cut on his forehead, his eyes wide and pupils widening"
   },
   {
     "id": "m-hulk-spares-abomination",
@@ -197,7 +212,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "The Hulk defeats the Abomination in Harlem and is strangling him with a chain when Betty Ross pleads with him; he releases his enemy and leaves him for the army to arrest."
+    "description": "The Hulk defeats the Abomination in Harlem and is strangling him with a chain when Betty Ross pleads with him; he releases his enemy and leaves him for the army to arrest.",
+    "visual": "a wrecked Harlem street at night, the Hulk with a heavy chain twisted round the Abomination's throat, stopping, Betty Ross small and shouting in the rubble"
   },
   {
     "id": "m-stark-tells-ross-team",
@@ -205,7 +221,8 @@
     "film": "The Incredible Hulk (2008)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark approaches General Thaddeus Ross in a bar to tell him that a team is being assembled, the first time one film's hero walks into another's ending."
+    "description": "Tony Stark approaches General Thaddeus Ross in a bar to tell him that a team is being assembled, the first time one film's hero walks into another's ending.",
+    "visual": "a dim bar, Tony Stark in a dark suit leaning on the counter beside a dishevelled General Ross, a glass of whisky between them"
   },
   {
     "id": "m-vanko-builds-reactor",
@@ -213,7 +230,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Watching Tony Stark reveal himself as Iron Man, Ivan Vanko uses his dying father Anton's old Stark Industries blueprints to build the same miniature arc reactor."
+    "description": "Watching Tony Stark reveal himself as Iron Man, Ivan Vanko uses his dying father Anton's old Stark Industries blueprints to build the same miniature arc reactor.",
+    "visual": "a cold Moscow flat lit by a television showing Tony Stark's press conference, Ivan Vanko soldering a crude arc reactor at a cluttered table, tattooed arms bare"
   },
   {
     "id": "m-palladium-poisoning",
@@ -221,7 +239,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark discovers the palladium core of the arc reactor in his chest is slowly poisoning his blood, and he can find no substitute element to replace it."
+    "description": "Tony Stark discovers the palladium core of the arc reactor in his chest is slowly poisoning his blood, and he can find no substitute element to replace it.",
+    "visual": "Tony Stark alone in his workshop lifting his shirt to a mirror, black veins spreading from the reactor socket across his chest, blood-test readouts glowing beside him"
   },
   {
     "id": "m-monaco-attack",
@@ -229,7 +248,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Ivan Vanko attacks Tony Stark mid-race at the Monaco Grand Prix with electrified whips, explaining that he wanted the world to see that Iron Man is not invincible."
+    "description": "Ivan Vanko attacks Tony Stark mid-race at the Monaco Grand Prix with electrified whips, explaining that he wanted the world to see that Iron Man is not invincible.",
+    "visual": "Ivan Vanko walking down the centre of the Monaco circuit, electrified whips cutting a Formula car in half, flame and debris flung across the track"
   },
   {
     "id": "m-hammer-frees-vanko",
@@ -237,7 +257,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Justin Hammer fakes Ivan Vanko's death to break him out of prison, hiring him to build a line of armoured drones capable of upstaging Stark."
+    "description": "Justin Hammer fakes Ivan Vanko's death to break him out of prison, hiring him to build a line of armoured drones capable of upstaging Stark.",
+    "visual": "a prison transport overturned on a wet road at night, Justin Hammer in a sharp suit holding an umbrella, Ivan Vanko stepping out past a burning van"
   },
   {
     "id": "m-natalie-is-natasha",
@@ -245,7 +266,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Nick Fury reveals that Tony Stark's new assistant Natalie Rushman is in fact S.H.I.E.L.D. agent Natasha Romanoff, planted to assess him."
+    "description": "Nick Fury reveals that Tony Stark's new assistant Natalie Rushman is in fact S.H.I.E.L.D. agent Natasha Romanoff, planted to assess him.",
+    "visual": "Natasha Romanoff in a black catsuit standing over unconscious guards in a corridor, an abandoned assistant's clipboard and heels left on the floor behind her"
   },
   {
     "id": "m-howard-founded-shield",
@@ -253,7 +275,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Nick Fury tells Tony Stark that Howard Stark was a founder of S.H.I.E.L.D. and invented the arc reactor alongside Anton Vanko, tying his father to both the agency and his enemy."
+    "description": "Nick Fury tells Tony Stark that Howard Stark was a founder of S.H.I.E.L.D. and invented the arc reactor alongside Anton Vanko, tying his father to both the agency and his enemy.",
+    "visual": "Nick Fury sliding an old grainy photograph across a diner table, Howard Stark among suited men at a founding meeting, Tony Stark staring at it"
   },
   {
     "id": "m-new-element-synthesised",
@@ -261,7 +284,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark finds the atomic structure of a new element concealed in Howard Stark's 1974 Stark Expo diorama, synthesises it, and replaces the palladium that was poisoning him."
+    "description": "Tony Stark finds the atomic structure of a new element concealed in Howard Stark's 1974 Stark Expo diorama, synthesises it, and replaces the palladium that was poisoning him.",
+    "visual": "a 1974 model city diorama lit from below, its road layout revealed as an atomic lattice projected in the air above it, Tony Stark walking into the hologram"
   },
   {
     "id": "m-war-machine-born",
@@ -269,7 +293,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "James Rhodes dons Tony Stark's prototype armour to restrain a drunk Stark and confiscates it for the Air Force, where it is weaponised and named War Machine."
+    "description": "James Rhodes dons Tony Stark's prototype armour to restrain a drunk Stark and confiscates it for the Air Force, where it is weaponised and named War Machine.",
+    "visual": "the grey prototype armour rising through a hangar floor bristling with mounted guns and missile racks, technicians in Air Force uniforms swarming around it"
   },
   {
     "id": "m-stark-consultant-only",
@@ -277,7 +302,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Nick Fury informs Tony Stark that because of his personality S.H.I.E.L.D. will only use him as a consultant rather than bring him onto the team."
+    "description": "Nick Fury informs Tony Stark that because of his personality S.H.I.E.L.D. will only use him as a consultant rather than bring him onto the team.",
+    "visual": "a debriefing room, Nick Fury sliding a thin folder across a table, Tony Stark slouched in the chair opposite with a sling on his arm"
   },
   {
     "id": "m-hammer-in-new-mexico",
@@ -285,7 +311,8 @@
     "film": "Iron Man 2 (2010)",
     "universe": "mcu",
     "phase": 1,
-    "description": "In a post-credits scene, S.H.I.E.L.D. agent Phil Coulson reports finding a large hammer embedded in the ground in New Mexico."
+    "description": "In a post-credits scene, S.H.I.E.L.D. agent Phil Coulson reports finding a large hammer embedded in the ground in New Mexico.",
+    "visual": "a night desert crater ringed by floodlights and generators, a short war hammer half sunk in cracked earth at its centre, Phil Coulson on a phone at the rim"
   },
   {
     "id": "m-odin-frost-giant-war",
@@ -293,7 +320,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "In 965 AD Odin defeats Laufey's Frost Giants to stop their conquest of the Nine Realms and seizes the Casket of Ancient Winters, the source of their power."
+    "description": "In 965 AD Odin defeats Laufey's Frost Giants to stop their conquest of the Nine Realms and seizes the Casket of Ancient Winters, the source of their power.",
+    "visual": "a frozen battlefield under an aurora, Odin in golden armour astride an eight-legged horse, Asgardian ranks driving back blue Frost Giants, a glowing casket held aloft"
   },
   {
     "id": "m-loki-lets-giants-in",
@@ -301,7 +329,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Frost Giants infiltrate Asgard to retrieve the Casket during Thor's coronation, secretly let in by his brother Loki to disrupt the ceremony."
+    "description": "Frost Giants infiltrate Asgard to retrieve the Casket during Thor's coronation, secretly let in by his brother Loki to disrupt the ceremony.",
+    "visual": "a torchlit Asgardian vault, blue Frost Giants creeping between pillars toward a glowing casket on its plinth, one slender figure watching unseen from a gallery above"
   },
   {
     "id": "m-thor-exiled",
@@ -309,7 +338,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Odin judges Thor unworthy for his arrogance in attacking Jotunheim, strips his powers, and exiles him to Earth as a mortal."
+    "description": "Odin judges Thor unworthy for his arrogance in attacking Jotunheim, strips his powers, and exiles him to Earth as a mortal.",
+    "visual": "Odin on the Bifrost in full armour raising his spear, Thor's armour disintegrating plate by plate into light, the bridge blazing beneath them"
   },
   {
     "id": "m-mjolnir-enchantment",
@@ -317,7 +347,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Odin places an enchantment on Mjolnir so that only one who is worthy can wield the hammer, and casts it down to Earth after his exiled son."
+    "description": "Odin places an enchantment on Mjolnir so that only one who is worthy can wield the hammer, and casts it down to Earth after his exiled son.",
+    "visual": "Mjolnir turning slowly in a column of white light as runes burn across its face, Odin's hand outstretched, the void of space beyond"
   },
   {
     "id": "m-thor-lands-new-mexico",
@@ -325,7 +356,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Thor lands in New Mexico where astrophysicist Jane Foster, Darcy Lewis and Erik Selvig find him, and S.H.I.E.L.D. seizes both Mjolnir and Foster's wormhole research."
+    "description": "Thor lands in New Mexico where astrophysicist Jane Foster, Darcy Lewis and Erik Selvig find him, and S.H.I.E.L.D. seizes both Mjolnir and Foster's wormhole research.",
+    "visual": "a New Mexico desert at night lit by a spiral scorch mark in the sand, Thor kneeling in the middle of it, headlights of a battered van rushing toward him"
   },
   {
     "id": "m-loki-learns-parentage",
@@ -333,7 +365,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Loki discovers he is the biological son of the Frost Giant king Laufey, taken by Odin as an infant after the war, and confronts Odin with it."
+    "description": "Loki discovers he is the biological son of the Frost Giant king Laufey, taken by Odin as an infant after the war, and confronts Odin with it.",
+    "visual": "the Asgardian vault, Loki's hand on the Casket of Ancient Winters, his skin running blue from the fingertips up his arm, horror on his face"
   },
   {
     "id": "m-thor-proves-worthy",
@@ -341,7 +374,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Thor offers his own life to the Destroyer to spare his friends, and in that act proves himself worthy; Mjolnir flies back to him and restores his power."
+    "description": "Thor offers his own life to the Destroyer to spare his friends, and in that act proves himself worthy; Mjolnir flies back to him and restores his power.",
+    "visual": "a burning desert town, Thor standing unarmed before the towering faceless Destroyer, Mjolnir tearing across the sky toward his open hand"
   },
   {
     "id": "m-bifrost-destroyed",
@@ -349,7 +383,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "To stop Loki destroying Jotunheim, Thor shatters the Bifrost Bridge, cutting Asgard off from the other realms and stranding himself from Jane Foster."
+    "description": "To stop Loki destroying Jotunheim, Thor shatters the Bifrost Bridge, cutting Asgard off from the other realms and stranding himself from Jane Foster.",
+    "visual": "Thor swinging Mjolnir down onto the rainbow bridge, the crystal roadway shattering into shards and light, Loki clinging to the broken edge"
   },
   {
     "id": "m-loki-lets-go",
@@ -357,7 +392,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Denied Odin's approval while hanging over the abyss, Loki releases his grip and falls into the void rather than be pulled back to Asgard."
+    "description": "Denied Odin's approval while hanging over the abyss, Loki releases his grip and falls into the void rather than be pulled back to Asgard.",
+    "visual": "Loki hanging from Odin's spear over a churning void, Thor straining above him, Loki's fingers opening as he lets go"
   },
   {
     "id": "m-selvig-shown-tesseract",
@@ -365,7 +401,8 @@
     "film": "Thor (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Nick Fury shows Erik Selvig a mysterious cube-shaped object that may hold untold power, while an invisible Loki, having survived his fall, quietly prompts Selvig to accept."
+    "description": "Nick Fury shows Erik Selvig a mysterious cube-shaped object that may hold untold power, while an invisible Loki, having survived his fall, quietly prompts Selvig to accept.",
+    "visual": "a sterile S.H.I.E.L.D. facility, Nick Fury opening a steel briefcase to reveal a glowing blue cube, Erik Selvig's face lit blue as a translucent Loki whispers unseen behind him"
   },
   {
     "id": "m-schmidt-takes-tesseract",
@@ -382,7 +419,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Steve Rogers is repeatedly rejected for U.S. Army recruitment because of his small stature and poor health, while insisting he wants to fight for his country."
+    "description": "Steve Rogers is repeatedly rejected for U.S. Army recruitment because of his small stature and poor health, while insisting he wants to fight for his country.",
+    "visual": "a wartime recruitment hall, a very small Steve Rogers in a vest at a scale, a doctor stamping his form 4F, queues of larger men behind him"
   },
   {
     "id": "m-rogers-grenade-test",
@@ -390,7 +428,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "During training Steve Rogers throws himself on what he believes is a live grenade to shield the others, proving to Abraham Erskine that character, not strength, is the qualification."
+    "description": "During training Steve Rogers throws himself on what he believes is a live grenade to shield the others, proving to Abraham Erskine that character, not strength, is the qualification.",
+    "visual": "a training yard, Steve Rogers thrown flat across a grenade with his arms wrapped round it, other recruits sprinting away, officers staring"
   },
   {
     "id": "m-super-soldier-procedure",
@@ -398,7 +437,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Abraham Erskine and Howard Stark put Steve Rogers through the super-soldier procedure with vita-rays, transforming him into a physically perfect soldier."
+    "description": "Abraham Erskine and Howard Stark put Steve Rogers through the super-soldier procedure with vita-rays, transforming him into a physically perfect soldier.",
+    "visual": "a Brooklyn basement laboratory, Steve Rogers sealed upright inside a riveted steel capsule ringed with vita-ray lamps blazing blue, Erskine and Howard Stark at the controls"
   },
   {
     "id": "m-erskine-assassinated",
@@ -406,7 +446,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Hydra assassin Heinz Kruger kills Abraham Erskine and destroys the last vial of serum, leaving Steve Rogers the only successful super-soldier and the formula permanently lost."
+    "description": "Hydra assassin Heinz Kruger kills Abraham Erskine and destroys the last vial of serum, leaving Steve Rogers the only successful super-soldier and the formula permanently lost.",
+    "visual": "Abraham Erskine slumped against a wall with his hand over his chest, pointing at Steve Rogers' heart, a smashed vial of serum spreading across the floor"
   },
   {
     "id": "m-vibranium-shield-made",
@@ -414,7 +455,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Howard Stark equips Steve Rogers with a circular shield made of vibranium, a rare and nearly indestructible metal he describes as the only one of its kind."
+    "description": "Howard Stark equips Steve Rogers with a circular shield made of vibranium, a rare and nearly indestructible metal he describes as the only one of its kind.",
+    "visual": "a workshop table of prototype shields, Steve Rogers lifting a plain circular disc of dull silver metal, Howard Stark watching from behind a rack of equipment"
   },
   {
     "id": "m-bucky-falls-from-train",
@@ -422,7 +464,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "During the assault on Arnim Zola's train in 1945, James Buchanan Barnes loses his grip and falls into a ravine to his apparent death, with Steve Rogers unable to reach him."
+    "description": "During the assault on Arnim Zola's train in 1945, James Buchanan Barnes loses his grip and falls into a ravine to his apparent death, with Steve Rogers unable to reach him.",
+    "visual": "a Hydra train hurtling along a snow-covered alpine ledge, the carriage wall torn open, Bucky Barnes losing his grip on a twisted rail and falling into white"
   },
   {
     "id": "m-schmidt-taken-by-tesseract",
@@ -439,7 +482,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Unable to land Schmidt's bomber without detonating its weapons, Steve Rogers radios Peggy Carter to say goodbye and crashes it into the Arctic."
+    "description": "Unable to land Schmidt's bomber without detonating its weapons, Steve Rogers radios Peggy Carter to say goodbye and crashes it into the Arctic.",
+    "visual": "the cockpit of a vast Hydra bomber plunging toward pack ice, Steve Rogers gripping the controls with a photograph tucked into the panel, radio handset in his fist"
   },
   {
     "id": "m-rogers-wakes-seventy-years",
@@ -447,7 +491,8 @@
     "film": "Captain America: The First Avenger (2011)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Steve Rogers wakes in a staged 1940s hospital room, recognises a radio broadcast of a game he attended in person, escapes into modern Times Square and learns he has slept for nearly seventy years."
+    "description": "Steve Rogers wakes in a staged 1940s hospital room, recognises a radio broadcast of a game he attended in person, escapes into modern Times Square and learns he has slept for nearly seventy years.",
+    "visual": "Steve Rogers in a plain vest standing in a 1940s hospital room that is subtly wrong, a modern doorway behind him, Times Square blazing with neon through the glass"
   },
   {
     "id": "m-loki-bargain-chitauri",
@@ -455,7 +500,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Loki strikes a deal with the Other: deliver the Tesseract to his master, and the Chitauri army will be his to conquer Earth with."
+    "description": "Loki strikes a deal with the Other: deliver the Tesseract to his master, and the Chitauri army will be his to conquer Earth with.",
+    "visual": "a floating rock in blackest space, Loki facing the hooded Other, Chitauri ranks stretching into the dark behind them, a scepter changing hands"
   },
   {
     "id": "m-tesseract-opens-portal",
@@ -472,7 +518,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Loki uses his glowing scepter to enslave Erik Selvig and Clint Barton, turning S.H.I.E.L.D.'s own people into his agents."
+    "description": "Loki uses his glowing scepter to enslave Erik Selvig and Clint Barton, turning S.H.I.E.L.D.'s own people into his agents.",
+    "visual": "a concrete facility corridor, Loki pressing the glowing scepter tip to Clint Barton's chest, Barton's eyes flooding black then blue, S.H.I.E.L.D. agents frozen mid-turn"
   },
   {
     "id": "m-avengers-initiative-activated",
@@ -480,7 +527,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Nick Fury reactivates the dormant Avengers Initiative, bringing Tony Stark, Steve Rogers, Bruce Banner and Natasha Romanoff together for the first time."
+    "description": "Nick Fury reactivates the dormant Avengers Initiative, bringing Tony Stark, Steve Rogers, Bruce Banner and Natasha Romanoff together for the first time.",
+    "visual": "Nick Fury alone in a darkened operations room, six personnel files glowing on a curved wall of screens around him"
   },
   {
     "id": "m-shield-tesseract-weapons",
@@ -488,7 +536,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "The Avengers discover S.H.I.E.L.D. secretly intended to use the Tesseract to build weapons of mass destruction against extraterrestrial threats, and turn on each other over it."
+    "description": "The Avengers discover S.H.I.E.L.D. secretly intended to use the Tesseract to build weapons of mass destruction against extraterrestrial threats, and turn on each other over it.",
+    "visual": "a helicarrier laboratory, a Hydra-marked energy rifle laid on a workbench, the Avengers arguing around it, the scepter glowing on its stand nearby"
   },
   {
     "id": "m-coulson-death-unites",
@@ -496,7 +545,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Loki fatally wounds Phil Coulson while escaping the Helicarrier, and Nick Fury uses Coulson's death to force the arguing Avengers into acting as a team."
+    "description": "Loki fatally wounds Phil Coulson while escaping the Helicarrier, and Nick Fury uses Coulson's death to force the arguing Avengers into acting as a team.",
+    "visual": "a wrecked helicarrier cell bay, Phil Coulson sitting against a bulkhead with a scorched hole through his chest, a heavy prototype gun fallen from his hands"
   },
   {
     "id": "m-battle-of-new-york",
@@ -504,7 +554,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Loki uses the Tesseract to open a portal above Stark Tower and the Chitauri fleet invades Manhattan, in the battle that becomes the city's defining catastrophe."
+    "description": "Loki uses the Tesseract to open a portal above Stark Tower and the Chitauri fleet invades Manhattan, in the battle that becomes the city's defining catastrophe.",
+    "visual": "Manhattan from street level, a churning blue portal torn open above a glass tower, Chitauri leviathans and skiffs pouring down between the skyscrapers"
   },
   {
     "id": "m-stark-flies-the-nuke",
@@ -512,7 +563,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "Tony Stark intercepts the World Security Council's nuclear missile and flies it through the wormhole into the Chitauri mothership, falling back through unconscious as his suit dies."
+    "description": "Tony Stark intercepts the World Security Council's nuclear missile and flies it through the wormhole into the Chitauri mothership, falling back through unconscious as his suit dies.",
+    "visual": "Iron Man in red and gold carrying a nuclear missile up through a blue portal into black starfield, the city shrinking far below him"
   },
   {
     "id": "m-other-confers-master",
@@ -520,7 +572,8 @@
     "film": "The Avengers (2012)",
     "universe": "mcu",
     "phase": 1,
-    "description": "In a mid-credits scene the Other reports the failed attack on Earth to his master, the first glimpse of the power standing behind the invasion."
+    "description": "In a mid-credits scene the Other reports the failed attack on Earth to his master, the first glimpse of the power standing behind the invasion.",
+    "visual": "a floating throne in deep space, the hooded Other bowed before a vast seated purple figure who turns his head and smiles"
   },
   {
     "id": "m-extremis-invented",
