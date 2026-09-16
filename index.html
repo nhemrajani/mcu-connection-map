@@ -228,7 +228,6 @@ function draw() {
   // that the blending is the graph and not an effect.
   const art = mode === 'world' ? drawWorld(SCENE_W * scale) : 0;
   const ink = 1 - art * 0.82;          // how much of the constellation survives
-  if (ink < 0.02) return;
 
   // Edges first, underneath the stars. With a thousand of them a uniform
   // stroke is an unreadable hairball, so proposed edges stay very faint and
@@ -267,19 +266,25 @@ function draw() {
     ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 7); ctx.fill();
   }
 
-  // labels only once zoomed in, or the sky becomes unreadable
-  if (scale > 1.5) {
-    ctx.font = '11px ui-sans-serif, system-ui, sans-serif';
-    ctx.textAlign = 'center';
-    for (const n of nodes) {
-      const p = toScreen(n);
-      if (p.x < 0 || p.y < 0 || p.x > innerWidth || p.y > innerHeight) continue;
-      ctx.fillStyle = `rgba(233,236,245,${Math.min(1, (scale - 1.5) / 1.2) * .78})`;
-      ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 5;
-      ctx.fillText(n.title, p.x, p.y - radius(n) * Math.min(scale, 2.4) - 7);
-    }
-    ctx.shadowBlur = 0;
-  }
+  // Labels appear once zoomed in, or the sky is unreadable. They then go away
+  // again as the imagery comes up: six hundred titles printed over the artwork
+  // is worse than none, and the tooltip already names whatever is under the
+  // cursor. So the only label that survives into the world view is the hovered
+  // one, which is the only one being asked for.
+  ctx.font = '11px ui-sans-serif, system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.shadowColor = 'rgba(0,0,0,.9)';
+  const label = (n, a) => {
+    const p = toScreen(n);
+    if (p.x < 0 || p.y < 0 || p.x > innerWidth || p.y > innerHeight) return;
+    ctx.fillStyle = `rgba(233,236,245,${a})`;
+    ctx.shadowBlur = 5;
+    ctx.fillText(n.title, p.x, p.y - radius(n) * Math.min(scale, 2.4) - 7);
+  };
+  const legible = Math.min(1, (scale - 1.5) / 1.2) * .78 * (1 - art);
+  if (scale > 1.5 && legible > 0.04) for (const n of nodes) label(n, legible);
+  if (hover) label(hover, 1);
+  ctx.shadowBlur = 0;
 }
 
 function nearest(mx, my) {
