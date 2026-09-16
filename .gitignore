@@ -38,7 +38,9 @@ ml/out/*
 art/sheet/
 art/_smoke.png
 art/one.png
-art/world/
+# NOT art/world/: the published canvas serves those scenes, so ignoring them
+# would deploy a site whose World view is permanently empty. This has already
+# happened once, with ml/out/graph.json. They are ~27MB of WebP in total.
 art/world-test.png
 art/terrain-ink-*.png
 art/scene-strip.png
