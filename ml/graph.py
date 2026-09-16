@@ -26,6 +26,7 @@ import networkx as nx
 import numpy as np
 from networkx.algorithms.community import greedy_modularity_communities
 from sklearn.cluster import KMeans
+from scipy.spatial import cKDTree
 from sklearn.manifold import TSNE
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,12 +50,59 @@ MIN_EDGE_WEIGHT = 0.125
 GRAPH_PULL = 0.55
 SPRING_ITERATIONS = 60
 
+# Minimum distance between any two moments, in the canvas's 0-1000 units.
+#
+# This exists for the imagery, not the constellation. Each moment is drawn as a
+# scene about 50 units across with a soft edge, and the scenes are meant to
+# overlap: that overlap is where two connected moments blend into one another.
+# But the raw layout puts some pairs 0.7 units apart, and a scene whose centre
+# sits inside a neighbour's opaque core is simply buried - 57% of them were.
+#
+# Pushing apart only the pairs that are too close fixes that without moving the
+# map: at 16 units, 89% of every moment's five nearest neighbours are still its
+# five nearest neighbours afterwards, the median confirmed-edge length goes from
+# 38 to 37, and the average moment moves 5 units in a 1000-unit world.
+#
+# What it does cost is local density, which ends up near-uniform. That is a
+# smaller loss than it sounds: t-SNE does not preserve density in the first
+# place, so the clumping this removes was an artefact of the projection rather
+# than a fact about the corpus. Distances here mean nearness, not amount.
+MIN_SEPARATION = 16
+
 
 def normalise(coords):
     """Fit coordinates into a friendly 0-1000 square for the canvas."""
     lo, hi = coords.min(axis=0), coords.max(axis=0)
     span = np.where(hi - lo == 0, 1, hi - lo)
     return (coords - lo) / span * 1000
+
+
+def separate(coords, sep=MIN_SEPARATION, iterations=140, seed=42):
+    """Push apart pairs closer than `sep`, leaving everything else alone.
+
+    Each pass moves both members of a too-close pair half the shortfall along
+    the axis between them. Only offending pairs move, so the layout relaxes
+    into the space it already had rather than being rebuilt.
+
+    Coincident points have no axis to move along and would divide by zero, so
+    they get a small deterministic nudge to break the tie.
+    """
+    coords = np.asarray(coords, dtype=float).copy()
+    rng = np.random.default_rng(seed)
+    for _ in range(iterations):
+        moved = 0.0
+        for i, j in cKDTree(coords).query_pairs(sep):
+            d = coords[j] - coords[i]
+            r = float(np.hypot(*d))
+            if r < 1e-9:
+                d, r = rng.standard_normal(2) * 0.01, 0.01
+            push = (sep - r) / 2 * (d / r)
+            coords[i] -= push
+            coords[j] += push
+            moved += float(abs(push).sum())
+        if moved < 1e-3:
+            break
+    return normalise(coords)
 
 
 def semantic_layout(vectors, seed=42):
@@ -104,7 +152,7 @@ def layout(vectors, graph, ids, pull=GRAPH_PULL, seed=42):
         seed=seed,
     )
     spring = normalise(np.array([sprung[mid] for mid in ids]))
-    return normalise(base * (1 - pull) + spring * pull)
+    return separate(normalise(base * (1 - pull) + spring * pull))
 
 
 def main():

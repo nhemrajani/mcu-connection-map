@@ -67,20 +67,20 @@
 <body>
 <div class="hud">
   <h1>The MCU Connection Map</h1>
-  <p>Position is computed from meaning, not drawn by hand.</p>
+  <p id="blurb">Zoom in. Scenes blend where the model found a connection.</p>
   <div class="stats">
     <div class="stat"><b id="n-moments">–</b><span>moments</span></div>
     <div class="stat"><b id="n-edges">–</b><span>edges</span></div>
     <div class="stat"><b id="n-threads">–</b><span>threads</span></div>
   </div>
   <div class="modes">
-    <button id="m-threads" class="on">Threads</button><button id="m-meaning">Meaning</button>
+    <button id="m-world" class="on">World</button><button id="m-threads">Threads</button><button id="m-meaning">Meaning</button>
   </div>
   <div class="legend" id="legend"></div>
 </div>
 
 <div class="tip" id="tip"></div>
-<div class="help">drag to pan · scroll to zoom · hover a star</div>
+<div class="help" id="help">drag to pan · scroll to zoom in and the world fills in</div>
 
 <canvas id="sky"></canvas>
 
@@ -101,11 +101,98 @@ let hover = null;
 // "threads" uses the hybrid layout (connection pulls linked moments together);
 // "meaning" uses the pure embedding projection, where position is only ever
 // about what a moment means.
-let mode = 'threads';
-const world = p => mode === 'threads'
-  ? ({ x: p.x * 1.1, y: p.y * 1.1 })
-  : ({ x: (p.sx ?? p.x) * 1.1, y: (p.sy ?? p.y) * 1.1 });
+// "world" and "threads" both use the hybrid layout; they differ only in what
+// is drawn on top of it. That matters: the imagery is only meaningful on a
+// layout where connection pulls moments together, because adjacency is what
+// makes two scenes blend into one another.
+let mode = 'world';
+const world = p => mode === 'meaning'
+  ? ({ x: (p.sx ?? p.x) * 1.1, y: (p.sy ?? p.y) * 1.1 })
+  : ({ x: p.x * 1.1, y: p.y * 1.1 });
 const toScreen = p => ({ x: world(p).x * scale + ox, y: world(p).y * scale + oy });
+
+// ---------------------------------------------------------------- imagery
+//
+// Each moment has a 512px scene with a soft radial alpha baked in (art/atlas.py).
+// Drawn at their layout coordinates the scenes overlap, and overlapping soft
+// edges cross-dissolve. That dissolve is the point: the layout only puts two
+// moments next to each other when the graph connected them, so a blend between
+// two scenes is a connection being drawn rather than a decorative effect.
+//
+// SCENE_W is measured against the layout rather than chosen by eye. Sampling
+// the inhabited part of the map at a range of widths: at 34 units, 35% of it
+// is empty black and the world is a scatter of vignettes. At 50 there are no
+// gaps at all. Above that the extra width only buys more occlusion.
+//
+// It works out because ml/graph.py enforces a 16-unit minimum separation. The
+// alpha is opaque to 55% of the half-width, so a 50-unit scene is solid out to
+// 13.75 units: just inside that 16, which is the condition for every scene to
+// keep its own centre while still reaching well into its neighbours. Change
+// either number and the other has to move.
+const SCENE_W = 50;
+
+// Below this many pixels a scene is too small to read and 599 of them are just
+// an expensive smudge, so the map stays a constellation and no images load at
+// all. The crossfade between the two is the zoom gesture doing real work.
+const SHOW_AT = 26, FULL_AT = 92, HIRES_AT = 210;
+const MAX_INFLIGHT = 10;
+
+const imgCache = new Map();
+let inflight = 0, scenePos = null;
+
+const smoothstep = t => (t <= 0 ? 0 : t >= 1 ? 1 : t * t * (3 - 2 * t));
+
+function fetchLevel(id, full, e) {
+  // No queue: if the connection is busy the request is simply skipped and
+  // retried on the next frame. Every completed load schedules a redraw, so
+  // the retry always comes, and nothing can pile up a backlog of stale
+  // requests for scenes the user has already panned away from.
+  if (inflight >= MAX_INFLIGHT) return;
+  const key = full ? 'loadingFull' : 'loadingThumb';
+  if (e[key]) return;
+  e[key] = true; inflight++;
+  const im = new Image();
+  im.onload = () => { e[full ? 'full' : 'thumb'] = im; inflight--; schedule(); };
+  im.onerror = () => { inflight--; e[key] = 'failed'; };
+  im.src = full ? `art/world/${id}.webp` : `art/world/thumb/${id}.webp`;
+}
+
+function sceneImage(id, wantFull) {
+  let e = imgCache.get(id);
+  if (!e) { e = { thumb: null, full: null }; imgCache.set(id, e); }
+  if (!e.thumb) fetchLevel(id, false, e);
+  if (wantFull && !e.full) fetchLevel(id, true, e);
+  return e.full || e.thumb;
+}
+
+function drawWorld(px) {
+  // px is the on-screen width of one scene, which decides both whether to draw
+  // imagery at all and which resolution is worth fetching.
+  const alpha = smoothstep((px - SHOW_AT) / (FULL_AT - SHOW_AT));
+  if (alpha <= 0.01 || !scenePos) return 0;
+
+  const wantFull = px >= HIRES_AT;
+  const half = px / 2;
+  ctx.globalAlpha = alpha;
+  // scenePos is pre-sorted by ascending centrality, so the moments the graph
+  // considers load-bearing are painted last and sit on top where scenes pile up.
+  for (const s of scenePos) {
+    const p = toScreen(s);
+    if (p.x + half < 0 || p.y + half < 0 ||
+        p.x - half > innerWidth || p.y - half > innerHeight) continue;
+    const im = sceneImage(s.id, wantFull);
+    if (im) ctx.drawImage(im, p.x - half, p.y - half, px, px);
+  }
+  ctx.globalAlpha = 1;
+  return alpha;
+}
+
+let pending = false;
+function schedule() {
+  if (pending) return;
+  pending = true;
+  requestAnimationFrame(() => { pending = false; draw(); });
+}
 
 function radius(n) {
   // Centrality drives size, with a floor so unconnected moments stay visible.
@@ -135,6 +222,14 @@ function fit() {
 function draw() {
   ctx.clearRect(0, 0, innerWidth, innerHeight);
 
+  // The imagery goes down first and everything analytical is drawn over it,
+  // fading back as it comes up. Both stay on screen through the middle of the
+  // zoom on purpose: seeing the edge lines lie across the blends is what shows
+  // that the blending is the graph and not an effect.
+  const art = mode === 'world' ? drawWorld(SCENE_W * scale) : 0;
+  const ink = 1 - art * 0.82;          // how much of the constellation survives
+  if (ink < 0.02) return;
+
   // Edges first, underneath the stars. With a thousand of them a uniform
   // stroke is an unreadable hairball, so proposed edges stay very faint and
   // fade with length: short links describe local structure, long ones just
@@ -148,7 +243,7 @@ function draw() {
     const len = Math.hypot(p.x - q.x, p.y - q.y);
     const confirmed = e.verdict === 'confirmed';
     const fade = Math.max(0, 1 - len / (620 * Math.max(scale, .6)));
-    const alpha = confirmed ? .55 : 0.16 * fade;
+    const alpha = (confirmed ? .55 : 0.16 * fade) * (confirmed ? Math.max(ink, .45) : ink);
     if (alpha < 0.012) continue;
     ctx.lineWidth = confirmed ? 1.4 : Math.max(0.35, 0.7 * Math.min(scale, 1.8));
     ctx.strokeStyle = confirmed
@@ -163,12 +258,12 @@ function draw() {
     if (p.x < -60 || p.y < -60 || p.x > innerWidth + 60 || p.y > innerHeight + 60) continue;
 
     const glow = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, r * 4.5);
-    glow.addColorStop(0, colour(n.community, .40));
+    glow.addColorStop(0, colour(n.community, .40 * ink));
     glow.addColorStop(1, colour(n.community, 0));
     ctx.fillStyle = glow;
     ctx.beginPath(); ctx.arc(p.x, p.y, r * 4.5, 0, 7); ctx.fill();
 
-    ctx.fillStyle = n === hover ? '#fff' : colour(n.community, .95);
+    ctx.fillStyle = n === hover ? '#fff' : colour(n.community, .95 * Math.max(ink, .3));
     ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 7); ctx.fill();
   }
 
@@ -180,8 +275,10 @@ function draw() {
       const p = toScreen(n);
       if (p.x < 0 || p.y < 0 || p.x > innerWidth || p.y > innerHeight) continue;
       ctx.fillStyle = `rgba(233,236,245,${Math.min(1, (scale - 1.5) / 1.2) * .78})`;
+      ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 5;
       ctx.fillText(n.title, p.x, p.y - radius(n) * Math.min(scale, 2.4) - 7);
     }
+    ctx.shadowBlur = 0;
   }
 }
 
@@ -225,19 +322,30 @@ cv.addEventListener('wheel', e => {
 }, { passive: false });
 addEventListener('resize', resize);
 
+const BLURB = {
+  world:   'Zoom in. Scenes blend where the model found a connection.',
+  threads: 'Position is computed from meaning, then pulled by connection.',
+  meaning: 'Position is the embedding alone. No connection pull.',
+};
 function setMode(next) {
+  const relayout = (next === 'meaning') !== (mode === 'meaning');
   mode = next;
-  document.getElementById('m-threads').classList.toggle('on', next === 'threads');
-  document.getElementById('m-meaning').classList.toggle('on', next === 'meaning');
-  fit(); draw();
+  for (const m of ['world', 'threads', 'meaning'])
+    document.getElementById('m-' + m).classList.toggle('on', next === m);
+  document.getElementById('blurb').textContent = BLURB[next];
+  // Only the meaning view uses different coordinates, so switching between
+  // world and threads must not throw away wherever the user has zoomed to.
+  if (relayout) fit();
+  draw();
 }
-document.getElementById('m-threads').onclick = () => setMode('threads');
-document.getElementById('m-meaning').onclick = () => setMode('meaning');
+for (const m of ['world', 'threads', 'meaning'])
+  document.getElementById('m-' + m).onclick = () => setMode(m);
 
 fetch('ml/out/graph.json')
   .then(r => r.json())
   .then(g => {
     nodes = g.nodes; edges = g.edges; meta = g.meta || {};
+    const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
     document.getElementById('n-moments').textContent = meta.moments ?? nodes.length;
     document.getElementById('n-edges').textContent = (meta.confirmed_edges ?? 0) + (meta.proposed_edges ?? 0);
     document.getElementById('n-threads').textContent = meta.threads ?? '–';
@@ -251,6 +359,24 @@ fetch('ml/out/graph.json')
       .join('') + `<div style="margin-top:6px;opacity:.75">${meta.thread_basis || ''}</div>`;
 
     fit(); resize();
+
+    // The scene manifest is optional: without it the map still works as a
+    // constellation, so a half-rendered or missing art/world/ degrades to the
+    // previous behaviour rather than breaking the page.
+    fetch('art/world/manifest.json')
+      .then(r => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then(man => {
+        const have = new Set(man.scenes.map(s => s.id));
+        scenePos = [...man.scenes].sort((a, b) => a.order - b.order)
+          .map(s => byId[s.id]).filter(Boolean);
+        document.getElementById('help').textContent =
+          `drag to pan · scroll to zoom · ${have.size} scenes`;
+        draw();
+      })
+      .catch(() => {
+        document.getElementById('m-world').disabled = true;
+        setMode('threads');
+      });
   })
   .catch(err => {
     document.querySelector('.help').textContent = 'could not load ml/out/graph.json — run ml/embed.py then ml/graph.py';
