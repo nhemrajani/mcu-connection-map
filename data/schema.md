@@ -24,11 +24,26 @@ mush. Keep the `title` spoiler-light instead; that's the part humans read first.
 `description` is written for the ML: it names people and objects explicitly,
 because proper nouns are what similarity and entity matching grip onto.
 
-`visual` is written for the image model, and the two want opposite things. A
-plot sentence clipped out of a description gives a diffusion model nothing to
-stage; it needs a subject, a setting and a camera. Name what is in frame,
-including characters and objects, because specificity is what the model has to
-work with.
+`visual` is written for the image model, and the two want opposite things.
+
+Write it SHORT and CONCRETE. One subject, one setting, naming a physical
+object that could be photographed. This was established by an A/B test on four
+moments, same seeds and settings, richly composed descriptions against blunt
+ones: the blunt version won three of four.
+
+The failure is the instructive one. "A warrior's golden armour breaking apart
+into sparks of light" produced abstract wallpaper, because a transformation is
+not a thing. The three that worked each named something solid: a glowing disc
+in a chest, a grenade, a saucer above a city.
+
+So: never describe a transformation, an emotion, or a relationship between
+people. Diffusion models collapse "A bent over B doing C while D watches" into
+a vague scene; they render "a glowing disc embedded in a man's chest" exactly.
+Find the most concrete physical thing in the moment and name that.
+
+Keep it under about 60 tokens. CLIP reads 77 and silently discards the rest,
+which cost this project several rounds of wrong images before it was noticed.
+`ingest/add_visuals.py` warns when a description is too long.
 
 Where `visual` is absent the renderer falls back to extracting imagery from
 `description`, which works but reads as a fragment rather than a scene.
