@@ -287,6 +287,52 @@ function draw() {
   ctx.shadowBlur = 0;
 }
 
+// An opening move, and the argument for it. The map fits to the whole corpus,
+// and at that scale no imagery loads, so a visitor who never zooms sees a star
+// chart and leaves believing that is what this is. The thesis of the project is
+// that zooming in turns connection into picture, so the page performs it once:
+// the constellation holds for a moment, then draws in and the world resolves.
+// Any input at all cancels it, because it is a demonstration and not a ride.
+let intro = null;
+
+function densest() {
+  // Aim at the busiest part of the map rather than its centroid, so the
+  // opening move lands somewhere with enough neighbours to show a blend.
+  let best = nodes[0], bestN = -1;
+  for (const a of nodes) {
+    let k = 0;
+    for (const b of nodes)
+      if ((a.x - b.x) ** 2 + (a.y - b.y) ** 2 < 70 * 70) k++;
+    if (k > bestN) { bestN = k; best = a; }
+  }
+  return best;
+}
+
+function startIntro() {
+  if (mode !== 'world' || !scenePos) return;
+  const target = densest();
+  const from = { scale, ox, oy }, to = 1.95;
+  const w = world(target);
+  const t0 = performance.now(), HOLD = 900, RUN = 2300;
+  intro = requestAnimationFrame(function step(now) {
+    const e = now - t0;
+    if (e > HOLD) {
+      const u = Math.min(1, (e - HOLD) / RUN);
+      const k = u < .5 ? 4*u*u*u : 1 - Math.pow(-2*u + 2, 3) / 2;   // ease in-out
+      scale = from.scale + (to - from.scale) * k;
+      ox = innerWidth / 2 - w.x * scale;
+      oy = innerHeight / 2 - w.y * scale;
+      draw();
+      if (u >= 1) { intro = null; return; }
+    }
+    intro = requestAnimationFrame(step);
+  });
+}
+
+function stopIntro() {
+  if (intro !== null) { cancelAnimationFrame(intro); intro = null; }
+}
+
 function nearest(mx, my) {
   let best = null, bestD = 22 * 22;
   for (const n of nodes) {
@@ -298,7 +344,7 @@ function nearest(mx, my) {
 }
 
 let dragging = false, lastX = 0, lastY = 0;
-cv.addEventListener('mousedown', e => { dragging = true; lastX = e.clientX; lastY = e.clientY; cv.classList.add('dragging'); });
+cv.addEventListener('mousedown', e => { stopIntro(); dragging = true; lastX = e.clientX; lastY = e.clientY; cv.classList.add('dragging'); });
 addEventListener('mouseup', () => { dragging = false; cv.classList.remove('dragging'); });
 cv.addEventListener('mousemove', e => {
   if (dragging) {
@@ -319,6 +365,7 @@ cv.addEventListener('mousemove', e => {
 });
 cv.addEventListener('wheel', e => {
   e.preventDefault();
+  stopIntro();
   const k = Math.exp(-e.deltaY * 0.0016);
   const nx = e.clientX - (e.clientX - ox) * k;
   const ny = e.clientY - (e.clientY - oy) * k;
@@ -333,6 +380,7 @@ const BLURB = {
   meaning: 'Position is the embedding alone. No connection pull.',
 };
 function setMode(next) {
+  stopIntro();
   const relayout = (next === 'meaning') !== (mode === 'meaning');
   mode = next;
   for (const m of ['world', 'threads', 'meaning'])
@@ -377,6 +425,7 @@ fetch('ml/out/graph.json')
         document.getElementById('help').textContent =
           `drag to pan · scroll to zoom · ${have.size} scenes`;
         draw();
+        startIntro();
       })
       .catch(() => {
         document.getElementById('m-world').disabled = true;
