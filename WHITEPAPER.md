@@ -258,9 +258,13 @@ Scenes are served individually and assembled per viewport, with thumbnails
 standing in until the zoom justifies full resolution, and no imagery loading at
 all below the scale where a scene would be readable.
 
-Two parameters were measured rather than chosen by eye. Sampling the inhabited
-area of the map showed 35% of it empty at the original scene width and none at
-50 units. And 57% of scenes had their own centre buried beneath a neighbour,
+Two parameters were derived rather than chosen by eye. The scene width is
+locked to the layout: the separation pass guarantees no two moments sit closer
+than 16 units, and a scene is opaque out to 55% of its half-width, so setting
+the opaque radius equal to that separation fixes the width at 58 units. It is
+the largest size at which no scene can swallow a neighbour's centre, and it is
+also past the point where gaps close, 35% of the map being empty black at 34
+units and none at 58. And 57% of scenes had their own centre buried beneath a neighbour,
 because the raw layout placed some pairs 0.7 units apart, so a relaxation pass
 now separates only pairs closer than 16 units. Its cost is measurable: 89% of
 every moment's five nearest neighbours survive it, median confirmed-edge length

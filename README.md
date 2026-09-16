@@ -217,9 +217,14 @@ justifies fetching the full resolution. Below about 26 pixels a scene is an
 expensive smudge, so none are loaded at all and the map remains a
 constellation; between there and 92 pixels the two crossfade.
 
-The scene width was measured rather than chosen. Sampling the inhabited part of
-the map showed that at the original width 35% of the world was empty black and
-the result read as a scatter of vignettes; at 50 units there are no gaps.
+The scene width is derived rather than chosen, and it is locked to the layout.
+The separation pass guarantees no two moments sit closer than 16 units, and a
+scene's alpha is opaque out to 55% of its half-width, so setting the opaque
+radius equal to that minimum separation fixes the width at 58 units. That is
+the largest size at which no scene can swallow a neighbour's centre, and
+sampling the inhabited part of the map confirms it is also past the point where
+gaps close: 35% of the world is empty black at 34 units, 5.9% at 50, none at
+58. Change either constant and the other has to move with it.
 
 ### 6. Writing for the image model
 

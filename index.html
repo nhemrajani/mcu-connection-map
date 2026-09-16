@@ -130,17 +130,19 @@ const toScreen = p => ({ x: world(p).x * scale + ox, y: world(p).y * scale + oy 
 // moments next to each other when the graph connected them, so a blend between
 // two scenes is a connection being drawn rather than a decorative effect.
 //
-// SCENE_W is measured against the layout rather than chosen by eye. Sampling
-// the inhabited part of the map at a range of widths: at 34 units, 35% of it
-// is empty black and the world is a scatter of vignettes. At 50 there are no
-// gaps at all. Above that the extra width only buys more occlusion.
+// SCENE_W is derived from the layout rather than chosen by eye, and the two
+// numbers are locked together: ml/graph.py guarantees no two moments sit
+// closer than 16 units, and the alpha is opaque out to 55% of the half-width.
+// Setting the opaque radius equal to that minimum separation,
 //
-// It works out because ml/graph.py enforces a 16-unit minimum separation. The
-// alpha is opaque to 55% of the half-width, so a 50-unit scene is solid out to
-// 13.75 units: just inside that 16, which is the condition for every scene to
-// keep its own centre while still reaching well into its neighbours. Change
-// either number and the other has to move.
-const SCENE_W = 50;
+//     SOLID * SCENE_W / 2 = MIN_SEPARATION   ->   SCENE_W = 2 * 16 / 0.55
+//
+// gives 58. It is the largest width at which no scene can swallow a
+// neighbour's centre, and sampling the inhabited part of the map confirms it
+// is also past the point where gaps close: 35% of the world is empty black at
+// 34 units, 5.9% at 50, and none at 58. Change either constant and the other
+// has to move with it.
+const SCENE_W = 58;
 
 // Below this many pixels a scene is too small to read and 599 of them are just
 // an expensive smudge, so the map stays a constellation and no images load at
