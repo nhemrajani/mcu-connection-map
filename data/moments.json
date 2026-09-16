@@ -42,7 +42,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "In a broadcast on TheDailyBugle.net, J. Jonah Jameson airs doctored footage in which the dying Quentin Beck frames Spider-Man for the London drone attack and exposes Peter Parker's secret identity to the entire world.",
-    "visual": "a huge news screen in Times Square showing a masked figure"
+    "visual": "a crowded night square under a huge news screen showing a masked figure"
   },
   {
     "id": "m-spell-to-be-forgotten",
@@ -123,7 +123,7 @@
     "universe": "mcu",
     "phase": 1,
     "description": "The terrorist organisation known as the Ten Rings captures Tony Stark, the first appearance of a group whose name and true leadership remain unexplained.",
-    "visual": "a banner of ten interlocking rings hanging on a cave wall above crates of weapons"
+    "visual": "a cave armoury of weapon crates under a banner of ten interlocking rings"
   },
   {
     "id": "m-stark-halts-weapons",
@@ -177,7 +177,7 @@
     "universe": "mcu",
     "phase": 1,
     "description": "General Thaddeus Ross reveals the gamma experiment was an attempt to recreate the World War II super-soldier programme, and he intends to weaponise the Hulk.",
-    "visual": "an old war file projected on a briefing room wall above a long table"
+    "visual": "a briefing room of officers around a long table under a projector beam"
   },
   {
     "id": "m-banner-hides-brazil",
@@ -420,7 +420,7 @@
     "universe": "mcu",
     "phase": 1,
     "description": "In 1942 Hydra leader Johann Schmidt steals the Tesseract, a relic of untold power, from the Norwegian town of Tonsberg.",
-    "visual": "Red Skull in a black Hydra uniform lifting the glowing Tesseract from a carved wooden reliquary in a Norwegian stone church, villagers face down on the flagstones, shafts of light from high windows"
+    "visual": "a glowing blue cube prised from a carved stone casket in a Norwegian church"
   },
   {
     "id": "m-rogers-rejected-enlistment",
@@ -483,7 +483,7 @@
     "universe": "mcu",
     "phase": 1,
     "description": "Johann Schmidt picks up the exposed Tesseract aboard his bomber and is pulled through a portal into space, while the cube burns through the plane and falls into the ocean.",
-    "visual": "inside the cockpit of a giant bomber, Red Skull gripping the Tesseract as blue light consumes his arm, a portal opening onto a field of stars behind him, the cube searing a glowing hole through the deck"
+    "visual": "a column of blue light opening onto a starfield inside a bomber fuselage"
   },
   {
     "id": "m-rogers-crashes-arctic",
@@ -519,7 +519,7 @@
     "universe": "mcu",
     "phase": 1,
     "description": "The Tesseract activates at Erik Selvig's research facility and opens a portal that lets Loki reach Earth, where he steals it.",
-    "visual": "the Tesseract, a glowing blue cube, clamped in a steel laboratory rig, a column of blue energy tearing open a portal in the air above it, scientists hurled backwards, cables whipping, dramatic low angle"
+    "visual": "a glowing blue cube on a machine cradle with a portal tearing open above it"
   },
   {
     "id": "m-scepter-enslaves-barton",
@@ -627,7 +627,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "A string of bombings across the world is claimed by a terrorist calling himself the Mandarin, whose broadcasts terrify the public and baffle American intelligence.",
-    "visual": "a television screen showing a hooded figure against a burning flag"
+    "visual": "a dim living room with a television glowing, a hooded figure on the screen"
   },
   {
     "id": "m-stark-gives-his-address",
@@ -807,7 +807,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "Zola explains that after his recruitment he helped secretly rebuild Hydra within S.H.I.E.L.D.'s own ranks over decades, persuading the world to trade freedom for security.",
-    "visual": "a Hydra insignia projected over a S.H.I.E.L.D. eagle on a screen"
+    "visual": "a dim operations room, a red squid insignia glowing on a wall screen above empty desks"
   },
   {
     "id": "m-winter-soldier-is-bucky",
@@ -825,7 +825,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "Natasha Romanoff dumps S.H.I.E.L.D.'s entire classified database onto the internet to expose Hydra, destroying the agency's secrecy and her own cover along with it.",
-    "visual": "a wall of classified files dumping onto the open internet on a monitor"
+    "visual": "a dark server room with a wall of monitors scrolling classified documents"
   },
   {
     "id": "m-rogers-drops-his-shield",
@@ -942,7 +942,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "The Nova Corps reveal that Peter Quill is only half human, his father belonging to an ancient species they cannot identify.",
-    "visual": "a medical scan showing a human silhouette half lit with alien light"
+    "visual": "a dim medical bay with a glowing full body scan on an upright screen"
   },
   {
     "id": "m-guardians-formed",
@@ -969,7 +969,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "Tony Stark and Bruce Banner discover an artificial intelligence within the gem of Loki's scepter and secretly use it to complete Stark's Ultron defence programme.",
-    "visual": "a glowing neural pattern floating in a holographic scan of a blue gem"
+    "visual": "a dark laboratory with a glowing holographic scan hovering over a workbench"
   },
   {
     "id": "m-ultron-awakens",
@@ -1041,7 +1041,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "Thor explains that the scepter's gem is one of the six Infinity Stones, connecting it to the apocalyptic vision he was shown.",
-    "visual": "six coloured stones diagrammed on a glowing chart"
+    "visual": "a dim vault chamber with six coloured stones lit on a curved display wall"
   },
   {
     "id": "m-sokovia-lifted",
@@ -1167,7 +1167,7 @@
     "universe": "mcu",
     "phase": 2,
     "description": "In a post-credits scene Steve Rogers and Sam Wilson hold a captured Bucky Barnes and cannot contact Tony Stark because of something called the accords.",
-    "visual": "a thick legal document stamped with a United Nations seal"
+    "visual": "a long conference table in a panelled room with a thick sealed document on it"
   },
   {
     "id": "m-barnes-1991-highway",
@@ -1194,7 +1194,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Secretary of State Thaddeus Ross presents the Sokovia Accords, a UN framework to oversee the Avengers; Tony Stark supports it out of guilt over Ultron while Steve Rogers refuses.",
-    "visual": "a heavy bound legal document on a conference table beside a water jug"
+    "visual": "a panelled conference room with a bound document and a water jug on the table"
   },
   {
     "id": "m-zemo-takes-trigger-words",
@@ -1329,7 +1329,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Strange learns Earth is shielded from other dimensions by three Sanctums in New York, London and Hong Kong, and that the sorcerers exist to defend them.",
-    "visual": "three ornate windows glowing in three city buildings, a map behind them"
+    "visual": "three ornate lit windows in three city buildings under a night sky"
   },
   {
     "id": "m-eye-of-agamotto-used",
@@ -1887,7 +1887,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Fatally wounded, Heimdall uses the last of his strength to send the Hulk to Earth through the Bifrost as a warning, and is killed for it.",
-    "visual": "the burning deck of a shattered starship, Heimdall in golden armour on one knee raising his sword, a shaft of rainbow Bifrost light hurling the Hulk out through the hull into black space"
+    "visual": "a ruined ship corridor with a column of rainbow light punching through the hull"
   },
   {
     "id": "m-banner-warns-the-sanctum",
@@ -2166,7 +2166,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "After Danvers leaves to help the Skrulls find a home, Nick Fury drafts a programme to find more heroes like her and names it after her Air Force call sign, Avenger.",
-    "visual": "a computer screen showing a typed file name, a photograph clipped beside it"
+    "visual": "a cramped 1990s office desk lit by a computer screen, a photograph clipped beside it"
   },
   {
     "id": "m-danvers-leaves-the-pager",
@@ -2184,7 +2184,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Twenty-three days after the snap the Avengers find Thanos on an uninhabited planet and learn he used the Stones to destroy the Stones, making his work permanent; Thor decapitates him.",
-    "visual": "Thanos seated outside a small hut on a barren red planet at dawn, the burned and ruined Infinity Gauntlet hanging on a post beside him, long shadows across the dust"
+    "visual": "a small stone hut on a hillside of spiral crops under an orange sky"
   },
   {
     "id": "m-five-years-pass",
@@ -2211,7 +2211,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "Tony Stark solves time travel and the Avengers plan to retrieve the Infinity Stones from moments in their own history; Banner warns that changing the past creates branches rather than fixing the present.",
-    "visual": "the Avengers gathered around a lit table in a darkened compound, a glowing holographic diagram of a spiral above it, walls papered with charts and dates, Iron Man leaning over the plans"
+    "visual": "a lit conference table in a dark compound with a spiral diagram glowing above it"
   },
   {
     "id": "m-loki-escapes-with-tesseract",
@@ -2220,7 +2220,7 @@
     "universe": "mcu",
     "phase": 3,
     "description": "During the 2012 heist Stark and Lang fumble the Space Stone, and the Loki of that year seizes the Tesseract and vanishes, creating a branch that should not exist.",
-    "visual": "a wrecked marble lobby, the Tesseract in its case skidding across the floor through fallen debris, Loki in green and gold seizing it, dust and paper still hanging in the air"
+    "visual": "a glowing blue cube skidding across a marble floor beside fallen debris"
   },
   {
     "id": "m-stark-meets-his-father",
@@ -2445,7 +2445,7 @@
     "universe": "mcu",
     "phase": 4,
     "description": "Romanoff copies the worldwide locations of the remaining mind-controlled Widows from Dreykov's computer and gives them to Belova with the antidote, so she can free them.",
-    "visual": "a world map on a screen studded with dozens of red markers"
+    "visual": "a dim briefing room with a lit world map screen studded with red markers"
   },
   {
     "id": "m-quinjet-for-the-raft",
@@ -2589,7 +2589,7 @@
     "universe": "mcu",
     "phase": 4,
     "description": "Restoring the population erased by Thanos pushes humanity past the threshold Tiamut needs, meaning the Avengers' victory is what makes the Emergence possible.",
-    "visual": "a glowing seismic map of the Earth with cracks opening along fault lines"
+    "visual": "a dim operations room with a glowing seismic globe on a central screen"
   },
   {
     "id": "m-ikaris-killed-ajak",
@@ -2814,7 +2814,7 @@
     "universe": "mcu",
     "phase": 4,
     "description": "With Wakanda's secret out, other nations pressure it to share vibranium and attempt to take it by force, and a U.S. team builds a detector to find deposits elsewhere.",
-    "visual": "a deep sea mining rig lowering a drill into dark water"
+    "visual": "a floodlit deep sea mining rig lowering a drill into black water at night"
   },
   {
     "id": "m-talokan-discovered",
@@ -3084,7 +3084,7 @@
     "universe": "mcu",
     "phase": 5,
     "description": "Mr. Paradox explains that Wade's universe is decaying because its anchor being, Logan, is dead, and that he intends to accelerate its collapse with a Time Ripper.",
-    "visual": "a glowing timeline branch on a screen with one node highlighted"
+    "visual": "a beige office with a branching timeline glowing on a wall screen"
   },
   {
     "id": "m-wade-shops-for-a-logan",
@@ -3282,7 +3282,7 @@
     "universe": "mcu",
     "phase": 5,
     "description": "De Fontaine stages a press conference introducing the team as the New Avengers and claiming their victory; they go along with it, and Yelena tells her they own her now.",
-    "visual": "a press conference backdrop with a large A logo"
+    "visual": "a press conference stage with rows of empty chairs and a large A backdrop"
   },
   {
     "id": "m-four-emblem-arrives",
@@ -4191,7 +4191,7 @@
     "universe": "mcu",
     "phase": 4,
     "description": "Bruce Banner returns from Sakaar bringing Skaar, a son he never mentioned, to a family barbecue.",
-    "visual": "a suburban back garden at dusk, smoke rising from a barbecue, Smart Hulk in a cardigan ducking through the gate with the huge young Skaar behind him, startled family at a long table"
+    "visual": "a green muscled young man in a doorway of a New Mexico ranch house"
   },
   {
     "id": "m-wong-frees-blonsky",
@@ -4416,7 +4416,7 @@
     "universe": "mcu",
     "phase": 4,
     "description": "Facing an Ultron who has won the Infinity Stones across every universe, the Watcher breaks his oath of non-interference and assembles heroes from separate timelines as the Guardians of the Multiverse.",
-    "visual": "the Watcher, a colossal robed figure with a vast bald head, reaching down through a tear in a starfield, galaxies spiralling around his arms, tiny heroes on a cracked plain below looking up"
+    "visual": "an enormous bald figure stepping out of a swirling purple nebula"
   },
   {
     "id": "m-riri-expelled",
@@ -4506,7 +4506,7 @@
     "universe": "mcu",
     "phase": 6,
     "description": "The Hatut Zaraze are Wakandan agents sent across the world through history to recover vibranium artefacts before anyone can trace them home.",
-    "visual": "warriors in dark robes with spears on a Wakandan palace step"
+    "visual": "warriors with spears on the steps of a golden palace at dusk"
   },
   {
     "id": "m-nkati-the-lion",
@@ -4839,7 +4839,7 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "Peggy Carter brings a stolen nitramene bomb to Stark Industries scientist Anton Vanko, who traces it to a Roxxon refinery.",
-    "visual": "a scientist's identity card in a 1940s personnel file"
+    "visual": "a 1940s records office with an open personnel file on a desk"
   },
   {
     "id": "m-leviathan",
@@ -4848,7 +4848,7 @@
     "universe": "marvel-tv",
     "phase": null,
     "description": "Carter's investigation leads to Leviathan, a Soviet organisation running agents inside American industry, and to the Red Room programme that trained them as children.",
-    "visual": "a stencilled sea monster insignia on a wooden crate"
+    "visual": "a dim warehouse of wooden crates stencilled with a sea monster insignia"
   },
   {
     "id": "m-council-of-nine",

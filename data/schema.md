@@ -41,6 +41,28 @@ people. Diffusion models collapse "A bent over B doing C while D watches" into
 a vague scene; they render "a glowing disc embedded in a man's chest" exactly.
 Find the most concrete physical thing in the moment and name that.
 
+A second rule came out of writing all 599, and it is specific to a canvas
+rather than to image quality. **Put the object in a room.** A prompt whose
+subject is a graphic — an insignia, a document, a chart, a map, a photograph —
+produces a flat plate: the graphic centred, filling the frame, usually with
+lettering, rendered as a poster rather than a place. "A Hydra insignia
+projected over a S.H.I.E.L.D. eagle on a screen" came back as a heraldic seal.
+Rewritten as "a dim operations room, a red squid insignia glowing on a wall
+screen above empty desks" it came back as a room.
+
+The distinction matters here more than it would elsewhere. This canvas is
+continuous, and neighbouring scenes have to bleed into one another. A plate has
+no ground plane, no walls and no camera position, so it cannot blend with
+anything; it reads as a poster pasted onto the world. A room can. Where a
+moment is genuinely *about* a document, name the space the document sits in and
+let the document be a detail inside it.
+
+The limit is real and worth stating plainly: some moments cannot be rendered
+under these rules at all. The Snap is a transformation — a body becoming dust —
+and "a figure crumbling into grey dust and blowing away in a forest" renders as
+a man standing in a forest. The most consequential moment in the corpus is one
+the visual layer cannot depict. The image is near the moment, not of it.
+
 Keep it under about 60 tokens. CLIP reads 77 and silently discards the rest,
 which cost this project several rounds of wrong images before it was noticed.
 `ingest/add_visuals.py` warns when a description is too long.
