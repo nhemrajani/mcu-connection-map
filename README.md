@@ -351,6 +351,7 @@ ml/         embeddings, edge proposal, evaluation, fine-tuning, graph, layout
 art/        the scene renderer (atlas.py) and the experiments that preceded it
 data/       moments, connections, judgements, provenance, schema
 index.html  the canvas: World, Threads and Meaning
+whitepaper.html  the paper, as a page
 ```
 
 The three views share one layout and differ in what is drawn on it. **World**
