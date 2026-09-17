@@ -9,6 +9,11 @@ bottom. A narrative of that scale is not well served by a list. It is a web of
 setups and payoffs, of objects that change hands, of characters who reappear
 decades later, and of beats that rhyme across works with little else in common.
 
+It began as a way to teach myself the machine learning stack end to end: turning
+text into embeddings, measuring what similarity can and cannot show, finding
+structure in the result without labels, and shipping the whole thing as
+something a person can use rather than a notebook.
+
 This project investigates two questions:
 
 1. **Can a model predict narrative connection and causality?** The task is not
@@ -24,7 +29,7 @@ neither is complete without the other.
 
 ---
 
-## Current state
+## Status
 
 | | |
 |---|---|
@@ -36,11 +41,24 @@ neither is complete without the other.
 | Imagery | 599 scenes, one per moment, generated with SDXL |
 | Live map | [mcu.neeha.xyz](https://mcu.neeha.xyz) |
 
-Both halves now run end to end. The graph is built and measured; every moment
-carries a written scene, and the canvas places those scenes at their layout
-coordinates and blends them where they overlap. What remains unresolved is
-accuracy rather than completeness, and is set out in
-[Limitations](#limitations).
+**Built.** Ingestion from Wikipedia, with every title cited to a revision ID.
+Edge proposal from shared rare entities weighted by rarity, plus release
+chronology for direction. A stratified evaluation, and a cutoff chosen from the
+measured precision curve rather than assumed. Community detection into threads
+and centrality over the graph, both without labels. A layout that blends the
+embedding projection with the pull of connection. The embedding fine-tuned on
+the project's own judgements, which is the step that closes the loop. And the
+visual half: 599 written scenes, 599 generated images, and the canvas live.
+
+**Next.** More judgements, because the cutoff is sound but the middle bands of
+the precision curve rest on three to five each. A signal that separates a
+plausible-but-wrong connection from a true one, since fine-tuning on the pair of
+descriptions alone made that discrimination worse rather than better. And the
+recurring-object problem, where rarity weighting pushes the Tesseract chain
+below the cutoff precisely because the Tesseract matters.
+
+What remains unresolved is accuracy rather than completeness. All of it is set
+out in [Limitations](#limitations).
 
 ---
 
